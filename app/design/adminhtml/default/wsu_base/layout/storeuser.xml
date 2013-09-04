@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <adminhtml_catalog_category_edit>
+        <reference name="left">
+            <block name="category.tree.storeuserprem" type="adminhtml/catalog_category_tree" template="Storeuser/catalog_category_tree.phtml" after="-" />
+        </reference>
+    </adminhtml_catalog_category_edit>
+</layout>
