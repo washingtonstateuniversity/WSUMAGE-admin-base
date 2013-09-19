@@ -1,15 +1,9 @@
 <?xml version="1.0"?>
 <config>
-    <tabs>
-        <wsu translate="label">
-            <label><![CDATA[<div><img src="http://i.imgur.com/nkD1M9R.png" alt="WsuCode" title="WsuCode" width="108" height="23" style="display:block;" /></div>]]></label>
-            <sort_order>1000</sort_order>
-        </wsu>
-    </tabs>
     <sections>
         <wsu_admintheme translate="label" module="wsu_admintheme">
             <label>Wsu AdminTheme</label>
-            <tab>wsu</tab>
+            <tab>utilitiestab</tab>
             <sort_order>1000</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>

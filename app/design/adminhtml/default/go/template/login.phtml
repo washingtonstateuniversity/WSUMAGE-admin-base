@@ -65,7 +65,10 @@
                     <input type="submit" class="form-button" value="<?php echo Mage::helper('adminhtml')->__('Login') ?>" title="<?php echo Mage::helper('adminhtml')->__('Login') ?>" /></div>
             </div>
         </form>
-            <p class="login-support">Need to get your own store?  <form action="signup.php" method="post" enctype="multipart/form-data"  class="humanize"><input type="submit" value="Make a Request"/></form></p>
+         <form action="<?php echo Mage::helper('adminhtml')->getUrl('adminhtml/index/requestacess', array('_nosecret' => true)) ?>" method="post" enctype="multipart/form-data" class="humanize">
+         	<p class="login-support">Need to get your own store? <input type="submit" value="Make a Request"  class="button"/></p>
+            
+         </form>
             <p class="legal"><?php echo Mage::helper('adminhtml')->__('Magento is a trademark of Magento Inc. Copyright &copy; %s Magento Inc.', date('Y')) ?></p>
         <div class="bottom"></div>
         <script type="text/javascript">

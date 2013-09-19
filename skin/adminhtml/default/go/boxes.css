@@ -499,9 +499,9 @@ button { -webkit-border-fit:lines; }
 
 /* <- Safari & Google Chrome Fix */
 button { overflow:visible; width:auto; border:0; padding:0; margin:0 0 0 2px; background:transparent; cursor:pointer; }
-button span { float:left; height:28px; background:transparent url(images/bkg_btn.png) 0 0 no-repeat; padding:0 0 0 5px; font:bold 12px/27px Tahoma, Verdana, Arial, sans-serif; text-align:center; white-space:nowrap; color:#f15a24; }
-button span span { background-position:100% 0; padding:0 8px 0 2px; }
-button span span span { background:none; padding:0; }
+button span { float:left; height:28px; background:transparent url(images/bkg_btn.png) 0 0 no-repeat !important; padding:0 0 0 5px !important; font:bold 12px/27px Tahoma, Verdana, Arial, sans-serif; text-align:center; white-space:nowrap; color:#f15a24; }
+button span span { background-position:100% 0 !important; padding:0 8px 0 2px !important; }
+button span span span { background:none !important; padding:0 !important; }
 button:not(.disabled):hover > span { background-position:0 -70px; }
 button:not(.disabled):hover > span > span { background-position:100% -70px; }
 button:not(.disabled):active > span { position:relative; bottom:-1px; right:-1px; }
