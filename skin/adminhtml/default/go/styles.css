@@ -1,1 +1,23 @@
 /* CSS Document */
+.fixed .nav-bar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: left;
+    float: left;
+    left: 0;
+    margin: 0;
+    padding:0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:101;
+	 border-bottom: 1px solid #CCCCCC;
+}
+.content-header-floating{ top: 36px;}
+
+ul.config-tabs dt {
+    cursor: pointer;
+}
+ul.config-tabs dt:hover {
+    color:#454545;
+}
+.header{height:95px;}
