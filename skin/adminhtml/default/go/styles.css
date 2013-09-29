@@ -13,7 +13,6 @@
 	 border-bottom: 1px solid #CCCCCC;
 }
 .content-header-floating{ top: 36px;}
-
 ul.config-tabs dt {
     cursor: pointer;
 }
@@ -21,3 +20,20 @@ ul.config-tabs dt:hover {
     color:#454545;
 }
 .header{height:95px;}
+
+
+/* jQuery UI corrects other CSS drops in to hard so we need to recorrect it*/
+.ui-button  span {
+padding: inherit !important;
+}
+button.ui-button-text-only .ui-button-text {
+    height: inherit;
+    padding: 0.4em 1em !important;
+}
+button.ui-state-default  span.ui-icon {
+    background-image: url("//code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_888888_256x240.png") !important;
+}
+.ui-icon-closethick {
+    background-position: -96px -128px !important;
+}
+.ui-button-text{background-image:none !important;}
