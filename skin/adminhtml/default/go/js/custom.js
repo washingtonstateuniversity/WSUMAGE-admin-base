@@ -14,11 +14,19 @@
 			});
 		}
 		setup_fixedNav();
-		$("#system_config_tabs dd").filter(function() {
+		
+		$("#system_config_tabs dt").filter(function() {
 			 return !$('*', this).hasClass('active');
+		}).addClass("close");
+		$("#system_config_tabs dt").filter(function() {
+			 return $('*', $(this).siblings()).hasClass('active');
+		}).addClass("open");
+		$("#system_config_tabs dd").filter(function() {
+			 return !$('*', $(this).siblings()).hasClass('active');
 		}).hide();
 		$("#system_config_tabs dt").on("click",function(){
 			$(this).siblings().toggle();
+			$(this).toggleClass("open","close");
 		});
 	});
 }(jQuery));
