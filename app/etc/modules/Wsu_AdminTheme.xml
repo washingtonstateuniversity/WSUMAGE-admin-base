@@ -4,6 +4,9 @@
         <Wsu_AdminTheme>
             <active>true</active>
             <codePool>community</codePool>
+			<depends>
+                <Wsu_Storeutilities/>
+            </depends>
         </Wsu_AdminTheme>
     </modules>
 </config>

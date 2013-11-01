@@ -73,6 +73,8 @@
         <wsu_admintheme>
             <config>
                 <theme>go</theme>
+				<showmageads>0</showmageads>
+				<logo>logo.gif</logo>
             </config>
         </wsu_admintheme>
     </default>
