@@ -74,7 +74,8 @@
             <config>
                 <theme>go</theme>
 				<showmageads>0</showmageads>
-				<logo>logo.gif</logo>
+				<shownotifications>0</shownotifications>
+				<logo>default/logo.gif</logo>
             </config>
         </wsu_admintheme>
     </default>

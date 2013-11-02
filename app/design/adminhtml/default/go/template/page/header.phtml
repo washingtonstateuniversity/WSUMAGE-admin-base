@@ -27,6 +27,7 @@
 /** @var $this Mage_Adminhtml_Block_Page_Header */
 
 $config_logo = Mage::getBaseUrl('media').'theme/'.Mage::getStoreConfig('wsu_admintheme/config/logo');
+//echo $config_logo.'---------------------';
 if($config_logo==""){
 	//$config_logo = $this->getSkinUrl('images/logo.gif');
 	$config_logo = Mage::getBaseUrl('media').'theme/default/logo.gif';
