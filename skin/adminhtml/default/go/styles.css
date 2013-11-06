@@ -24,7 +24,7 @@ ul.config-tabs dt:hover:after{color:#940B0D;}
 ul.config-tabs dt.open:after{content:"\f068";}
 
 .header{height:95px;}
-
+.config.collapseable .form-list{width:100%;}
 
 /* jQuery UI corrects other CSS drops in to hard so we need to recorrect it*/
 /* Allow Font Awesome Icons in lieu of jQuery UI and only apply when using a FA icon */
