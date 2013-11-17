@@ -7,21 +7,10 @@
             <action method="removeItem"><type>js_css</type><name>calendar/calendar-win2k-1.css</name></action>
             <action method="addItem"><type>skin_css</type><name>calendar.css</name><params/></action>
 
-			<action method="addItem"><type>cdn_js</type><name>//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js</name>
-					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/js/jquery-1.10.2.min.js</local_path></action>
-					
-			<action method="addItem"><type>cdn_js</type><name>//code.jquery.com/ui/1.10.3/jquery-ui.js</name>
-					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/js/jquery-ui.1.10.3.js</local_path></action>
-			<action method="addItem"><type>cdn_css</type><name>//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css</name>
-					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/js/jquery-ui.smoothness.css</local_path></action>
 			<action method="addItem"><type>cdn_css</type><name>//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css</name>
 					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/css/font-awesome.3.2.1.css</local_path></action>					
 			<action method="addCss"><script>/wsu/admintheme/styles.css</script></action>
-				
-					
-			<action method="addItem"><type>cdn_js</type><name>//code.jquery.com/jquery-migrate-1.2.1.min.js</name>
-					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/js/jquery-migrate-1.2.1.min.js</local_path></action>
-			<action method="addItem"><type>skin_js</type><script>/wsu/admintheme/js/noconflict.js</script></action>		
+
 			<action method="addItem"><type>skin_js</type><script>/wsu/admintheme/js/custom.js</script></action>
 			
 			<action method="addCss"><script>/wsu/admintheme/corrections.css</script></action>

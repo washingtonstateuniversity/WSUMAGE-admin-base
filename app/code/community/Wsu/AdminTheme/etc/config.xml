@@ -32,12 +32,12 @@
         <events>
 		
 		<admin_system_config_changed_section_wsu_admintheme>
-                <observers>
-                    <wsu_admintheme_admin_predispatch>
-                        <class>Wsu_AdminTheme_Model_Adminhtml_Observer</class>
-                        <method>cleanConfigCache</method>
-                    </wsu_admintheme_admin_predispatch>
-                </observers>
+			<observers>
+				<wsu_admintheme_admin_predispatch>
+					<class>Wsu_AdminTheme_Model_Adminhtml_Observer</class>
+					<method>cleanConfigCache</method>
+				</wsu_admintheme_admin_predispatch>
+			</observers>
 		</admin_system_config_changed_section_wsu_admintheme>
             <adminhtml_controller_action_predispatch_start>
                 <observers>
