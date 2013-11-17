@@ -12,7 +12,10 @@
     z-index:101;
 	 border-bottom: 1px solid #CCCCCC;
 }
-.content-header-floating{ top: 36px;}
+.fixed .nav-bar #nav a {
+  color: #454545;
+}
+.content-header-floating{top: 36px;}
 ul.config-tabs dt {
     cursor: pointer;
 }
@@ -53,6 +56,16 @@ button.ui-state-default  span.ui-icon {background-image: url("//code.jquery.com/
 .ui-icon-closethick {background-position: -96px -128px !important;}
 .ui-button-text{background-image:none !important;}
 
-
-
-
+/*for lauchy
+#nav li#wsulauncher-status a {
+  font-size: 0.9em;
+  margin-left: -19px;
+  margin-right: 7px;
+  margin-top: 0.2em;
+}
+#nav li#wsulauncher-quickfront a {
+  font-size: 2.1em;
+  margin-left: 0;
+  margin-top: -0.04em;
+}
+ */

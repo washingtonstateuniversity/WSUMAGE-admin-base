@@ -10,6 +10,14 @@
             <wsu_admintheme>
                 <class>Wsu_AdminTheme_Block</class>
             </wsu_admintheme>
+			<adminhtml>
+				<rewrite>
+					<page_menu>Wsu_AdminTheme_Block_Adminhtml_Menu</page_menu>
+				</rewrite>
+			</adminhtml>
+			
+			
+			
         </blocks>
         <helpers>
             <wsu_admintheme>
@@ -22,6 +30,15 @@
             </wsu_admintheme>
         </models>
         <events>
+		
+		<admin_system_config_changed_section_wsu_admintheme>
+                <observers>
+                    <wsu_admintheme_admin_predispatch>
+                        <class>Wsu_AdminTheme_Model_Adminhtml_Observer</class>
+                        <method>cleanConfigCache</method>
+                    </wsu_admintheme_admin_predispatch>
+                </observers>
+		</admin_system_config_changed_section_wsu_admintheme>
             <adminhtml_controller_action_predispatch_start>
                 <observers>
                     <wsu_admintheme_admin_predispatch>
@@ -73,6 +90,7 @@
         <wsu_admintheme>
             <config>
                 <theme>go</theme>
+				<extendmenu>1</extendmenu>
 				<showmageads>0</showmageads>
 				<shownotifications>0</shownotifications>
 				<logo>default/logo.gif</logo>
