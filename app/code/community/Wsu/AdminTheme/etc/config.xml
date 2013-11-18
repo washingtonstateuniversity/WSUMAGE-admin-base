@@ -93,7 +93,7 @@
 				<extendmenu>1</extendmenu>
 				<showmageads>0</showmageads>
 				<shownotifications>0</shownotifications>
-				<logo>default/logo.gif</logo>
+				<logo></logo>
             </config>
         </wsu_admintheme>
     </default>
