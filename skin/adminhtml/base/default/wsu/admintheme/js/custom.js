@@ -1,7 +1,8 @@
 // JavaScript Document
 
-(function($){
-	$(function(){
+
+jQuery(function(){
+	(function($){
 		function setup_fixedNav(){
 			if ($(window).scrollTop()>= 122) { $('body').addClass('fixed');  }
 			$(window).scroll(function (event) {
@@ -28,5 +29,5 @@
 				$(this).toggleClass("open","close");
 			});
 		}
-	});
-})(jQuery);
+	})(jQuery);
+});
