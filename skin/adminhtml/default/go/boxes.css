@@ -2068,3 +2068,6 @@ div.actions:after,
 
 #ip{ font-size:3px; display:inline-block; }
 #ip:hover{ font-size:23px }
+.blcg-grid-pinned-actions-block{
+  top: 79px  !important;
+}
