@@ -16,8 +16,8 @@
     <title><?=Mage::helper('adminhtml')->__('Log into Magento Admin Page') ?></title>
     <link type="text/css" rel="stylesheet" href="<?=$this->getSkinUrl('reset.css') ?>" media="all" />
     <link type="text/css" rel="stylesheet" href="<?=$this->getSkinUrl('boxes.css') ?>" media="all" />
-    <link rel="icon" href="<?=$this->getSkinUrl('favicon.ico') ?>" type="image/x-icon" />
-    <link rel="shortcut icon" href="<?=$this->getSkinUrl('favicon.ico') ?>" type="image/x-icon" />
+    <link rel="icon" href="<?=$this->getFaviconFile() ?>" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?=$this->getFaviconFile()?>" type="image/x-icon" />
 	
 	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css"/>
 	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
@@ -52,7 +52,7 @@
         <form method="post" action="" id="loginForm" class="humanize">
             <div class="login-form">
                 <input name="form_key" type="hidden" value="<?=$this->getFormKey() ?>" />
-                <h2 style="background:url(<?=$config_path?>) no-repeat center center;background-size:auto 55px;"><?=Mage::helper('adminhtml')->__('Log in to Admin Panel') ?></h2>
+                <h2 style="background:url(<?=$config_path?>) no-repeat 13px 10px;background-size:auto 65px;"><?=Mage::helper('adminhtml')->__('Log in to Admin Panel') ?></h2>
                 <div id="messages">
                     <?=$this->getMessagesBlock()->getGroupedHtml() ?>
                 </div>
