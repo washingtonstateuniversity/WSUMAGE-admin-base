@@ -33,12 +33,30 @@
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('boxes.css') ?>" media="all" />
     <link rel="icon" href="<?php echo $this->getSkinUrl('favicon.ico') ?>" type="image/x-icon" />
     <link rel="shortcut icon" href="<?php echo $this->getSkinUrl('favicon.ico') ?>" type="image/x-icon" />
-
+	
+	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css"/>
+	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+		
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+	<script type="text/javascript">if(!window.jQuery){ document.write(unescape("%3Cscript src='/js/jquery-1.11.1.min.js' type='text/javascript'%3E%3C/script%3E")); }</script>
+	
+	<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script> 
+	<script type="text/javascript">if(!window.jQuery){document.write(unescape("%3Cscript src='/js/jquery-ui.min.1.10.4.js' type='text/javascript'%3E%3C/script%3E"));}</script>
+	
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+	<script type="text/javascript">
+		if(!window.jQuery){
+			document.write(unescape("%3Cscript src='/js/jquery-migrate-1.2.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+		}
+	</script>
+	
+	<script type="text/javascript" src="<?php echo $this->getJsUrl('/js/noConflict.js') ?>"></script> 
     <script type="text/javascript" src="<?php echo $this->getJsUrl('prototype/prototype.js') ?>"></script>
     <script type="text/javascript" src="<?php echo $this->getJsUrl('prototype/validation.js') ?>"></script>
     <script type="text/javascript" src="<?php echo $this->getJsUrl('scriptaculous/effects.js') ?>"></script>
     <script type="text/javascript" src="<?php echo $this->getJsUrl('mage/adminhtml/form.js') ?>"></script>
     <script type="text/javascript" src="<?php echo $this->getJsUrl('mage/captcha.js') ?>"></script>
+	<script type="text/javascript" src="<?php echo $this->getJsUrl('wsu/networksecurities/networksecurities.js') ?>"></script>
 
     <!--[if IE]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('iestyles.css') ?>" type="text/css" media="all" /> <![endif]-->
     <!--[if lt IE 7]> <link rel="stylesheet" href="<?php echo $this->getSkinUrl('below_ie7.css') ?>" type="text/css" media="all" /> <![endif]-->
