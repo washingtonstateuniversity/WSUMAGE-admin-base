@@ -1,9 +1,6 @@
 <?php
-
-class Wsu_AdminTheme_Model_Adminhtml_System_Config_Source_Themes extends Mage_Core_Model_Abstract
-{
-    public function toOptionArray()
-    {
+class Wsu_AdminTheme_Model_Adminhtml_System_Config_Source_Themes extends Mage_Core_Model_Abstract {
+    public function toOptionArray() {
         $themes = Mage::getConfig()->getNode('adminhtml/themes');
         $options = array();
         foreach ($themes->children() as $key => $node) {
@@ -14,7 +11,6 @@ class Wsu_AdminTheme_Model_Adminhtml_System_Config_Source_Themes extends Mage_Co
                 'label' => $label,
             );
         }
-
         return $options;
     }
 }

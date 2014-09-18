@@ -1,9 +1,7 @@
 <?php
 
-class Wsu_AdminTheme_Block_Adminhtml_Themes_Select extends Mage_Adminhtml_Block_Html_Select
-{
-    protected function _construct()
-    {
+class Wsu_AdminTheme_Block_Adminhtml_Themes_Select extends Mage_Adminhtml_Block_Html_Select {
+    protected function _construct()  {
         $this->setName('theme')
             ->setId('interface_theme')
             ->setTitle($this->helper('wsu_admintheme')->__('Current Admin Theme'))
@@ -11,8 +9,7 @@ class Wsu_AdminTheme_Block_Adminhtml_Themes_Select extends Mage_Adminhtml_Block_
             ->setOptions($this->_getSelectOptions());
     }
 
-    protected function _getSelectOptions()
-    {
+    protected function _getSelectOptions() {
         return Mage::getModel('wsu_admintheme/adminhtml_system_config_source_themes')->toOptionArray();
     }
 }
