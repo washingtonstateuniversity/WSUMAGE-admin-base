@@ -41,15 +41,15 @@ $shownotifications = Mage::getStoreConfig('wsu_admintheme/config/shownotificatio
         endif;
 
         if ($this->getMajorCount()):
-            $sParts[] = '<strong><i class="fa fa-exclamation-circle" style="margin-right:2px;"></i>'.$this->getMajorCount().'</strong> '.$this->__('major');
+            $sParts[] = '<i class="fa fa-exclamation-circle" style="margin-right:2px;"></i><strong>'.$this->getMajorCount().'</strong> '.$this->__('major');
         endif;
 
         if ($this->getMinorCount()):
-            $sParts[] = '<strong><i class="fa fa-exclamation" style="margin-right:2px;"></i>'.$this->getMinorCount().'</strong> '.$this->__('minor');
+            $sParts[] = '<i class="fa fa-exclamation" style="margin-right:2px;"></i><strong>'.$this->getMinorCount().'</strong> '.$this->__('minor');
         endif;
 
         if ($this->getNoticeCount()):
-            $sParts[] = '<strong><i class="fa fa-exclamation-triangle" style="margin-right:2px;"></i>'.$this->getNoticeCount().'</strong> '.$this->__('notice');
+            $sParts[] = '<i class="fa fa-exclamation-triangle" style="margin-right:2px;"></i><strong>'.$this->getNoticeCount().'</strong> '.$this->__('notice');
         endif;
 
         $msgStats = '';
