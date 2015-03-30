@@ -83,6 +83,9 @@
             <go module="wsu_admintheme">
                 <label>Magento Go</label>
             </go>
+            <wsu module="wsu_admintheme">
+                <label>WSU</label>
+            </wsu>
         </themes>
     </adminhtml>
     <default>

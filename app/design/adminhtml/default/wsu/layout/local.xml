@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default translate="label" module="page">
+        <reference name="head">
+            <action method="removeItem"><type>js</type><name>mage/adminhtml/sales.js</name></action>
+            <action method="addItem"><type>skin_js</type><script>wsu/admintheme/js/sales.js</script></action>
+            <action method="removeItem"><type>js_css</type><name>calendar/calendar-win2k-1.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>calendar.css</name><params/></action>
+
+			<action method="addItem"><type>cdn_css</type><name>//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css</name>
+					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/css/font-awesome.4.3.0.css</local_path></action>					
+			<action method="addCss"><script>wsu/admintheme/styles.css</script></action>
+
+			<action method="addItem"><type>skin_js</type><script>wsu/admintheme/js/custom.js</script></action>
+			
+			<action method="addCss"><script>wsu/admintheme/corrections.css</script></action>
+			<action method="addCss"  ifconfig="wsu_admintheme/config/extendmenu">
+				<script>wsu/admintheme/icon.css</script>
+			</action>
+        </reference>
+        <reference name="footer">
+            <action method="setTemplate">
+                <!-- needed because of base/default/layout/wsuadmintheme.xml -->
+                <template>page/footer.phtml</template>
+            </action>
+        </reference>
+    </default>
+</layout>
