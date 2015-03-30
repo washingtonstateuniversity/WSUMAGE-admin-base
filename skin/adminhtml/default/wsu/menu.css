@@ -26,7 +26,7 @@
 #nav a, #nav a:hover {
     display: block;
     text-decoration: none;
-    font: 12px/15px Tahoma,  Arial,  Helvetica,  san-serif;
+    font-size: 12px/15px;/* Tahoma,  Arial,  Helvetica,  san-serif;*/
 }
 #nav span {
     display: block;

@@ -16,6 +16,37 @@
   color: #454545;
 }
 .content-header-floating{top: 36px;}
+
+.middle {
+  min-height: 450px;
+  padding:0px;
+}
+.middle .content-header {
+  position: relative;
+  z-index: 1;
+  margin:0px;
+  /* margin: 11px 0 15px; */
+  /* background: #dfdfdf url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_content-header.png) repeat-x 0 0; */
+  background: #d7dadb;
+  border: 1px solid #dedede;
+  border-radius:0px;
+  padding: 0 4px 0 12px;
+  box-shadow:none;
+}
+.content-header-floating {
+  margin: 0 !important;
+  background: #d7dadb;
+  padding:0px;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+}
+
+.content-header-floating .content-header{
+	  padding: 4px 0 1px 11px;
+}
+
+
 ul.config-tabs dt {
     cursor: pointer;
 }

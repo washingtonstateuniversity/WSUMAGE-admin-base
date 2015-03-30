@@ -31,6 +31,7 @@
 
 /********** ALIGNMENT AND CLEARS ***********/
 
+
 /******************************************************************/
 /**************************** WIDGETS *****************************/
 /******************************************************************/
@@ -94,7 +95,7 @@
 .grid td input.input-text-export-filter { width:274px; }
 .grid td input.input-text-range { width:106px; }
 .grid td input.input-text-range-date { width:89px; }
-.grid table td { border-width:1px 1px 0 0; border-color:#f3f3f3 #e3e3e3 transparent transparent; border-right-color:rgba(0, 0, 0, 0.1); border-style:solid; color:#4c4c4c; font-size:11px; }
+.grid table td { border-width:1px 1px 0 0; border-color:#f3f3f3 #e3e3e3 transparent transparent; border-right-color:rgba(0, 0, 0, 0.1); border-style:solid; color:#4c4c4c; font-size:1em; }
 .grid table tr:first-child td { border-top:0; }
 .grid table.border tbody td { background:#fff !important; }
 .grid table td.last { border-right:0; }
@@ -110,7 +111,7 @@
 .grid tbody.even tr.border td { border-bottom:1px solid #dadfe0; }
 
 /* Grid - Pager and Buttons row */
-table.actions { width:100%; margin:10px 0 20px; color:#666; font-size:11px; }
+table.actions { width:100%; margin:10px 0 20px; color:#666; font-size:1em; }
 table.actions button { display:inline-block; float:none !important; vertical-align:middle; }
 table.actions td { vertical-align:top; line-height:28px; }
 table.actions td .input-text,
@@ -279,7 +280,7 @@ ul.tabs-horiz li a.active { border-bottom:1px solid #fff; background:#fff; }
 *******************************************************************************/
 .notifications-wrapper { /*background:#eaeef2 url(images/bkg_notifications-wrapper.gif) 0 100% repeat-x; padding:0 0 13px;*/  background: #5e6a71; }
 .notifications-wrapper #messages { margin:0 11px 0 36px; }
-.notification-global { padding:4px 0 4px 35px;/* background:url(images/i_msg-error.png) 0 4px no-repeat;*/ font:normal 12px/16px Tahoma, Geneva, sans-serif; margin:0 11px 0 36px; color:#eff0f1; position:relative; }
+.notification-global { padding:4px 0 4px 35px;/* background:url(images/i_msg-error.png) 0 4px no-repeat;*/ font-size:12px/16px; font-weight:normal; margin:0 11px 0 36px; color:#eff0f1; position:relative; clear:both;}
 .notification-global-notice { /*background:url(images/i_msg-notice.png) 0 2px no-repeat;*/ }
 .notification-global .label { font-weight:bold; color:#252728; }
 .notification-global .clickable { cursor:pointer; }
@@ -481,6 +482,7 @@ button::-moz-focus-inner { padding:0; border:0; }
 button { -webkit-border-fit:lines; }
 
 /* <- Safari & Google Chrome Fix */
+/*
 button { overflow:visible; width:auto; border:0; padding:0; margin:0 0 0 2px; background:transparent; cursor:pointer; }
 button span { float:left; height:28px; background:transparent url(images/bkg_btn.png) 0 0 no-repeat !important; padding:0 0 0 5px !important; font:bold 12px/27px Tahoma, Verdana, Arial, sans-serif; text-align:center; white-space:nowrap; color:#f15a24; }
 button span span { background-position:100% 0 !important; padding:0 8px 0 2px !important; }
@@ -490,7 +492,7 @@ button:not(.disabled):hover > span > span { background-position:100% -70px; }
 button:not(.disabled):active > span { position:relative; bottom:-1px; right:-1px; }
 button.disabled { cursor:default; }
 button.disabled span { background-image:url(images/bkg_btn-disabled.png); cursor:default; }
-button.disabled span span span { background:none; color:#999; opacity:.5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE8 */ }
+button.disabled span span span { background:none; color:#999; opacity:.5; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
 
 button.btn-wysiwyg span span span,
 button.cancel_button span span span,
@@ -520,7 +522,7 @@ button.go span span span { background-image:url(images/btn_go.gif); padding-left
 button.btn-wysiwyg span span span { background-image:url(images/i_btn-editor.png); background-position:0 6px; padding-left:23px; }
 button.ok_button span span span { background-image:url(images/i_btn-save.png); padding-left:20px; }
 button.cancel_button span span span { background-image:url(images/bkg_btn-delete.png); padding-left:16px; }
-button.btn-chooser { display:block; margin:0 0 10px; }
+button.btn-chooser { display:block; margin:0 0 10px; }*/
 
 /*button.success { background-image:url(images/btn_gr_bg.gif); border-color:#46745E; }
 button.success:hover { background:url(images/btn_gr_over.gif) #6cac46; }
@@ -607,7 +609,10 @@ td.divider { font-size:1px; line-height:0; }
 
 /* LAYOUT
 *******************************************************************************/
-body { background:#fff url(images/bkg_body.png) repeat-x 0 100% fixed; }
+body { background:#fff;
+font-family: 'Hind', sans-serif !important;
+font-size:1em;
+ }
 .wrapper { min-width:960px; text-align:left; }
 .wrapper-popup { min-width:750px; }
 .middle { min-height:450px; /* background:url(images/bkg_page-middle.png) repeat-x #fff 0 100%; background-attachment:fixed;*/ padding:11px 11px 20px 11px; }
@@ -1999,6 +2004,18 @@ html[lang|="es"] .gsw-popup .gsw-popup-fieldset input[type="text"] { width:288px
 .mdte .themes-section .themes-grid .theme-actions button { min-width:85 px\0/ }
 .gsw-popup-loading-mask { background:url(images/bkg_transparent.png) 0 0 repeat\0/; }
 
+
+
+
+
+#ip{ font-size:3px; display:inline-block; }
+#ip:hover{ font-size:23px }
+.blcg-grid-pinned-actions-block{
+  top: 79px  !important;
+}
+
+
+
 /* Clear */ /* This keeps our HTML free of buncha clearing elements */
 .config-heading:after,
 .gsw-popup .gsw-popup-content-alt:after,
@@ -2046,11 +2063,215 @@ div.actions:after,
 .gsw-popup .gsw-form li:after,
 .store-scope:after { display:block; clear:both; content:"."; font-size:0; line-height:0; height:0; overflow:hidden; }
 
+/* BUTTONS */
 
-
-
-#ip{ font-size:3px; display:inline-block; }
-#ip:hover{ font-size:23px }
-.blcg-grid-pinned-actions-block{
-  top: 79px  !important;
+button {
+    -webkit-border-fit: lines
 }
+
+button {
+    overflow: visible;
+    width: auto;
+    border: 0;
+    padding: 0;
+    margin: 0
+    0 0 2px;
+    background: transparent;
+    cursor: pointer
+}
+
+button
+span {
+float: left;
+  min-height: 18px;
+  padding: 0px 2px !important;
+  font-weight: bold!important;
+  font-size: 1em!important;
+  line-height: 2.5em!important;
+  text-align: center;
+  white-space: nowrap;
+  color: #f15a24;
+}
+
+
+button:not(.disabled):active>span {
+    position: relative;
+    bottom: -1px;
+    right: -1px
+}
+
+button.disabled {
+    cursor: default
+}
+
+button.disabled
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-disabled.png);
+    cursor: default
+}
+
+button.disabled span span
+span {
+    background: none;
+    color: #999;
+    opacity: .5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+button.btn-wysiwyg span span span,
+button.cancel_button span span span,
+button.ok_button span span span,
+button.delete span span span,
+button.cancel span span span,
+button.fail span span span,
+button.save span span span,
+button.add span span span,
+button.back span span span,
+button.show-hide span span span,
+button.add-image span span span,
+button.add-widget span span span,
+button.add-variable span span span,
+button.go span span
+span {
+    padding-left: 25px;
+    background-position: 0 50%;
+    background-repeat: no-repeat
+}
+
+button.delete span span span,
+button.cancel span span span,
+button.fail span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+    padding-left: 16px
+}
+
+button.save span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-save.png);
+    padding-left: 20px
+}
+
+button.add span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-add.png);
+    padding-left: 20px
+}
+
+button.back span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-back.png);
+    padding-left: 16px
+}
+
+button.show-hide span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-showhide.png);
+    padding-left: 20px
+}
+
+button.add-image span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-image_icon.gif);
+    padding-left: 16px
+}
+
+button.add-widget span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-widget_icon.gif)
+}
+
+button.add-variable span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-variable_icon.gif)
+}
+
+button.go span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_go.gif);
+    padding-left: 16px
+}
+
+button.btn-wysiwyg span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-editor.png);
+    background-position: 0 6px;
+    padding-left: 23px
+}
+
+button.ok_button span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-save.png);
+    padding-left: 20px
+}
+
+button.cancel_button span span
+span {
+    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+    padding-left: 16px
+}
+
+button span,
+button.btn-wysiwyg span span span,
+button.cancel_button span span span,
+button.ok_button span span span,
+button.delete span span span,
+button.cancel span span span,
+button.fail span span span,
+button.save span span span,
+button.add span span span,
+button.back span span span,
+button.show-hide span span span,
+button.add-image span span span,
+button.add-widget span span span,
+button.add-variable span span span,
+button.go span span
+span {
+    background:none !important;
+	background-color:#f9f4e7 !important;
+}
+button {
+    background:none !important;
+	background-color:#f9f4e7 !important;
+	border:1px solid #f1e4c4 !important;
+	border-left:1px solid #f1e4c4 !important;
+	border-bottom:1px solid #e5cd93 !important;
+}
+button:hover{
+    background:none !important;
+	background-color:#f1e4c4 !important;
+	border:1px solid #f9f4e7 !important;
+	border-left:1px solid #f1e4c4 !important;
+	border-bottom:1px solid #e5cd93 !important;
+	color: #f6861f !important;
+}
+button:hover span{
+	background-color:#f1e4c4 !important;
+	color: #f6861f !important;
+}
+
+button.btn-chooser {
+    display: block;
+    margin: 0
+    0 10px
+}
+
+button.icon-btn {
+}
+
+button.icon-btn>span {
+}
+
+button.icon-btn>span>span {
+    display: block;
+    overflow: hidden
+}
+
+button.icon-btn>span>span>span {
+    background-position: 50% 50%;
+    width: 16px;
+    padding: 0;
+    text-indent: -999em
+}
+
+

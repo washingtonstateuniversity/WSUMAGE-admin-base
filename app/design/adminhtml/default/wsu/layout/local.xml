@@ -9,6 +9,11 @@
 
 			<action method="addItem"><type>cdn_css</type><name>//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css</name>
 					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path>/css/font-awesome.4.3.0.css</local_path></action>					
+					
+			<action method="addItem"><type>cdn_css</type><name>//fonts.googleapis.com/css?family=Hind:400,300,500,600,700</name>
+					<params/><if/><cond/><window_obj>jQuery</window_obj><local_path></local_path></action>	
+
+					
 			<action method="addCss"><script>wsu/admintheme/styles.css</script></action>
 
 			<action method="addItem"><type>skin_js</type><script>wsu/admintheme/js/custom.js</script></action>
