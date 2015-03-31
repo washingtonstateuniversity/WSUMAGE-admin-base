@@ -111,9 +111,9 @@
 .grid tbody.even tr.border td { border-bottom:1px solid #dadfe0; }
 
 /* Grid - Pager and Buttons row */
-table.actions { width:100%; margin:10px 0 20px; color:#666; font-size:1em; }
+table.actions { width:100%; margin:10px 0 -1px; color:#666; font-size:1em; vertical-align:middle;  padding: 0px 13px; }
 table.actions button { display:inline-block; float:none !important; vertical-align:middle; }
-table.actions td { vertical-align:top; line-height:28px; }
+table.actions td {line-height:28px; }
 table.actions td .input-text,
 .pager .input-text { font-size:11px; padding:2px 3px 1px; }
 table.actions td select { padding:0; font-size:11px; }
@@ -146,8 +146,16 @@ table.actions select { border-color:#b2b2b2; box-shadow:0 3px 6px #dadada; }
 .grid tr.headings th span.required { position:relative; right:0; }
 
 /* Grid - Mass Action */
-.massaction { width:100%; height:26px; font-size:.9em; position:relative; z-index:1; background:#dfdfdf url(images/bkg_content-header.png) repeat-x 0 0; border:1px solid #cbd3d4; -moz-border-radius:3px 3px 0 0; border-radius:3px 3px 0 0; padding:0 12px; }
-.massaction td { width:50%; line-height:28px; border-top:1px solid #fff; padding:5px 8px 2px; vertical-align:top; }
+.massaction {
+  width: 100%;
+  height: 26px;
+  font-size: .9em;
+  position: relative;
+  z-index: 1;
+  background: #dfdfdf;
+  border: 1px solid #cbd3d4;
+}
+.massaction td { width:50%; line-height:28px; border-top:1px solid #fff; padding:5px 8px 2px; vertical-align: middle; }
 .massaction .entry-edit fieldset .select { width:auto; /*width:120px;*/ display:inline; padding:0; border-color:#b2b2b2; -moz-box-shadow:none; box-shadow:none; }
 .massaction .entry-edit fieldset select.validation-failed { border:1px dashed #eb340a !important; background:#faebe7 !important }
 .massaction .entry-edit fieldset { margin:0; padding:0; background:none; border:none; }
@@ -162,11 +170,11 @@ table.actions select { border-color:#b2b2b2; box-shadow:0 3px 6px #dadada; }
 
 /* Grid - Filter */
 .grid tr.filter { background:url(images/bkg_row-filter.png) repeat-x 0 100% #fff; cursor:default; }
-.grid tr.filter th { padding-top:6px; padding-bottom:15px; border-top:1px solid #eaeaea; white-space:normal; color:#808080; font-size:11px; font-weight:normal; }
+.grid tr.filter th { padding-top:6px; padding-bottom:0px; border-top:1px solid #eaeaea; white-space:normal; color:#808080; font-size:11px; font-weight:normal; }
 .grid tr.filter th.last { border-right:0; }
 .grid tr.filter input.input-text { width:85%; padding:1px; font-size:11px; }
 .grid tr.filter select { width:100%; padding:0; font-size:11px; }
-.grid tr.filter .range .range-line { margin-bottom:5px; width:100px; }
+.grid tr.filter .range .range-line { margin-bottom:1px; width:100px; }
 .grid tr.filter .range div.date { min-width:121px; }
 .grid tr.filter .range input { float:right; width:50px !important; margin-top:0; }
 .grid tr.filter .range select { float:right; width:54px !important; margin-top:0; }
@@ -729,7 +737,7 @@ div.autocomplete ul li { padding:.5em .7em; min-height:32px; cursor:pointer; tex
 /* HEADINGS
 ********************************************************************************************/
 
-h3 { font:normal 15px/1.1 Tahoma, Arial, Helvetica, sans-serif; color:#000; }
+h3 { /*font:normal 15px/1.1 Tahoma, Arial, Helvetica, sans-serif;*/ color:#000; }
 
 /* Content Header */
 .content-header { position:relative; z-index:1; margin:11px 0 15px; background:#dfdfdf url(images/bkg_content-header.png) repeat-x 0 0; border:1px solid #dedede; -moz-border-radius:3px; border-radius:3px; padding:0 4px 0 12px; -moz-box-shadow:0 6px 10px #c4c4c4; box-shadow:0 6px 10px #c4c4c4; }
@@ -775,21 +783,52 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 /* Icon Head */
 /* Headings with icon preceding text*/
 .icon-head { min-height:18px; background-repeat:no-repeat; background-position:0 8px; padding-left:22px !important; }
+
+
+.icon-head:before  {
+  display: inline-block;
+  font-family: FontAwesome !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  float: left;
+  margin-right: 5px;
+}
+
+
+
+
 .entry-edit .entry-edit-head .icon-head { background-position:16px 6px; padding-left:38px !important; }
 .head-adminhtml { padding-left:0; }
 .head-customer-address-list { background-image:url(images/fam_house.gif); }
 .head-edit-form { background-image:url(images/fam_page_white.png); }
 .head-customer-view { background-image:url(images/fam_status_online.gif); padding-left:18px; }
-.head-customer,
-.head-customer-groups { background-image:url(images/fam_group.gif); }
+
+.head-customer:before {
+  content:"\f007";
+}
+.head-customer-groups:before {
+  content:"\f0c0";
+}
+.head-online-visitors:before {
+  content:"\f21b";
+}
+
 .head-user { background-image:url(images/fam_user.gif); }
 .head-user-edit { background-image:url(images/fam_user_edit.gif); }
 .head-user-comment { background-image:url(images/fam_user_comment.gif); }
 .head-comment { background-image:url(images/fam_comment.gif); }
 .head-cart { background-image:url(images/fam_cart.gif); }
 .head-account { background-image:url(images/fam_account.gif); }
-.head-online-visitors { background-image:url(images/fam_monitor.gif); }
-.head-products { background-image:url(images/fam_package.gif); }
+.head-online-visitors:before {
+  content:"\f21b";
+}
+.head-products:before {
+  content:"\f16b";
+}
+
+
 .head-catalog-product { background-image:url(images/fam_package.gif); }
 .head-newsletter-queue { background-image:url(images/fam_newspaper_go.gif); }
 .head-newsletter-list { background-image:url(images/fam_newspaper.gif); }
@@ -798,7 +837,20 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .head-tag-product { background-image:url(images/fam_tag_orange.gif); }
 .head-sales-order,
 .head-sales-invoice { background-image:url(images/fam_folder_table.gif); }
-.head-categories { background-image:url(images/fam_folder_database.gif); padding-left:20px; color:#253033 !important; }
+.head-categories { padding-left:20px; color:#253033 !important; }
+.head-categories:before {
+  content:"\f02c";
+}
+
+.head-report-shopcart-product:before {
+  content:"\f217";
+}
+
+.head-adminhtml-process:before {
+  content:"\f0ae";
+}
+
+
 .head-catalog-product-attribute { background-image:url(images/fam_rainbow.gif); padding-left:24px; }
 .head-product-attribute-sets { background-image:url(images/fam_folder_palette.gif); padding-left:23px; }
 .head-tax { background-image:url(images/fam_money_add.gif); }
@@ -815,6 +867,22 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .head-customer-sales-statistics { background-image:url(images/fam_money.gif); }
 .head-notification { background-image:url(images/fam_folder_table.gif); }
 .head-compilation { background-image:url(images/fam_package_go.gif); }
+
+
+
+
+
+
+
+
+s
+
+
+
+
+
+
+
 
 /******************************************************************************/
 /********************************* PAGE SPECIFIC ******************************/
@@ -2139,7 +2207,7 @@ button.disabled {
 
 button.disabled
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-disabled.png);
+    background-image: url(skin/adminhtml/default/wsu/images/bkg_btn-disabled.png);
     cursor: default
 }
 
@@ -2175,72 +2243,72 @@ button.delete span span span,
 button.cancel span span span,
 button.fail span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+    background-image: url(skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
     padding-left: 16px
 }
 
 button.save span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-save.png);
+    background-image: url(skin/adminhtml/default/wsu/images/i_btn-save.png);
     padding-left: 20px
 }
 
 button.add span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-add.png);
+    background-image: url(skin/adminhtml/default/wsu/images/i_btn-add.png);
     padding-left: 20px
 }
 
 button.back span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-back.png);
+    background-image: url(skin/adminhtml/default/wsu/images/bkg_btn-back.png);
     padding-left: 16px
 }
 
 button.show-hide span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-showhide.png);
+    background-image: url(skin/adminhtml/default/wsu/images/i_btn-showhide.png);
     padding-left: 20px
 }
 
 button.add-image span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-image_icon.gif);
+    background-image: url(skin/adminhtml/default/wsu/images/btn_add-image_icon.gif);
     padding-left: 16px
 }
 
 button.add-widget span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-widget_icon.gif)
+    background-image: url(skin/adminhtml/default/wsu/images/btn_add-widget_icon.gif)
 }
 
 button.add-variable span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_add-variable_icon.gif)
+    background-image: url(skin/adminhtml/default/wsu/images/btn_add-variable_icon.gif)
 }
 
 button.go span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/btn_go.gif);
+    background-image: url(skin/adminhtml/default/wsu/images/btn_go.gif);
     padding-left: 16px
 }
 
 button.btn-wysiwyg span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-editor.png);
+    background-image: url(skin/adminhtml/default/wsu/images/i_btn-editor.png);
     background-position: 0 6px;
     padding-left: 23px
 }
 
 button.ok_button span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/i_btn-save.png);
+    background-image: url(skin/adminhtml/default/wsu/images/i_btn-save.png);
     padding-left: 20px
 }
 
 button.cancel_button span span
 span {
-    background-image: url(http://dev.store.adultpleasures.xxx/skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+    background-image: url(skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
     padding-left: 16px
 }
 

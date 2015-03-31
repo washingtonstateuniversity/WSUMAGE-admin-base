@@ -16,10 +16,10 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
 			if(isset($parentArr['sales']))$parentArr['sales']['lable_html']='<i class="fa fa-dollar" style="margin-right:2px;"></i><span>'.$parentArr['sales']['label'].'</span>';
 			if(isset($parentArr['catalog']))$parentArr['catalog']['lable_html']='<i class="fa fa-barcode" style="margin-right:2px;"></i><span>'.$parentArr['catalog']['label'].'</span>';
 			if(isset($parentArr['customer']))$parentArr['customer']['lable_html']='<i class="fa fa-group" style="margin-right:2px;"></i><span>'.$parentArr['customer']['label'].'</span>';
-			if(isset($parentArr['promo']))$parentArr['promo']['lable_html']='<i class="fa fa-tags" style="margin-right:2px;"></i><span>'.$parentArr['promo']['label'].'</span>';
+			if(isset($parentArr['promo']))$parentArr['promo']['lable_html']='<i class="fa fa-line-chart" style="margin-right:2px;"></i><span>'.$parentArr['promo']['label'].'</span>';
 			if(isset($parentArr['newsletter']))$parentArr['newsletter']['lable_html']='<i class="fa fa-volume-up" style="margin-right:2px;"></i><span>'.$parentArr['newsletter']['label'].'</span>';
 			if(isset($parentArr['cms']))$parentArr['cms']['lable_html']='<i class="fa fa-list-ul" style="margin-right:2px;"></i><span>'.$parentArr['cms']['label'].'</span>';
-			if(isset($parentArr['report']))$parentArr['report']['lable_html']='<i class="fa fa-file-alt" style="margin-right:2px;"></i><span>'.$parentArr['report']['label'].'</span>';
+			if(isset($parentArr['report']))$parentArr['report']['lable_html']='<i class="fa fa-file-excel-o" style="margin-right:2px;"></i><span>'.$parentArr['report']['label'].'</span>';
 			if(isset($parentArr['system']))$parentArr['system']['lable_html']='<i class="fa fa-cogs" style="margin-right:2px;"></i><span>'.$parentArr['system']['label'].'</span>';
 		}
 		return $parentArr;
