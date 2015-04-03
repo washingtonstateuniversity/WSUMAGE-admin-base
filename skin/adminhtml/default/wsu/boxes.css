@@ -360,7 +360,13 @@ textarea.validation-failed { background:#fef0ed; border:1px dashed #d6340e; }
 .noscript p { margin:0; }
 
 /* For Demo store only */
-.demo-notice { border:1px solid #dfdfdf; border-bottom:0; background:#b9b9b9 url(images/bkg_bar-global.gif) 0 100% repeat-x; font-size: 13px/1.15; font-weight:bold; color:#000; text-align:right; overflow:hidden; }
+.demo-notice { /*border:1px solid #dfdfdf; border-bottom:0; background:#b9b9b9 url(images/bkg_bar-global.gif) 0 100% repeat-x; font-size: 13px/1.15; font-weight:bold; color:#000; text-align:right; overflow:hidden;*/
+    clear: both;
+    color: #000;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: right;
+}
 .demo-notice p { float:right; margin:0; padding:3px 18px 5px 27px;; background:url(images/i_bar-global.png) 0 50% no-repeat; }
 
 /* FORMS
