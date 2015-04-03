@@ -8,7 +8,7 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
 			//Prepare "View Sites" menu
 			$parentArr['dashboard'] = array(
 				'active' => false,
-				'lable_html'=> '<i class="icon-dashboard"></i>',
+				'lable_html'=> '<i class="fa fa-dashboard"></i>',
 				'sort_order' => 0,
 				'url' => $dashboard['url'],
 				'level' => 0
