@@ -91,7 +91,7 @@
     <default>
         <wsu_admintheme>
             <config>
-                <theme>go</theme>
+                <theme>wsu</theme>
 				<extendmenu>1</extendmenu>
 				<showmageads>0</showmageads>
 				<shownotifications>0</shownotifications>
