@@ -288,7 +288,7 @@ ul.tabs-horiz li a.active { border-bottom:1px solid #fff; background:#fff; }
 *******************************************************************************/
 
 .notifications-wrapper { /*background:#eaeef2 url(images/bkg_notifications-wrapper.gif) 0 100% repeat-x; padding:0 0 13px;*/  background: #5e6a71; clear:both; }
-.notifications-wrapper #messages { margin:0 11px 0 36px; }
+.notifications-wrapper #messages { margin:0 11px 0 36px; clear:both; }
 .notification-global { padding:4px 0 4px 35px;/* background:url(images/i_msg-error.png) 0 4px no-repeat;*/ font-size:12px/16px; font-weight:normal; margin:0 11px 0 36px; color:#eff0f1; position:relative; clear:both;}
 .notification-global-notice { /*background:url(images/i_msg-notice.png) 0 2px no-repeat;*/ }
 .notification-global .label { font-weight:bold; color:#252728; }

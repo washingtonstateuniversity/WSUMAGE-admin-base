@@ -13,14 +13,14 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
 				'url' => $dashboard['url'],
 				'level' => 0
 			);
-			if(isset($parentArr['sales']))$parentArr['sales']['lable_html']='<i class="fa fa-dollar" style="margin-right:2px;"></i><span>'.$parentArr['sales']['label'].'</span>';
-			if(isset($parentArr['catalog']))$parentArr['catalog']['lable_html']='<i class="fa fa-barcode" style="margin-right:2px;"></i><span>'.$parentArr['catalog']['label'].'</span>';
-			if(isset($parentArr['customer']))$parentArr['customer']['lable_html']='<i class="fa fa-group" style="margin-right:2px;"></i><span>'.$parentArr['customer']['label'].'</span>';
-			if(isset($parentArr['promo']))$parentArr['promo']['lable_html']='<i class="fa fa-line-chart" style="margin-right:2px;"></i><span>'.$parentArr['promo']['label'].'</span>';
-			if(isset($parentArr['newsletter']))$parentArr['newsletter']['lable_html']='<i class="fa fa-bullhorn" style="margin-right:2px;"></i><span>'.$parentArr['newsletter']['label'].'</span>';
-			if(isset($parentArr['cms']))$parentArr['cms']['lable_html']='<i class="fa fa-list-ul" style="margin-right:2px;"></i><span>'.$parentArr['cms']['label'].'</span>';
-			if(isset($parentArr['report']))$parentArr['report']['lable_html']='<i class="fa fa-file-excel-o" style="margin-right:2px;"></i><span>'.$parentArr['report']['label'].'</span>';
-			if(isset($parentArr['system']))$parentArr['system']['lable_html']='<i class="fa fa-cogs" style="margin-right:2px;"></i><span>'.$parentArr['system']['label'].'</span>';
+			if(isset($parentArr['sales']))$parentArr['sales']['lable_html']='<i class="fa fa-dollar" style="margin-right:2px;" title="'.$parentArr['sales']['label'].'"></i><span>'.$parentArr['sales']['label'].'</span>';
+			if(isset($parentArr['catalog']))$parentArr['catalog']['lable_html']='<i class="fa fa-barcode" style="margin-right:2px;" title="'.$parentArr['catalog']['label'].'"></i><span>'.$parentArr['catalog']['label'].'</span>';
+			if(isset($parentArr['customer']))$parentArr['customer']['lable_html']='<i class="fa fa-group" style="margin-right:2px;" title="'.$parentArr['customer']['label'].'"></i><span>'.$parentArr['customer']['label'].'</span>';
+			if(isset($parentArr['promo']))$parentArr['promo']['lable_html']='<i class="fa fa-line-chart" style="margin-right:2px;" title="'.$parentArr['promo']['label'].'"></i><span>'.$parentArr['promo']['label'].'</span>';
+			if(isset($parentArr['newsletter']))$parentArr['newsletter']['lable_html']='<i class="fa fa-bullhorn" style="margin-right:2px;" title="'.$parentArr['newsletter']['label'].'"></i><span>'.$parentArr['newsletter']['label'].'</span>';
+			if(isset($parentArr['cms']))$parentArr['cms']['lable_html']='<i class="fa fa-list-ul" style="margin-right:2px;" title="'.$parentArr['cms']['label'].'"></i><span>'.$parentArr['cms']['label'].'</span>';
+			if(isset($parentArr['report']))$parentArr['report']['lable_html']='<i class="fa fa-file-excel-o" style="margin-right:2px;" title="'.$parentArr['report']['label'].'"></i><span>'.$parentArr['report']['label'].'</span>';
+			if(isset($parentArr['system']))$parentArr['system']['lable_html']='<i class="fa fa-cogs" style="margin-right:2px;" title="'.$parentArr['system']['label'].'"></i><span>'.$parentArr['system']['label'].'</span>';
 		}
 		return $parentArr;
 	}
