@@ -657,9 +657,10 @@ td.divider { font-size:1px; line-height:0; }
 
 /* LAYOUT
 *******************************************************************************/
-body { background:#fff;
+body { background-color:#fff;
 font-family: 'Hind', sans-serif !important;
 font-size:1em;
+background-position: top center;
  }
 .wrapper { min-width:960px; text-align:left; }
 .wrapper-popup { min-width:750px; }
@@ -899,7 +900,10 @@ s
 
 /* LOGIN
 *******************************************************************************/
-#page-login { background:scroll #d5d5d5 url(images/bkg_login.jpg) 50% 0 no-repeat; }
+#page-login { 
+	background:scroll #d5d5d5 url(images/bkg_login.jpg) 50% 0 no-repeat;
+	background-position:center top;
+ }
 .login-box { width:704px; margin:0 auto; padding:130px 0 0; }
 .login-form { padding:0 0 20px; text-align:left; background:url(images/bkg_login-box.png) 0 0 no-repeat; }
 .login-form .input-box { padding:0 0 0 72px; }
