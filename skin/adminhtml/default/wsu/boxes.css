@@ -310,7 +310,7 @@ a.error span,
 .messages ul { border:0 !important; }
 .messages li { 
 	margin: 0 !important;
-	padding: 6px 0 6px 35px !important;
+	padding: 6px 0 6px 2px !important;
 	font: normal 1em/1.25em  'Hind', sans-serif !important;
 	background-position: 0 5px;
 	background-repeat: no-repeat;
@@ -320,7 +320,9 @@ a.error span,
 .messages ul li { padding:0 !important; }
 .messages ul li button { vertical-align:middle; margin:-8px 0 -2px 5px; }
 
-.error-msg { background-image:url(images/i_msg-error.png); }
+.error-msg { /*background-image:url(images/i_msg-error.png);*/
+background:none;
+}
 .success-msg {/* background-image:url(images/i_msg-success.png); */
 background:none;
 }
@@ -341,7 +343,7 @@ background:none;
   color:#ada400;
   font-size:1.25em/1.25em;
 }
-.error-msg:before {
+#messages>ul>li.error-msg::before {
   content: "\f06a";
   color:#c60c30;
   font-size:1.25em/1.25em;
