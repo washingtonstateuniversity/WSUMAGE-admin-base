@@ -2399,3 +2399,10 @@ button.icon-btn>span>span>span {
   font-size: 1em;
   font-family: 'Hind',sans-serif !important;
 }
+
+
+
+.ui-widget {
+    font-family: "Hind",sans-serif !important;
+}
+
