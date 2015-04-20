@@ -315,8 +315,10 @@ a.error span,
 	background-position: 0 5px;
 	background-repeat: no-repeat;
 	color: #FFF !important;
-
- }
+}
+#loginForm .messages li {
+	color: #353535 !important;
+}
 .messages ul li { padding:0 !important; }
 .messages ul li button { vertical-align:middle; margin:-8px 0 -2px 5px; }
 
