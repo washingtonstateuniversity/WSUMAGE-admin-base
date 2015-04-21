@@ -483,7 +483,7 @@ html[lang|="fr"] .form-list td.label label { width:280px; }
 .form-list span.required { position:absolute; right:-12px; bottom:0; }
 
 .columns .form-list { width:auto; }
-.columns .form-list td.value { width:315px; padding-right:5px !important; }
+.columns .form-list td.value { min-width:315px; padding-right:5px !important; }
 .columns .form-list td.value .next-toinput { width:120px; display:inline; margin-right:5px; }
 .columns .form-list td.value .next-toselect input.input-text { width:180px !important; display:inline; }
 
