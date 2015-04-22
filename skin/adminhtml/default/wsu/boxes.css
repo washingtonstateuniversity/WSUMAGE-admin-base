@@ -316,6 +316,7 @@ a.error span,
 	background-repeat: no-repeat;
 	color: #FFF !important;
 }
+#grop_fields .messages li,
 #loginForm .messages li {
 	color: #353535 !important;
 }
@@ -798,36 +799,43 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 
 
 .icon-head:before  {
-  display: inline-block;
-  font-family: FontAwesome !important;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
-  float: left;
-  margin-right: 5px;
+	display: inline-block;
+	font-family: FontAwesome !important;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	float: left;
+	margin-right: 5px;
+	font-size: 1.75em;
+	font-weight: 100;
 }
-
+.entry-edit-head .icon-head:before  {
+	font-size: 1.2em;
+	font-weight: 100;
+}
 
 
 
 .entry-edit .entry-edit-head .icon-head { background-position:16px 6px; padding-left:38px !important; }
 .head-adminhtml { padding-left:0; }
+
 .head-customer-address-list { background-image:url(images/fam_house.gif); }
-.head-edit-form:before {
-  content:"\f0f6";
-}
 .head-customer-view { background-image:url(images/fam_status_online.gif); padding-left:18px; }
 
-.head-customer:before {
-  content:"\f007";
-}
-.head-customer-groups:before {
-  content:"\f0c0";
-}
-.head-online-visitors:before {
-  content:"\f21b";
-}
+.head-edit-form:before { content:"\f0f6"; }
+.head-customer:before { content:"\f007"; }
+.head-customer-groups:before { content:"\f0c0"; }
+.head-online-visitors:before { content:"\f21b"; }
+.head-online-visitors:before { content:"\f21b"; }
+.head-products:before { content:"\f16b"; }
+.head-categories:before { content:"\f02c"; }
+.head-report-shopcart-product:before { content:"\f217"; }
+.head-adminhtml-process:before { content:"\f0ae"; }
+.head-adminhtml-eventtickets:before { content:"\f145"; }
+.head-catalog-product-attribute:before { content:"\f12e"; }
+.head-product-attribute-sets:before { content:"\f022"; }
+
 
 .head-user { background-image:url(images/fam_user.gif); }
 .head-user-edit { background-image:url(images/fam_user_edit.gif); }
@@ -835,12 +843,7 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .head-comment { background-image:url(images/fam_comment.gif); }
 .head-cart { background-image:url(images/fam_cart.gif); }
 .head-account { background-image:url(images/fam_account.gif); }
-.head-online-visitors:before {
-  content:"\f21b";
-}
-.head-products:before {
-  content:"\f16b";
-}
+
 
 
 .head-catalog-product { background-image:url(images/fam_package.gif); }
@@ -852,24 +855,11 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .head-sales-order,
 .head-sales-invoice { background-image:url(images/fam_folder_table.gif); }
 .head-categories { padding-left:20px; color:#253033 !important; }
-.head-categories:before {
-  content:"\f02c";
-}
-
-.head-report-shopcart-product:before {
-  content:"\f217";
-}
-
-.head-adminhtml-process:before {
-  content:"\f0ae";
-}
-.head-adminhtml-eventtickets:before {
-  content:"\f145";
-}
 
 
-.head-catalog-product-attribute { background-image:url(images/fam_rainbow.gif); padding-left:24px; }
-.head-product-attribute-sets { background-image:url(images/fam_folder_palette.gif); padding-left:23px; }
+
+/*.head-catalog-product-attribute { background-image:url(images/fam_rainbow.gif); padding-left:24px; }
+.head-product-attribute-sets { background-image:url(images/fam_folder_palette.gif); padding-left:23px; }*/
 .head-tax { background-image:url(images/fam_money_add.gif); }
 .head-cms-page,
 .head-cms-block { background-image:url(images/application_view_tile.gif); }
@@ -888,7 +878,7 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 
 
 
-
+.categories-side-col .icon-head.head-categories { display:none; }
 
 
 /******************************************************************************/
