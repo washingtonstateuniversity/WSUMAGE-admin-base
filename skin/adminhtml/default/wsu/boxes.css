@@ -863,6 +863,9 @@ html[lang="de"] .side-col h3 { font-size:24px; }
 .head-adminhtml-process:before {
   content:"\f0ae";
 }
+.head-adminhtml-eventtickets:before {
+  content:"\f145";
+}
 
 
 .head-catalog-product-attribute { background-image:url(images/fam_rainbow.gif); padding-left:24px; }
