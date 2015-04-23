@@ -1,0 +1,7238 @@
+ //colors
+$color_0: #cacaca;
+$color_1: #000;
+$color_2: #f1af73;
+$color_3: #fff4e9;
+$color_4: #d85909;
+$color_5: #efefef;
+$color_6: #f3bf8f;
+$color_7: #644f3b;
+$color_8: #ea7601;
+$color_9: #fff;
+$color_10: #fdf4eb;
+$color_11: #e41101;
+$color_12: #f55600;
+$color_13: #ff9e22;
+$color_14: #659601;
+$color_15: #203639;
+$color_16: #cbd3d4;
+$color_17: #f7f7f7;
+$color_18: #fbdfc9;
+$color_19: #f5d6c7;
+$color_20: #f3f3f3;
+$color_21: #e3e3e3;
+$color_22: rgba(0, 0, 0, 0.1);
+$color_23: #4c4c4c;
+$color_24: #b9b9b9;
+$color_25: #dadfe0;
+$color_26: #666;
+$color_27: #b2b2b2;
+$color_28: #dadada;
+$color_29: #df6800;
+$color_30: #e0c0ae;
+$color_31: #e2802a;
+$color_32: rgba(255, 255, 255, 0.3);
+$color_33: #d2702a;
+$color_34: rgba(255, 255, 255, 0.2);
+$color_35: #dfdfdf;
+$color_36: #eb340a;
+$color_37: #faebe7;
+$color_38: #eaeaea;
+$color_39: #808080;
+$color_40: #eee;
+$color_41: #080;
+$color_42: #800;
+$color_43: #d5d6d6;
+$color_44: #acacac;
+$color_45: #d7d7d7;
+$color_46: #fafafa;
+$color_47: #eaeaeb;
+$color_48: #d0d0d1;
+$color_49: #f2f2f2;
+$color_50: #a0a0a0;
+$color_51: #f15a24;
+$color_52: #dbdbdb;
+$color_53: #f8f8f8;
+$color_54: #e2e2e2;
+$color_55: #ccc;
+$color_56: #333;
+$color_57: #bdbdbd;
+$color_58:  red;
+$color_59: #cadcdc;
+$color_60: #e6eef0;
+$color_61: #303030;
+$color_62: #aaa;
+$color_63: #6c8991;
+$color_64: #ececec;
+$color_65: #5e6a71;
+$color_66: #eff0f1;
+$color_67: #252728;
+$color_68: #d20000;
+$color_69: #ffb81c;
+$color_70: #f6861f;
+$color_71: #c60c30;
+$color_72: #d40707;
+$color_73: #353535;
+$color_74: #ada400;
+$color_75: #666e73;
+$color_76: #e6e6e6;
+$color_77: #fef0ed;
+$color_78: #d6340e;
+$color_79: #ffff90;
+$color_80: #2f2f2f;
+$color_81: #dedede;
+$color_82: #eceded;
+$color_83: #e0e0e0;
+$color_84: #999;
+$color_85: #f6f6f6;
+$color_86: #888;
+$color_87: #ddd;
+$color_88: #c6cbc7;
+$color_89: #6f8992;
+$color_90: #777;
+$color_91: #9e9e9e;
+$color_92: #b8b8b8;
+$color_93: white;
+$color_94: #b7b7b7;
+$color_95: #484848;
+$color_96: #b7b8b9;
+$color_97: #fa710c;
+$color_98: #c4c4c4;
+$color_99: #253033;
+$color_100: #d5d5d5;
+$color_101: #f47b20;
+$color_102: #555;
+$color_103: #0065b1;
+$color_104: #a09f9f;
+$color_105: #ededed;
+$color_106: #a35112;
+$color_107: #d6d6d6;
+$color_108: #2c464f;
+$color_109: #e7efef;
+$color_110: #555555;
+$color_111: #dc6700;
+$color_112: #e7e7e7;
+$color_113: #1b6800;
+$color_114: #cf3a00;
+$color_115: #d7c699;
+$color_116: #fcfac9;
+$color_117: #eb4d00;
+$color_118: #eae1b2;
+$color_119: #fdfcdf;
+$color_120: #cfcfcf;
+$color_121: #f7f6f4;
+$color_122: #f16048;
+$color_123: #df280a;
+$color_124: #fefefe;
+$color_125: #cddddd;
+$color_126: #222;
+$color_127: black;
+$color_128: blue;
+$color_129: green;
+$color_130: red;
+$color_131: #dce5e6;
+$color_132: #e5e5e5;
+$color_133: #adadad;
+$color_134: #7e7e7e;
+$color_135: #f67610;
+$color_136: #464d50;
+$color_137: #f9f9f9;
+$color_138: #f0e6b7;
+$color_139: #feffcc;
+$color_140: #aa1717;
+$color_141: #ffe6de;
+$color_142: #90c898;
+$color_143: #e5ffed;
+$color_144: #fcf6f5;
+$color_145: #444;
+$color_146: #aeaeae;
+$color_147: #ebebff;
+$color_148: #d7e5ef;
+$color_149: #f0f0f0;
+$color_150: #d1d1d1;
+$color_151: #e0e0e1;
+$color_152: #d9d9d9;
+$color_153: #c8c8c8;
+$color_154: #aeafaf;
+$color_155: #dcdcdc;
+$color_156: #acabaa;
+$color_157: #f5f5f5;
+$color_158: #f9f8f8;
+$color_159: #8d8e8e;
+$color_160: #b0b0b0;
+$color_161: #bcbcbc;
+$color_162: #e51a1a;
+$color_163: #111;
+$color_164: rgba(0, 0, 0, 0.4);
+$color_165: #488ecb;
+$color_166: #cf1010;
+$color_167: #3a9a01;
+$color_168: #165b92;
+$color_169: #3d6469;
+$color_170: rgba(0, 0, 0, 0.5);
+$color_171: #eb5e00;
+$color_172: #306375;
+$color_173: #f9f4e7;
+$color_174: #f1e4c4;
+$color_175: #e5cd93;
+
+//fonts
+$font_0: Hind;
+$font_1: sans-serif !important;
+$font_2: FontAwesome !important;
+$font_3: Arial;
+$font_4: Helvetica;
+$font_5: sans-serif;
+
+//urls
+$url_0: url(images/bkg_btn-close.gif);
+$url_1: url(images/bkg_btn-close2.gif);
+$url_2: url(images/more_arrow.gif);
+$url_3: url(images/bkg_gridshadow.png);
+$url_4: url(images/bkg_row-headings.png);
+$url_5: url(images/bkg_headings-cell.png);
+$url_6: url(images/bkg_sorton.png);
+$url_7: url(images/bkg_grid-sort.png);
+$url_8: url(images/bkg_row-filter.png);
+$url_9: url(images/bkg_head-accordion.png);
+$url_10: url(images/bkg_accordion-arrows.png);
+$url_11: url(images/bkg_tabs-item.png);
+$url_12: url(images/fam_bullet_disk.png);
+$url_13: url(images/fam_bullet_error.gif);
+$url_14: url(images/horiz_tabs_ul_bg.gif);
+$url_15: url(images/r-arrow.gif);
+$url_16: url(images/l-arrow.gif);
+$url_17: url(images/full-arrow.gif);
+$url_18: url(images/xmlconnect_tab.png);
+$url_19: url(images/bkg_notifications-wrapper.gif);
+$url_20: url(images/i_msg-error.png);
+$url_21: url(images/i_msg-notice.png);
+$url_22: url(images/i_msg-success.png);
+$url_23: url(images/warning_msg_icon.gif);
+$url_24: url(images/validation_advice_bg.gif);
+$url_25: url(images/i_notice.gif);
+$url_26: url(images/bkg_bar-global.gif);
+$url_27: url(images/i_bar-global.png);
+$url_28: url(images/bkg_box.png);
+$url_29: url(images/note_cell_bg.gif);
+$url_30: url(images/note_bg.gif);
+$url_31: url(images/sub_button_bg.gif);
+$url_32: url(images/bkg_btn.png);
+$url_33: url(images/bkg_btn-disabled.png);
+$url_34: url(images/bkg_btn-delete.png);
+$url_35: url(images/i_btn-save.png);
+$url_36: url(images/i_btn-add.png);
+$url_37: url(images/bkg_btn-back.png);
+$url_38: url(images/i_btn-showhide.png);
+$url_39: url(images/btn_add-image_icon.gif);
+$url_40: url(images/btn_add-widget_icon.gif);
+$url_41: url(images/btn_add-variable_icon.gif);
+$url_42: url(images/btn_go.gif);
+$url_43: url(images/i_btn-editor.png);
+$url_44: url(images/btn_gr_bg.gif);
+$url_45: url(images/btn_gr_over.gif);
+$url_46: url(images/btn_gr_on.gif);
+$url_47: url(images/i_question-mark.png);
+$url_48: url(images/db-scroll-bg.gif);
+$url_49: url(images/icon_note_list.gif);
+$url_50: url(images/bkg_page-middle.png);
+$url_51: url(images/middle_bg.gif);
+$url_52: url(images/side_col_bg.gif);
+$url_53: url(images/simple_container_bg.gif);
+$url_54: url(images/bkg_header.png);
+$url_55: url(images/i_support-dot.png);
+$url_56: url(images/bkg_header-search.png);
+$url_57: url(images/bkg_footer.png);
+$url_58: url(images/bkg_footer-logo.png);
+$url_59: url(images/bkg_content-header.png);
+$url_60: url(images/bkg_panel-floating.png);
+$url_61: url(images/fam_house.gif);
+$url_62: url(images/fam_status_online.gif);
+$url_63: url(images/fam_user.gif);
+$url_64: url(images/fam_user_edit.gif);
+$url_65: url(images/fam_user_comment.gif);
+$url_66: url(images/fam_comment.gif);
+$url_67: url(images/fam_cart.gif);
+$url_68: url(images/fam_account.gif);
+$url_69: url(images/fam_package.gif);
+$url_70: url(images/fam_newspaper_go.gif);
+$url_71: url(images/fam_newspaper.gif);
+$url_72: url(images/fam_newspaper_error.gif);
+$url_73: url(images/fam_tag_orange.gif);
+$url_74: url(images/fam_folder_table.gif);
+$url_75: url(images/fam_rainbow.gif);
+$url_76: url(images/fam_folder_palette.gif);
+$url_77: url(images/fam_money_add.gif);
+$url_78: url(images/application_view_tile.gif);
+$url_79: url(images/fam_server_database.gif);
+$url_80: url(images/fam_money.gif);
+$url_81: url(images/fam_lorry.gif);
+$url_82: url(images/fam_creditcards.gif);
+$url_83: url(images/fam_calendar.gif);
+$url_84: url(images/fam_package_go.gif);
+$url_85: url(images/bkg_login.jpg);
+$url_86: url(images/bkg_login-box.png);
+$url_87: url(images/bkg_login-input.png);
+$url_88: url(images/login-logo.gif);
+$url_89: url(images/bkg_btn-login.png);
+$url_90: url(images/btn-admin-login.png);
+$url_91: url(images/btn-admin-login-vf.png);
+$url_92: url(images/bkg_create_order_totals.gif);
+$url_93: url(images/bkg_collapse.gif);
+$url_94: url(images/gift-message-grid-column-bg.gif);
+$url_95: url(images/gift-message-expand.gif);
+$url_96: url(images/gift-message-collapse.gif);
+$url_97: url(images/paypal/logo-paypal.png);
+$url_98: url(images/paypal/pp-allinone.png);
+$url_99: url(images/paypal/pp-alt.png);
+$url_100: url(images/paypal/pp-gateways.png);
+$url_101: url(images/paypal/pp-uk.png);
+$url_102: url(images/paypal/pp-allinone-bml.png);
+$url_103: url(images/paypal/pp-gateways-bml.png);
+$url_104: url(images/paypal/pp-alt-bml.png);
+$url_105: url(images/error_msg_icon.gif);
+$url_106: url(images/fam_leaf.png);
+$url_107: url(images/fam_application_form_delete.png);
+$url_108: url(images/product_rating_blank_star.gif);
+$url_109: url(images/product_rating_full_star.gif);
+$url_110: url(images/rule-ajax-loader.gif);
+$url_111: url(images/address_list_li.gif);
+$url_112: url(images/tree_icons/join.gif);
+$url_113: url(images/tree_icons/joinbottom.gif);
+$url_114: url(images/tree_icons/line.gif);
+$url_115: url(images/bkg_nested-heading.png);
+$url_116: url(images/bkg_config-nested.png);
+$url_117: url(images/bkg_config-shaddow.png);
+$url_118: url(images/bkg_config-heading.png);
+$url_119: url(images/icon-enabled.png);
+$url_120: url(images/bkg_config-advanced.png);
+$url_121: url(images/icon-tooltip.png);
+$url_122: url(images/bkg_tooltip.png);
+$url_123: url(images/bkg_notifications.gif);
+$url_124: url(images/arrow_sort_move.gif);
+$url_125: url(images/icon_feed.gif);
+$url_126: url(images/fam_help.gif);
+$url_127: url(images/cms_tree_icons/cms_node_root.gif);
+$url_128: url(images/cms_tree_icons/cms_node2.gif);
+$url_129: url(images/cms_tree_icons/cms_page2.gif);
+$url_130: url(images/cms_tree_icons/cms_page.gif);
+$url_131: url(images/cms_tree_icons/cms_page-disabled.gif);
+$url_132: url(images/js_icon.gif);
+$url_133: url(images/icon_font.gif);
+$url_134: url(images/bkg_preinstalled.png);
+$url_135: url(images/btn_customize_icon.png);
+$url_136: url(images/bkg_btn-preview.png);
+$url_137: url(images/btn_duplicate_icon.png);
+$url_138: url(images/bkg_movable-arrows.png);
+$url_139: url(images/bkg_tabs-nav-item.png);
+$url_140: url(images/bkg_fill-frame.png);
+$url_141: url(images/gsw/bkg_gsw-bar.png);
+$url_142: url(images/gsw/bkg_gsw.png);
+$url_143: url(images/gsw/btn-gsw-close.png);
+$url_144: url(images/gsw/i_parent.png);
+$url_145: url(images/gsw/i_complete.png);
+$url_146: url(images/gsw/i_in-progress.png);
+$url_147: url(images/gsw/bkg_gsw-menu-hover.gif);
+$url_148: url(images/gsw/bkg_gsw-overlay.gif);
+$url_149: url(images/gsw/bkg_gsw-popup-title.png);
+$url_150: url(images/gsw/i_gsw-back.gif);
+$url_151: url(images/gsw/i_gsw-close.png);
+$url_152: url(images/gsw/bkg_gsw-popup2.gif);
+$url_153: url(images/logo_paypal.png);
+$url_154: url(images/i_question.png);
+$url_155: url(images/gsw/bkg_gsw-popup3.gif);
+$url_156: url(images/gsw/content/bkg_express-checkout.png);
+$url_157: url(images/gsw/bkg_gsw-list.png);
+$url_158: url(images/gsw/status-loading.gif);
+$url_159: url(images/gsw/content/paypallogo-small.png);
+$url_160: url(images/gsw/bkg_gsw-buttons.png);
+$url_161: url(images/bkg_transparent.png);
+$url_162: url(skin/adminhtml/default/wsu/images/bkg_btn-disabled.png);
+$url_163: url(skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+$url_164: url(skin/adminhtml/default/wsu/images/i_btn-save.png);
+$url_165: url(skin/adminhtml/default/wsu/images/i_btn-add.png);
+$url_166: url(skin/adminhtml/default/wsu/images/bkg_btn-back.png);
+$url_167: url(skin/adminhtml/default/wsu/images/i_btn-showhide.png);
+$url_168: url(skin/adminhtml/default/wsu/images/btn_add-image_icon.gif);
+$url_169: url(skin/adminhtml/default/wsu/images/btn_add-widget_icon.gif);
+$url_170: url(skin/adminhtml/default/wsu/images/btn_add-variable_icon.gif);
+$url_171: url(skin/adminhtml/default/wsu/images/btn_go.gif);
+$url_172: url(skin/adminhtml/default/wsu/images/i_btn-editor.png);
+
+//@extend-elements
+//original selectors
+//.grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc
+%extend_1 {
+	background: $url_6 0 0 repeat-x;
+	color: $color_30;
+	border: solid $color_31;
+	border-width: 0 1px;
+	border-color: $color_32;
+}
+
+//original selectors
+//.grid tr.headings th a.sort-arrow-desc span.sort-title, .grid tr.headings th a.sort-arrow-asc span.sort-title
+%extend_2 {
+	background: $url_7 no-repeat 100% 0;
+	border: solid $color_33;
+	border-width: 0 1px;
+	border-color: $color_34;
+}
+
+//original selectors
+//.massaction .entry-edit fieldset span.form_row, .massaction .entry-edit fieldset span.field-row
+%extend_3 {
+	clear: none !important;
+	display: inline;
+	float: left !important;
+	margin: 0;
+	padding: 0 5px 0 0;
+}
+
+//original selectors
+//.grid input.input-text, .grid textarea, .grid select
+%extend_4 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.grid .field-100 textarea, .grid .field-100 input.input-text
+%extend_5 {
+	float: left;
+	width: 100% !important;
+	border: 0 !important;
+	padding: 0 !important;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+
+//original selectors
+//dl.accordion dt, .entry-edit .entry-edit-head
+%extend_6 {
+	background: $color_43 $url_9 repeat-x 0 0;
+	border: 1px solid $color_44;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 10px $color_45;
+	z-index: 2;
+	margin-bottom: 6px;
+}
+
+//original selectors
+//dl.accordion dt a, div.collapseable a
+%extend_7 {
+	background: $url_10 100% 4px no-repeat;
+	color: $color_1;
+	font-size: 15px/1.1;
+	display: block;
+	text-decoration: none;
+	padding: 4px 15px;
+	border: 1px solid;
+	border-color: $color_46 $color_47 $color_48 $color_49;
+}
+
+//original selectors
+//ul.tabs span.changed, ul.tabs span.error
+%extend_8 {
+	display: inline-block;
+	background: 0;
+	padding: 0;
+	vertical-align: top;
+	margin-top: 1px;
+}
+
+//original selectors
+//.box, .entry-edit fieldset, .entry-edit .fieldset
+%extend_9 {
+	padding: 20px 16px;
+	border: solid $color_81;
+	border-width: 0 2px 2px;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 0 0 3px 3px;
+	background: $color_82 $url_28 repeat-x 0 0;
+	margin: -6px 0 20px;
+}
+
+//original selectors
+//.box fieldset, .box .fieldset, .entry-edit fieldset .fieldset, .entry-edit fieldset fieldset, .entry-edit .fieldset fieldset, .entry-edit .fieldset .fieldset
+%extend_10 {
+	padding: 16px;
+	border: 1px solid $color_83;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 0;
+	background: $color_82 $url_28 repeat-x 0 -20px;
+	margin: 10px 0 20px;
+}
+
+//original selectors
+//.entry-edit fieldset span.form_row, .entry-edit .fieldset span.form_row, .entry-edit fieldset .field-row .hint, .entry-edit .fieldset .field-row .hint
+%extend_11 {
+	float: left;
+	color: $color_84;
+	padding-left: 12em;
+}
+
+//original selectors
+//.entry-edit .entry-edit-head > div:first-child[style*="right"], .entry-edit .form-buttons
+%extend_12 {
+	float: right;
+	margin: 2px 3px 0 0;
+	padding-bottom: 4px;
+}
+
+//original selectors
+//input.input-text, textarea, select
+%extend_13 {
+	border: 1px solid $color_83;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 6px $color_28;
+}
+
+//original selectors
+//.field-100 textarea, .field-100 input.input-text
+%extend_14 {
+	float: left;
+	width: 100% !important;
+	border: 0 !important;
+	padding: 0 !important;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+
+//original selectors
+//.form-list td.label, .form-list td.value, .form-list td.value2, .form-list td.note, .form-list td.scope-label, .form-list td.use-default
+%extend_15 {
+	border: 0 !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	padding-left: 5px !important;
+	background: 0 !important;
+}
+
+//original selectors
+//span.delete-image, span.delete-file
+%extend_16 {
+	display: block;
+	white-space: nowrap;
+	padding-left: 26px;
+}
+
+//original selectors
+//.separator, .pipe
+%extend_17 {
+	padding: 0 6px;
+	font-size: .9em;
+	color: $color_92;
+}
+
+//original selectors
+//.login-container button.btn-login span:before, .login-container button.btn-login span:after
+%extend_18 {
+	content: "";
+	height: 34px;
+	position: absolute;
+	top: 0;
+	background: $url_89 no-repeat 0 0;
+}
+
+//original selectors
+//.grand-total, .grand_total
+%extend_19 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: $color_117 !important;
+}
+
+//original selectors
+//.giftmessage-order-create .entire-order, .giftmessage-order-create .each-order-item
+%extend_20 {
+	background-color: $color_40;
+	padding: 6px 14px;
+	height: 275px;
+}
+
+//original selectors
+//#popup-window-mask, .popup-window-mask
+%extend_21 {
+	background: $color_1;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+//original selectors
+//.packaging-window, .packed-window
+%extend_22 {
+	background: $color_82;
+	border: 1px solid $color_110;
+	left: 50%;
+	margin: -200px 0 0 -471px;
+	position: fixed;
+	top: 50%;
+	width: 1100px;
+	z-index: 1000;
+}
+
+//original selectors
+//.packed-window > .entry-edit > .entry-edit-head, .packaging-window > .entry-edit > .entry-edit-head
+%extend_23 {
+	padding: 3px 5px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	border-width: 0 0 1px;
+	border-color: $color_9;
+	color: $color_9;
+	background: $url_4 repeat-x 0 0 $color_111;
+}
+
+//original selectors
+//.packed-window .packed-content, .packaging-window .packaging-content
+%extend_24 {
+	overflow: auto;
+	height: auto !important;
+	max-height: 400px;
+	margin: 0 0 10px;
+	padding: 10px 10px 0;
+}
+
+//original selectors
+//.packaging-window .package-options input.input-text, .packaging-window .package-options textarea, .packaging-window .package-options select
+%extend_25 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.option-box .option-header input.input-text, .option-box .option-header textarea, .option-box .option-header select
+%extend_26 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.log-details table th, .log-details table td
+%extend_27 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: middle;
+}
+
+//original selectors
+//div.tree_item, div.tree_item_last
+%extend_28 {
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+//original selectors
+//.field-tooltip:hover > div:hover, .field-tooltip > div
+%extend_29 {
+	width: 316px;
+	background: transparent $url_122 repeat-y -680px 0;
+	opacity: 0;
+	position: absolute;
+	z-index: 999;
+	left: -311px;
+	bottom: 28px;
+	padding: 3px 12px;
+	color: $color_136;
+	visibility: hidden;
+}
+
+//original selectors
+//.grid-severity-critical, .grid-severity-critical span, .grid-severity-major, .grid-severity-major span, .grid-severity-minor, .grid-severity-minor span, .grid-severity-notice, .grid-severity-notice span
+%extend_30 {
+	display: block;
+	height: 16px;
+	background-image: $url_123;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 0 7px;
+	white-space: nowrap;
+	color: $color_9;
+}
+
+//original selectors
+//.cms-revision-info table th, .cms-revision-info table td
+%extend_31 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+//original selectors
+//.files_list_container ul li .up, .files_list_container ul li .down
+%extend_32 {
+	margin: 2px 5px;
+	width: 15px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	height: 15px;
+	cursor: pointer;
+	border: 1px solid $color_55;
+	outline: none;
+	display: block;
+	overflow: hidden;
+}
+
+//original selectors
+//#tabs-headings fieldset, #tabs-headings .fieldset, .mdte .settings .ui-tabs .ui-tabs-panel
+%extend_33 {
+	border: 1px solid $color_83;
+	margin: 0 0 20px;
+	padding: 16px;
+	background: $color_82 $url_28 repeat-x 0 -20px;
+}
+
+//original selectors
+//#tabs-headings .ui-tabs fieldset, #tabs-headings .ui-tabs .fieldset, .mdte .settings .ui-tabs .ui-tabs-panel fieldset, .mdte .settings .ui-tabs .ui-tabs-panel .fieldset
+%extend_34 {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+//original selectors
+//.config-heading:after, .gsw-popup .gsw-popup-content-alt:after, .form-list li:after, .footer .legality:after, .message-popup .message-popup-head:after, .message-popup .message-popup-content .message:after, .login-form .form-buttons:after, .wrapper:after, .option-title:after, .columns:after, .main-col:after, .content-header-floating:after, .entry-edit .entry-edit-head:after, .content-header:after, .login-box .button-set:after, ul.tabs-horiz:after, dl.accordion dt:after, .field-100:after, .entry-edit fieldset li:after, .entry-edit fieldset span.field-row:after, .content:after, #topnav:after, .main:after, .container:after, .footer:after, .middle:after, .header:after, .box-head:after, div.actions:after, .tier-container:after, .clear:after, .notification-global:after, .files .row:after, .files-wide .row:after, .grid tr.filter .range .range-line:after, .gsw-popup .gsw-popup-content .gsw-title:after, .files_list_container ul li.movable:after, .mdte .themes-section:after, .mdte .themes-section .themes-grid:after, .mdte .theme-current .current-theme-info:after, .gsw-content:after, .gsw-content .gsw-content-inner:after, .gsw-popup .gsw-popup-title:after, .gsw-popup .gsw-form li:after, .store-scope:after
+%extend_35 {
+	display: block;
+	clear: both;
+	content: ".";
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+//original selectors
+//button.btn-wysiwyg span span span, button.cancel_button span span span, button.ok_button span span span, button.delete span span span, button.cancel span span span, button.fail span span span, button.save span span span, button.add span span span, button.back span span span, button.show-hide span span span, button.add-image span span span, button.add-widget span span span, button.add-variable span span span, button.go span span span
+%extend_36 {
+	padding-left: 25px;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
+
+
+#loading-process {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-left: -60px;
+	border: 2px solid $color_2;
+	padding: 15px 60px;
+	background: $color_3;
+	color: $color_4;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	z-index: 501;
+}
+#loading-mask {
+	position: absolute;
+	color: $color_4;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	z-index: 500;
+	.loader {
+		position: fixed;
+		top: 45%;
+		left: 50%;
+		width: 150px;
+		margin-left: -105px;
+		padding: 15px 30px;
+		background: $color_3;
+		border: 2px solid $color_2;
+		color: $color_4;
+		font-weight: bold;
+		text-align: center;
+		z-index: 1000;
+		opacity: 0.80;
+	}
+}
+#message-popup-window-mask {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: $color_5;
+	opacity: .5;
+}
+.message-popup {
+	position: absolute;
+	z-index: 99999;
+	width: 407px;
+	top: -9999em;
+	left: 50%;
+	margin: 0 0 0 -203px;
+	background: $color_6;
+	padding: 0 4px 4px;
+	&.show {
+		top: 280px;
+	}
+	.message-popup-head {
+		padding: 1px 0;
+		h2 {
+			padding: 0 10px;
+			margin: 0;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 19px;
+			color: $color_7;
+		}
+		a {
+			float: right;
+			border: 1px solid $color_8;
+			padding: 0 12px 0 7px;
+			background: $url_0 0 50% repeat-x !important;
+			font-size: 12px;
+			line-height: 17px;
+			color: $color_9;
+			text-decoration: none !important;
+			cursor: pointer;
+			span {
+				float: left;
+				background: $url_1 0 50% no-repeat;
+				padding-left: 19px;
+			}
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.message-popup-content {
+		background: $color_10;
+		padding: 21px 21px 10px;
+		.message-icon {
+			float: left;
+			width: 50px;
+			padding: 47px 0 0;
+			background-position: 50% 0;
+			background-repeat: no-repeat;
+			font-size: 10px;
+			line-height: 12px;
+			text-transform: uppercase;
+			text-align: center;
+			overflow: hidden;
+		}
+		.message-critical {
+			color: $color_11;
+		}
+		.message-major {
+			color: $color_12;
+		}
+		.message-minor {
+			color: $color_13;
+		}
+		.message-notice {
+			color: $color_14;
+		}
+		.message-text {
+			float: right;
+			width: 295px;
+			min-height: 4.5em;
+			overflow: hidden;
+			color: $color_7;
+		}
+		.read-more {
+			margin: 7px 0 0;
+			text-align: right;
+			a {
+				background: $url_2 0 50% no-repeat;
+				padding-left: 14px;
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.message:after {
+			@extend %extend_35;
+		}
+	}
+}
+.page-title {
+	margin: 10px 0;
+	h1 {
+		color: $color_15;
+		font-size: 30px/1.2;
+	}
+}
+.grid {
+	border-bottom: 0;
+	padding-bottom: .5em;
+	margin: 0 1px;
+	table {
+		width: 100%;
+		border: 1px solid $color_16 !important;
+		border-top-width: 0;
+		border-collapse: collapse;
+		&.border {
+			border: 1px solid $color_16;
+			border-top-width: 0;
+			tbody td {
+				background: $color_9 !important;
+			}
+			tfoot tr td {
+				background-color: $color_40 !important;
+			}
+		}
+		td {
+			border-width: 1px 1px 0 0;
+			border-color: $color_20 $color_21 transparent transparent;
+			border-right-color: $color_22;
+			border-style: solid;
+			color: $color_23;
+			font-size: 1em;
+			&.last {
+				border-right: 0;
+			}
+			&.product {
+				text-align: right;
+			}
+			&.empty-text {
+				padding: 15px;
+			}
+			.action-select {
+				width: 100%;
+			}
+		}
+		tr:first-child td {
+			border-top: 0;
+		}
+		tfoot tr {
+			&:first-child {
+				background: $color_40 $url_3 repeat-x 0 0;
+				td {
+					background-image: $url_3;
+					background-repeat: repeat-x;
+					background-position: 0 0;
+				}
+			}
+			td {
+				background-color: $color_40;
+				line-height: 1.7em;
+				border: none;
+			}
+		}
+	}
+	&.np {
+		margin: 0;
+	}
+	tbody {
+		background: $color_9;
+		tr:first-child {
+			background-image: $url_3;
+			background-repeat: repeat-x;
+			background-position: 0 0;
+			td {
+				padding-top: 14px;
+			}
+		}
+		&.odd tr {
+			background: $color_9 !important;
+			td {
+				border-bottom: 0;
+			}
+			&.border td {
+				border-bottom: 1px solid $color_25;
+			}
+		}
+		&.even tr {
+			background: $color_17 !important;
+			td {
+				border-bottom: 0;
+			}
+			&.border td {
+				border-bottom: 1px solid $color_25;
+			}
+		}
+	}
+	tr {
+		&.even {
+			background-color: $color_17;
+			tr {
+				background-color: $color_17;
+			}
+			.form-list tr {
+				background: $color_85 !important;
+			}
+		}
+		&.on-mouse {
+			background-color: $color_18;
+			cursor: pointer;
+			.form-list tr {
+				background: $color_18 !important;
+			}
+		}
+		&.invalid {
+			background-color: $color_19;
+		}
+		&.headings {
+			background: $url_4 0 0 $color_29 repeat-x;
+			th {
+				border: none;
+				padding: 8px 4px 7px;
+				line-height: 1;
+				font-size: 12px;
+				color: $color_9;
+				font-weight: normal;
+				background: $url_5 repeat-x 0 100%;
+				&.last {
+					border-right: 0;
+				}
+				&.no-link {
+					color: $color_9;
+					span.nobr {
+					}
+				}
+				span {
+					&.nobr {
+						display: block;
+						line-height: 1;
+						margin: -8px -4px -7px;
+						padding: 8px 4px 7px;
+					}
+					&.sort-title {
+						display: block;
+						padding: 8px 18px 7px 4px;
+						line-height: 1;
+						margin: 0;
+					}
+					&.required {
+						position: relative;
+						right: 0;
+					}
+				}
+				a {
+					display: block;
+					padding: 0;
+					color: $color_9;
+					text-decoration: none;
+					margin: -8px -4px -7px;
+					&:hover {
+						color: $color_30;
+						text-decoration: none;
+					}
+					&.sort-arrow-desc {
+						@extend %extend_1;
+						span.sort-title {
+							@extend %extend_2;
+							background-position: 100% 12px;
+						}
+					}
+					&.sort-arrow-asc {
+						@extend %extend_1;
+						span.sort-title {
+							@extend %extend_2;
+							background-position: 100% -181px;
+						}
+					}
+				}
+			}
+		}
+		&.filter {
+			background: $url_8 repeat-x 0 100% $color_9;
+			cursor: default;
+			th {
+				padding-top: 6px;
+				padding-bottom: 0;
+				border-top: 1px solid $color_38;
+				white-space: normal;
+				color: $color_39;
+				font-size: 11px;
+				font-weight: normal;
+				&.last {
+					border-right: 0;
+				}
+			}
+			select {
+				width: 100%;
+				padding: 0;
+				font-size: 11px;
+			}
+			.range {
+				.range-line {
+					margin-bottom: 1px;
+					width: 100px;
+					&:after {
+						@extend %extend_35;
+					}
+				}
+				input {
+					float: right;
+					width: 50px !important;
+					margin-top: 0;
+				}
+				select {
+					float: right;
+					width: 54px !important;
+					margin-top: 0;
+				}
+				.label {
+					display: block;
+					width: 36px;
+					float: left;
+					padding-left: 2px;
+				}
+				div.date {
+					min-width: 121px;
+				}
+			}
+			input.input-text {
+				width: 85%;
+				padding: 1px;
+				font-size: 11px;
+			}
+			.date img {
+				width: 15px;
+				height: 15px;
+				cursor: pointer;
+				vertical-align: middle;
+			}
+		}
+		.form-list {
+			margin: 8px 0;
+			tr {
+				background: $color_9 !important;
+			}
+		}
+		&.read {
+			background: $color_9 !important;
+		}
+		&.unread {
+			background: $color_144 !important;
+		}
+	}
+	th {
+		padding: 7px 4px;
+		white-space: nowrap;
+	}
+	td {
+		padding: 7px 4px;
+		input {
+			&.input-text {
+				width: 86%;
+			}
+			&.input-text-export-filter {
+				width: 274px;
+			}
+			&.input-text-range {
+				width: 106px;
+			}
+			&.input-text-range-date {
+				width: 89px;
+			}
+		}
+		&.editable input.input-text {
+			width: 50px !important;
+			margin-left: 4px !important;
+		}
+	}
+	.separator {
+		padding: 0 4px;
+		color: $color_24;
+	}
+	textarea {
+		@extend %extend_4;
+	}
+	select {
+		@extend %extend_4;
+		padding: 0;
+		&.select-export-filter {
+			width: 278px;
+		}
+		&.multiselect-export-filter {
+			width: 278px;
+		}
+	}
+	.field-100 {
+		background-color: $color_9;
+		border: 1px solid $color_27;
+		padding: 1px 2px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 0 2px 1px $color_28;
+		textarea {
+			@extend %extend_5;
+		}
+		input.input-text {
+			@extend %extend_5;
+		}
+	}
+	.head-massaction select {
+		width: auto !important;
+		max-width: 90px;
+	}
+	input.input-text {
+		@extend %extend_4;
+	}
+}
+.hor-scroll {
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 10px;
+	margin: 0;
+	table {
+	}
+}
+table {
+	&.actions {
+		width: 100%;
+		margin: 10px 0 -1px;
+		color: $color_26;
+		font-size: 1em;
+		vertical-align: middle;
+		padding: 0 13px;
+		button {
+			display: inline-block;
+			float: none !important;
+			vertical-align: middle;
+		}
+		td {
+			line-height: 28px;
+			.input-text {
+				font-size: 11px;
+				padding: 2px 3px 1px;
+			}
+			select {
+				padding: 0;
+				font-size: 11px;
+			}
+		}
+		.pager {
+			line-height: 28px;
+		}
+		textarea {
+			border-color: $color_27;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 3px 6px $color_28;
+		}
+		select {
+			border-color: $color_27;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 3px 6px $color_28;
+		}
+		input.input-text {
+			border-color: $color_27;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 3px 6px $color_28;
+		}
+	}
+	&.form-edit {
+		width: 100%;
+	}
+}
+.pager {
+	.input-text {
+		font-size: 11px;
+		padding: 2px 3px 1px;
+	}
+	select {
+		padding: 0;
+		font-size: 11px;
+		width: 4em !important;
+		margin: 0 4px;
+	}
+	.arrow {
+		margin: 0 3px;
+		vertical-align: middle;
+	}
+	input.page {
+		width: 2em !important;
+	}
+}
+.massaction {
+	width: 100%;
+	height: 26px;
+	font-size: .9em;
+	position: relative;
+	z-index: 1;
+	background: $color_35;
+	border: 1px solid $color_16;
+	td {
+		width: 50%;
+		line-height: 28px;
+		border-top: 1px solid $color_9;
+		padding: 5px 8px 2px;
+		vertical-align: middle;
+	}
+	.entry-edit {
+		margin: 0 !important;
+		padding: 0;
+		fieldset {
+			margin: 0;
+			padding: 0;
+			background: none;
+			border: none;
+			.select {
+				width: auto;
+				display: inline;
+				padding: 0;
+				border-color: $color_27;
+				//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: none;
+			}
+			.field-row {
+				display: inline;
+			}
+			span {
+				&.form_row {
+					@extend %extend_3;
+				}
+				&.field-row {
+					@extend %extend_3;
+				}
+			}
+			select.validation-failed {
+				border: 1px dashed $color_36 !important;
+				background: $color_37 !important;
+			}
+		}
+		.validation-advice {
+			display: none !important;
+		}
+		.outer-span {
+			float: left;
+		}
+		.field-row label {
+			float: none;
+			width: auto;
+			margin-left: 13px;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+}
+.dynamic-grid {
+	th {
+		padding: 2px;
+		width: 100px;
+	}
+	td {
+		padding: 2px;
+		input {
+			width: 94px;
+		}
+	}
+}
+tr {
+	&.dynamic-grid {
+		td {
+			padding: 2px 10px 2px 0;
+			width: auto;
+		}
+		th {
+			padding: 2px 10px 2px 0;
+			width: auto;
+		}
+		input.input-text {
+			width: 154px;
+		}
+	}
+	&:last-child .with-button.active:after {
+		display: none;
+	}
+}
+.available {
+	color: $color_41;
+	font-weight: bold;
+}
+.not-available {
+	color: $color_42;
+}
+dl {
+	&.accordion {
+		.grid {
+			margin-bottom: 0;
+		}
+		dt {
+			@extend %extend_6;
+			margin-top: 1px;
+			a {
+				@extend %extend_7;
+				&:hover {
+					color: $color_51;
+					text-decoration: none;
+				}
+			}
+			.form-buttons {
+				margin-bottom: -1px;
+			}
+			&:after {
+				@extend %extend_35;
+			}
+			&.open a {
+				background: $url_10 100% -179px no-repeat;
+			}
+		}
+		dd {
+			display: none;
+			position: relative;
+			z-index: 1;
+			&.open {
+				display: block;
+			}
+		}
+	}
+	&.item-options {
+		dt {
+			font-weight: bold;
+			font-style: italic;
+		}
+		dd {
+			padding-left: 10px;
+		}
+	}
+}
+.entry-edit {
+	.entry-edit-head {
+		@extend %extend_6;
+		.form-buttons {
+			margin-bottom: -1px;
+		}
+		h4 {
+			float: left;
+			color: $color_1;
+			font-size: 15px/1.1;
+			display: block;
+			text-decoration: none;
+			padding: 5px 16px;
+			margin: 2px 0 0;
+		}
+		button {
+			float: right;
+			margin: 1px 4px 0 0;
+		}
+		strong {
+		}
+		a {
+		}
+		.tools {
+			float: left;
+			padding: 8px 0 0;
+		}
+		.icon-head {
+			background-position: 16px 6px;
+			padding-left: 38px !important;
+		}
+		&:after {
+			@extend %extend_35;
+		}
+		> div:first-child[style*="right"] {
+			@extend %extend_12;
+		}
+	}
+	fieldset {
+		@extend %extend_9;
+		&.collapseable {
+			margin-bottom: 10px;
+		}
+		h3 {
+			padding-left: 5px;
+		}
+		.fieldset {
+			@extend %extend_10;
+		}
+		fieldset {
+			@extend %extend_10;
+		}
+		li {
+			margin: 4px 0;
+			&:after {
+				@extend %extend_35;
+			}
+		}
+		span {
+			&.form_row {
+				@extend %extend_11;
+			}
+			&.field-row:after {
+				@extend %extend_35;
+			}
+		}
+		.field-row .hint {
+			@extend %extend_11;
+		}
+	}
+	.fieldset {
+		@extend %extend_9;
+		h3 {
+			padding-left: 5px;
+		}
+		fieldset {
+			@extend %extend_10;
+		}
+		.fieldset {
+			@extend %extend_10;
+		}
+		li {
+			margin: 4px 0;
+		}
+		.tree li {
+			margin: 0;
+		}
+		span.form_row {
+			@extend %extend_11;
+		}
+		.field-row .hint {
+			@extend %extend_11;
+		}
+	}
+	.content {
+		margin-left: 0 !important;
+		padding: 10px 15px;
+		button {
+			vertical-align: middle;
+		}
+		.hor-scroll {
+			max-width: 665px;
+			margin: 0 auto;
+		}
+		.form-list {
+			width: 100%;
+		}
+	}
+	.form-buttons {
+		@extend %extend_12;
+	}
+	.field-row {
+		display: block;
+		label {
+			float: left;
+			width: 150px;
+		}
+	}
+	.order-address {
+		.textarea {
+			width: 95% !important;
+			margin: 0 -17px;
+		}
+		.select {
+			width: 99.8%;
+			margin: 0 -17px;
+		}
+		td.label {
+			width: 150px !important;
+			label {
+				width: auto !important;
+				padding-right: 27px;
+			}
+			span.required {
+				right: 15px;
+			}
+		}
+		input.input-text {
+			width: 95% !important;
+			margin: 0 -17px;
+		}
+	}
+	.tree li {
+		margin: 0;
+	}
+}
+div {
+	&.collapseable {
+		margin-top: 1px;
+		a {
+			@extend %extend_7;
+			&:hover {
+				color: $color_51;
+				text-decoration: none;
+			}
+			&.open {
+				background: $url_10 100% -179px no-repeat;
+			}
+		}
+	}
+	&.side-col {
+		clear: both;
+		float: left;
+		width: 210px;
+		margin-right: -210px;
+		padding-bottom: 25px;
+		padding-left: 15px;
+	}
+	&.main-col {
+		margin-left: 210px;
+		min-height: 450px;
+		padding: 0 0 25px 25px;
+	}
+	&.main-col-inner {
+		float: left;
+		width: 100%;
+	}
+	&.autocomplete {
+		z-index: 10000;
+		position: absolute;
+		width: 250px;
+		background-color: $color_93;
+		border: 1px solid $color_94;
+		border-top: none;
+		padding: 0;
+		top: 26px !important;
+		left: auto !important;
+		right: 3px !important;
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				padding: .5em .7em;
+				min-height: 32px;
+				cursor: pointer;
+				text-align: left;
+				color: $color_80;
+				line-height: 1.3em;
+				&.selected {
+					background-color: $color_18;
+				}
+			}
+		}
+	}
+	&.tree_item {
+		@extend %extend_28;
+		background-image: $url_112;
+	}
+	&.tree_item_last {
+		@extend %extend_28;
+		background-image: $url_113;
+	}
+	&.tree_line {
+		position: absolute;
+		left: 0;
+		background-image: $url_114;
+	}
+	&.disabled a {
+		background-position: 100% -358px;
+		color: $color_50 !important;
+	}
+	&.actions:after {
+		@extend %extend_35;
+	}
+}
+img {
+	&.accordion-btn {
+		float: right;
+		margin-top: 1px;
+		margin-right: 5px;
+	}
+	&.attribute-global {
+		width: 16px;
+		height: 16px;
+		vertical-align: middle;
+	}
+}
+ul {
+	&.tabs {
+		font-size: 13px;
+		color: $color_26;
+		a {
+			display: block;
+			text-decoration: none;
+			color: $color_51;
+			font-size: 13px;
+			color: $color_26;
+			padding: 5px 8px 5px 7px;
+			margin: 1px 0;
+			&:hover {
+				text-decoration: none;
+				color: $color_51;
+				border: 1px solid $color_52;
+				padding: 4px 7px 4px 6px;
+				color: $color_51;
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				span {
+				}
+			}
+			&.active {
+				border: 1px solid $color_52;
+				padding: 4px 7px 4px 6px;
+				color: $color_51;
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				span {
+					background: $url_11 100% 50% no-repeat;
+				}
+			}
+			&.subitem {
+				padding-left: 2.2em;
+			}
+			&.changed {
+				font-style: italic;
+				span.changed {
+					background: $url_12 0 0 no-repeat !important;
+					width: 16px;
+					height: 16px;
+				}
+			}
+			&.error span.error {
+				background: $url_13 0 0 no-repeat !important;
+				width: 16px;
+				height: 16px;
+			}
+		}
+		span {
+			display: block;
+			em {
+				float: right;
+			}
+			&.changed {
+				@extend %extend_8;
+			}
+			&.error {
+				@extend %extend_8;
+			}
+		}
+		li {
+		}
+	}
+	&.tabs-horiz {
+		margin: 0 0 18px 0;
+		background: $url_14 repeat-x 0 100% $color_53;
+		padding: 8px 0 0 5px;
+		li {
+			float: left;
+			margin: 0 4px;
+			a {
+				display: block;
+				background: $color_54;
+				border: 1px solid $color_55;
+				padding: 2px 10px;
+				color: $color_56 !important;
+				text-decoration: none !important;
+				&.notloaded {
+				}
+				&.active {
+					border-bottom: 1px solid $color_9;
+					background: $color_9;
+				}
+			}
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	&.config-tabs {
+		dt {
+			border-bottom: 1px solid $color_132;
+			padding: 2px 6px;
+			margin: 0 0 5px;
+			font-weight: bold;
+			color: $color_1;
+		}
+		dl {
+			margin-bottom: 15px;
+		}
+	}
+	&.super-product-attributes {
+		padding-left: 15px;
+	}
+	&.item-options li {
+		padding-left: .7em;
+	}
+}
+.mm_ctrl {
+	.m-arrows {
+		width: 42px;
+		height: 17px;
+		text-indent: -2000em;
+		background: $url_15 no-repeat 0 0;
+		border: 0;
+		float: left;
+		cursor: pointer;
+	}
+	.l-arrow {
+		background: $url_16 no-repeat 0 0;
+		margin: 0 0 0 5px;
+	}
+	.full-arrow {
+		width: 84px;
+		background: $url_17 no-repeat 0 0;
+		margin: 0 0 0 5px;
+	}
+}
+.mm_img {
+	background: $url_18 50% 50% no-repeat;
+	width: 84px;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+.mm-edit-form {
+	border: 1px solid $color_58;
+}
+.mm-box-blue {
+	border: 1px solid $color_59;
+	background: $color_60;
+	padding: 10px 20px;
+}
+.mm-pager {
+	margin: 10px 0 0 50px;
+	ul {
+		float: left;
+		li {
+			float: left;
+			a {
+				float: left;
+				margin: 0 0 0 5px;
+				text-decoration: none;
+				display: block;
+				padding: 0 5px;
+				color: $color_61;
+				border: 1px solid $color_62;
+				&.active {
+					border: 1px solid $color_63;
+					background: $color_63;
+					color: $color_9;
+				}
+			}
+		}
+	}
+	strong {
+		float: left;
+	}
+}
+#fieldTabs {
+	padding: 0 !important;
+	.mm-tabs-title {
+		background: $color_64;
+		padding: 4px 10px;
+		margin: 0 -10px 15px;
+		font-weight: bold;
+	}
+	table {
+		width: 500px !important;
+		margin: 0 10px 20px;
+	}
+}
+.notifications-wrapper {
+	background: $color_65;
+	clear: both;
+	#messages {
+		margin: 0 11px 0 36px;
+		clear: both;
+	}
+}
+.notification-global {
+	font-size: 12px/16px;
+	font-weight: normal;
+	margin: 0 11px 0 36px;
+	color: $color_66;
+	position: relative;
+	clear: both;
+	.label {
+		font-weight: bold;
+		color: $color_67;
+	}
+	.clickable {
+		cursor: pointer;
+	}
+	a {
+		text-decoration: underline;
+		color: $color_51;
+		&:hover {
+			text-decoration: none;
+			color: $color_51;
+		}
+	}
+	.fa-exclamation-triangle {
+		color: $color_69;
+		margin-right: 4px;
+	}
+	.fa-exclamation-circle {
+		color: $color_70;
+		margin-right: 4px;
+	}
+	.fa-exclamation {
+		color: $color_70;
+		margin-right: 4px;
+	}
+	.fa-bug {
+		color: $color_71;
+		margin-right: 4px;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+	span.critical {
+		color: $color_68;
+	}
+}
+.notification-global-notice {
+}
+.error {
+	color: $color_72 !important;
+	font-weight: bold !important;
+}
+.required {
+	color: $color_72 !important;
+	font-weight: bold !important;
+}
+.validation-advice {
+	color: $color_72 !important;
+	font-weight: bold !important;
+	clear: both;
+	min-height: 15px;
+	margin: 3px 0 0 9px;
+	background: $url_24 no-repeat 2px 1px;
+	padding-left: 16px;
+	font-size: .95em;
+	font-weight: bold;
+	line-height: 1.25em;
+}
+.notice {
+	color: $color_8;
+}
+.messages {
+	ul {
+		border: 0 !important;
+		li {
+			padding: 0 !important;
+			button {
+				vertical-align: middle;
+				margin: -8px 0 -2px 5px;
+			}
+		}
+	}
+	li {
+		margin: 0 !important;
+		padding: 6px 0 6px 2px !important;
+		font: normal 1em/1.25em 'Hind', sans-serif !important;
+		background-position: 0 5px;
+		background-repeat: no-repeat;
+		color: $color_9 !important;
+	}
+}
+.error-msg {
+	background: none;
+}
+.success-msg {
+	background: none;
+	&:before {
+		content: "\f058";
+		color: $color_74;
+		font-size: 1.25em/1.25em;
+	}
+}
+.notice-msg {
+	background-image: $url_21;
+	background-position: 0 3px !important;
+}
+.warning-msg {
+	border: 1px solid $color_75 !important;
+	background: $color_76 $url_23 no-repeat 10px 10px !important;
+	color: $color_1 !important;
+}
+input {
+	&.validation-failed {
+		background: $color_77;
+		border: 1px dashed $color_78;
+	}
+	&.input-text {
+		@extend %extend_13;
+		padding: 5px 10px;
+	}
+	&.qty {
+		width: 40px !important;
+	}
+	&.item-qty {
+		width: 22px !important;
+	}
+	&.price {
+		width: 50px !important;
+		text-align: right;
+	}
+	&.input-text[disabled] {
+		background: $color_49;
+		color: $color_86;
+	}
+	&.sort {
+		width: 4em !important;
+	}
+	&.downloads {
+		width: 6.5em !important;
+	}
+}
+textarea {
+	@extend %extend_13;
+	padding: 5px 10px;
+	&.validation-failed {
+		background: $color_77;
+		border: 1px dashed $color_78;
+	}
+	+ button.btn-wysiwyg {
+		display: block;
+		margin-top: 5px;
+	}
+}
+.noscript {
+	border: solid $color_1;
+	border-width: 0 0 1px;
+	background: $color_79;
+	font-size: 12px;
+	line-height: 1.25;
+	text-align: center;
+	color: $color_80;
+	.noscript-inner {
+		width: 900px;
+		margin: 0 auto;
+		padding: 12px 0;
+		background: $url_25 20px 50% no-repeat;
+	}
+	p {
+		margin: 0;
+	}
+}
+.demo-notice {
+	clear: both;
+	color: $color_1;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: right;
+	p {
+		float: right;
+		margin: 0;
+		padding: 3px 18px 5px 27px;
+		background: $url_27 0 50% no-repeat;
+	}
+}
+select {
+	@extend %extend_13;
+	min-height: 17px;
+	padding: 4px 10px;
+	option {
+		padding: 0 10px;
+	}
+	optgroup {
+		font-style: normal;
+		padding: 5px 0;
+		option {
+			padding-left: 10px;
+			&.even {
+				background: $color_85;
+			}
+		}
+	}
+	&.multiselect {
+		height: 214px;
+		option {
+			padding: 5px 4px;
+			border-bottom: 1px solid $color_87;
+		}
+	}
+	&.countries option {
+		background-repeat: no-repeat;
+	}
+}
+.box {
+	@extend %extend_9;
+	h3 {
+		padding-left: 5px;
+	}
+	fieldset {
+		@extend %extend_10;
+	}
+	.fieldset {
+		@extend %extend_10;
+	}
+}
+textarea[disabled] {
+	background: $color_49;
+	color: $color_86;
+}
+select[disabled] {
+	background: $color_49;
+	color: $color_86;
+}
+input[type=file] {
+	height: 25px\9;
+	line-height: 25px\9;
+}
+@media screen and(-webkit-min-device-pixel-ratio:0) {
+	select {
+		option:disabled {
+			color: $color_0 !important;
+			//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: 2px 2px 2px $color_1;
+		}
+		&:disabled option {
+			color: $color_0 !important;
+			//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: 2px 2px 2px $color_1;
+		}
+	}
+}
+.field-100 {
+	background-color: $color_9;
+	border: 1px solid $color_83;
+	padding: 2px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 6px $color_28;
+	textarea {
+		@extend %extend_14;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+	input.input-text {
+		@extend %extend_14;
+	}
+}
+.form-list {
+	width: auto;
+	border: 0 !important;
+	td {
+		&.label {
+			@extend %extend_15;
+			width: 180px;
+			text-align: right;
+			padding-right: 20px;
+			label {
+				display: block;
+				width: 180px;
+				float: right;
+				padding: 3px 0 0;
+				font-size: 13px;
+				color: $color_1;
+				position: relative;
+				z-index: 1;
+			}
+		}
+		&.value {
+			@extend %extend_15;
+			textarea {
+				width: 274px;
+				height: 15em;
+			}
+			select {
+				width: 296px;
+				&.select-date {
+					width: 90px;
+				}
+				&.select-day {
+					width: 65px;
+				}
+				&.select-month {
+					width: 120px;
+				}
+			}
+			select[type="time"] {
+				width: 5.5em !important;
+			}
+			.label-color {
+				float: left;
+				display: block;
+				width: auto !important;
+				height: 23px;
+				padding: 1px;
+				margin-top: 2px;
+				border: 1px solid $color_88;
+				.color {
+					display: block;
+					width: 23px;
+					height: 23px;
+				}
+			}
+			.color-field {
+				float: left;
+				width: 75px !important;
+				margin: 2px 0 0 6px;
+				background: $color_9 !important;
+				color: $color_1 !important;
+			}
+			.store-scope {
+				white-space: nowrap;
+			}
+			.link-store-scope {
+				float: none;
+				margin-right: 0;
+				vertical-align: top;
+				margin-top: 6px;
+			}
+			input.input-text {
+				width: 274px;
+			}
+		}
+		&.value2 {
+			@extend %extend_15;
+		}
+		&.note {
+			@extend %extend_15;
+			background: $url_29 6px 10px no-repeat !important;
+			padding-left: 18px;
+		}
+		&.scope-label {
+			@extend %extend_15;
+			padding-left: 5px;
+			color: $color_89;
+			font-size: .9em;
+			padding-top: 11px !important;
+		}
+		&.use-default {
+			@extend %extend_15;
+			padding-top: 10px !important;
+			padding-right: 10px!important;
+		}
+		&.hidden {
+			border: 0 !important;
+			padding: 0 !important;
+			background: 0 !important;
+		}
+		&.pp-permissions-links {
+			font-size: 13px;
+			line-height: 30px;
+			text-align: left;
+		}
+	}
+	p.note {
+		margin: 4px 0 0;
+		padding: 0 0 0 13px;
+		background: $url_30 1px 6px no-repeat;
+		font-size: 11px;
+		color: $color_26;
+	}
+	span.required {
+		position: absolute;
+		right: -12px;
+		bottom: 0;
+	}
+	li:after {
+		@extend %extend_35;
+	}
+}
+html[lang {
+	="fr"] {
+		.form-list td.label {
+			width: 280px;
+			label {
+				width: 280px;
+			}
+		}
+		.gsw-popup .gsw-popup-fieldset input[type="text"] {
+			width: 266px;
+		}
+	}
+	="de"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
+		width: 260px;
+	}
+	="es"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
+		width: 288px;
+	}
+}
+.columns {
+	.form-list {
+		width: auto;
+		td.value {
+			min-width: 315px;
+			padding-right: 5px !important;
+			.next-toinput {
+				width: 120px;
+				display: inline;
+				margin-right: 5px;
+			}
+			input[type="checkbox"][id*="use_"] {
+				margin-right: 10px;
+				margin-top: 7px;
+				vertical-align: top;
+				+ label {
+					display: inline-block;
+					padding-top: 5px;
+					vertical-align: top;
+					margin-left: -7px;
+				}
+			}
+			.next-toselect input.input-text {
+				width: 180px !important;
+				display: inline;
+			}
+		}
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.fieldset-wide {
+	.form-list {
+		width: 100% !important;
+		td {
+			&.value {
+				width: auto !important;
+				textarea {
+					width: 90% !important;
+				}
+				input.input-text {
+					width: 90% !important;
+				}
+			}
+			&.scope-label {
+				white-space: nowrap;
+				width: 1px;
+			}
+			&.note {
+				width: 120px;
+			}
+		}
+	}
+	.data .preview .cell-position input.input-text {
+		width: 90% !important;
+	}
+}
+.multi-input {
+	margin-bottom: 8px;
+}
+.field-row {
+	display: block;
+	margin-bottom: 5px;
+	.ratings {
+		width: 120px;
+		float: left;
+		clear: right;
+	}
+	.ratings-container {
+		width: 250px;
+		float: left;
+	}
+	.with-tip {
+		display: block;
+		margin-left: 150px;
+		input {
+			float: none;
+		}
+		small {
+			display: block;
+			padding-top: 2px;
+		}
+	}
+}
+span {
+	&.delete-image {
+		@extend %extend_16;
+	}
+	&.delete-file {
+		@extend %extend_16;
+		padding: 0;
+	}
+}
+.content-buttons {
+	margin-bottom: 5px;
+	float: right;
+	display: inline;
+	&.form-buttons {
+		text-align: right;
+		margin-bottom: 0;
+	}
+}
+.content-header {
+	position: relative;
+	z-index: 1;
+	margin: 11px 0 15px;
+	background: $color_35 $url_59 repeat-x 0 0;
+	border: 1px solid $color_81;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	padding: 0 4px 0 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 6px 10px $color_98;
+	.form-buttons {
+		text-align: right;
+		margin-bottom: 0;
+		float: right;
+		margin: 0;
+		form {
+			select {
+				vertical-align: top;
+				margin-top: 4px;
+			}
+			strong {
+				display: inline-block;
+				vertical-align: top;
+				line-height: 27px;
+				margin-top: 4px;
+			}
+		}
+	}
+	.content-buttons-placeholder {
+		display: inline !important;
+	}
+	td {
+		&.form-buttons {
+			float: none;
+			vertical-align: top;
+		}
+		&.content-buttons {
+			width: 13%;
+			white-space: nowrap !important;
+			margin: 0;
+		}
+	}
+	table {
+		width: 100%;
+	}
+	h3 {
+		float: left;
+		padding: 8px 0 9px;
+		margin: 0;
+	}
+	.button-set {
+		white-space: nowrap;
+		text-align: right;
+	}
+	.content-buttons {
+		margin: 0;
+	}
+	button {
+		margin-top: 4px;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+	.head h3 {
+		float: none;
+	}
+}
+.sub-btn-set {
+	border: solid $color_87;
+	border-width: 0 1px;
+	background: $url_31 repeat;
+	padding: 3px 10px;
+	text-align: right;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+button {
+	overflow: visible;
+	width: auto;
+	padding: 0;
+	margin: 0 0 0 2px;
+	cursor: pointer;
+	background: none !important;
+	background-color: $color_173 !important;
+	border: 1px solid $color_174 !important;
+	border-left: 1px solid $color_174 !important;
+	border-bottom: 1px solid $color_175 !important;
+	span {
+		float: left;
+		min-height: 18px;
+		padding: 0 2px !important;
+		font-weight: bold!important;
+		font-size: 1em!important;
+		line-height: 2.5em!important;
+		text-align: center;
+		white-space: nowrap;
+		color: $color_51;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.disabled {
+		cursor: default;
+		span {
+			background-image: $url_162;
+			cursor: default;
+			span span {
+				background: none;
+				color: $color_84;
+				opacity: .5;
+			}
+		}
+	}
+	&:hover {
+		background: none !important;
+		background-color: $color_174 !important;
+		border: 1px solid $color_173 !important;
+		border-left: 1px solid $color_174 !important;
+		border-bottom: 1px solid $color_175 !important;
+		color: $color_70 !important;
+		span {
+			background-color: $color_174 !important;
+			color: $color_70 !important;
+		}
+	}
+	&.btn-chooser {
+		display: block;
+		margin: 0 0 10px;
+	}
+	&.icon-btn > span > span {
+		display: block;
+		overflow: hidden;
+		> span {
+			background-position: 50% 50%;
+			width: 16px;
+			padding: 0;
+			text-indent: -999em;
+		}
+	}
+	&.btn-customize span span span {
+		background: $url_135 0 50% no-repeat;
+		padding-left: 21px;
+	}
+	&.btn-preview span span span {
+		background: $url_136 0 50% no-repeat;
+		padding-left: 23px;
+	}
+	&.preview span span span {
+		background: $url_136 0 50% no-repeat;
+		padding-left: 23px;
+	}
+	&.btn-duplicate span span span {
+		background: $url_137 0 50% no-repeat;
+		padding-left: 23px;
+	}
+	&:not(.disabled):active>span {
+		position: relative;
+		bottom: -1px;
+		right: -1px;
+	}
+	&.btn-wysiwyg span span span {
+		@extend %extend_36;
+		background-image: $url_172;
+		background-position: 0 6px;
+		padding-left: 23px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.cancel_button span span span {
+		@extend %extend_36;
+		background-image: $url_163;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.ok_button span span span {
+		@extend %extend_36;
+		background-image: $url_164;
+		padding-left: 20px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.delete span span span {
+		@extend %extend_36;
+		background-image: $url_163;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.cancel span span span {
+		@extend %extend_36;
+		background-image: $url_163;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.fail span span span {
+		@extend %extend_36;
+		background-image: $url_163;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.save span span span {
+		@extend %extend_36;
+		background-image: $url_164;
+		padding-left: 20px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.add span span span {
+		@extend %extend_36;
+		background-image: $url_165;
+		padding-left: 20px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.back span span span {
+		@extend %extend_36;
+		background-image: $url_166;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.show-hide span span span {
+		@extend %extend_36;
+		background-image: $url_167;
+		padding-left: 20px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.add-image span span span {
+		@extend %extend_36;
+		background-image: $url_168;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.add-widget span span span {
+		@extend %extend_36;
+		background-image: $url_169;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.add-variable span span span {
+		@extend %extend_36;
+		background-image: $url_170;
+		background: none !important;
+		background-color: none !important;
+	}
+	&.go span span span {
+		@extend %extend_36;
+		background-image: $url_171;
+		padding-left: 16px;
+		background: none !important;
+		background-color: none !important;
+	}
+}
+.buttons-set {
+	margin: 0 0 10px;
+	button {
+		margin-right: 5px;
+	}
+}
+.switcher {
+	margin: 10px 0;
+	label {
+		color: $color_90;
+		display: inline;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+	select {
+		display: inline-block;
+		color: $color_56;
+		border: 1px solid $color_91;
+		margin: 5px 0;
+		vertical-align: middle;
+		padding: 0;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		option {
+			padding: 0 2px;
+		}
+	}
+	p {
+		margin: 0 !important;
+	}
+}
+.side-col {
+	.switcher {
+		margin: 0 0 10px;
+		padding: 6px 0;
+		select {
+			width: 100%;
+			margin: 5px 0;
+		}
+	}
+	h3 {
+		font-size: 27px/1.05;
+		margin: 0 0 .6em;
+		color: $color_15;
+		word-wrap: break-word;
+	}
+	.content-header {
+		border-bottom: 0;
+		margin-right: 12px;
+		margin-bottom: .6em;
+	}
+}
+.catalog-categories {
+	.side-col {
+		padding-right: 25px;
+		width: 240px;
+		.switcher {
+			margin-right: 0;
+			margin-bottom: 15px;
+		}
+		.content-header {
+			margin-right: 0;
+		}
+	}
+	.main-col {
+		padding-left: 25px;
+		margin-left: 25em;
+	}
+}
+.link-store-scope {
+	display: inline-block;
+	vertical-align: middle;
+	width: 17px;
+	height: 16px;
+	background: $url_47 0 0 no-repeat;
+	text-decoration: none !important;
+	text-indent: -999em;
+	overflow: hidden;
+}
+.store-scope {
+	.link-store-scope {
+		float: left;
+		margin-right: 10px;
+	}
+	.tree-store-scope {
+		float: left;
+		padding: 7px 10px;
+		border: 1px dotted $color_81;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+	table.stores-tree {
+		float: left;
+		width: auto !important;
+	}
+}
+.box-left {
+	width: 48.5%;
+	float: left;
+	.content {
+		padding: 6px 14px;
+	}
+	.field-row textarea {
+		width: 97% !important;
+	}
+}
+.box-right {
+	width: 48.5%;
+	float: right;
+	.content {
+		padding: 6px 14px;
+	}
+}
+.separator {
+	@extend %extend_17;
+}
+.pipe {
+	@extend %extend_17;
+}
+.divider {
+	display: block;
+	height: 1px;
+	margin: 8px 0;
+	background: $color_87;
+	overflow: hidden;
+}
+td {
+	&.divider {
+		font-size: 1px;
+		line-height: 0;
+	}
+	&.input-price {
+		white-space: nowrap;
+		.validation-advice {
+			white-space: normal;
+		}
+		input.input-text {
+			width: 4em !important;
+		}
+	}
+	&.label label.enabled {
+		background: $url_119 no-repeat 100% 4px;
+		min-height: 20px;
+		margin-right: -20px;
+		padding-right: 20px;
+	}
+}
+.scroll-cont {
+	position: absolute;
+	top: -25px;
+	left: 503px;
+	width: 16px;
+	height: 265px;
+	background: transparent $url_48 no-repeat top;
+	z-index: 10000;
+}
+.auto-scroll {
+	overflow: auto;
+	height: 11em;
+}
+.root {
+	position: relative;
+	height: 260px;
+	margin: 0;
+	width: 1px;
+}
+.thumb {
+	position: absolute;
+	height: 40px;
+	width: 16px;
+	margin-top: -28px;
+	z-index: 11000;
+	a {
+		border: 0;
+		img {
+			border: 0;
+		}
+	}
+}
+.up {
+	margin-top: 254px;
+	height: 16px;
+	a {
+		border: 0;
+		img {
+			border: 0;
+		}
+		&:active {
+			outline: none;
+		}
+	}
+}
+.dn {
+	margin-top: 0;
+	padding: 0;
+	height: 15px;
+	a {
+		border: 0;
+		img {
+			border: 0;
+		}
+		&:active {
+			outline: none;
+		}
+	}
+}
+.scrollContainer {
+	position: absolute;
+	left: 0;
+	top: 19px;
+	clip: rect(0 467px 200px 0);
+	overflow: auto;
+	border: 0;
+}
+.scrollContent {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.note-list {
+	width: 100%;
+	overflow: hidden;
+	li {
+		border-top: 1px solid $color_21;
+		margin-top: 9px !important;
+		background: $url_49 no-repeat 0 4px;
+		padding-bottom: 9px;
+		padding-left: 18px;
+	}
+}
+body {
+	background-color: $color_9;
+	font-family: $font_0, $font_1;
+	font-size: 1em;
+	background-position: top center;
+}
+.wrapper {
+	min-width: 960px;
+	text-align: left;
+	&:after {
+		@extend %extend_35;
+	}
+}
+.wrapper-popup {
+	min-width: 750px;
+}
+.middle {
+	min-height: 450px;
+	padding: 11px 11px 20px 11px;
+	&:after {
+		@extend %extend_35;
+	}
+}
+.middle-popup {
+	border-bottom: 3px solid $color_9;
+	padding: 0;
+}
+.container-collapsed {
+	padding: 0 2.2em 1.8em 2em;
+}
+html[lang="de"] {
+	div {
+		&.side-col {
+			width: 250px;
+			margin-right: -250px;
+		}
+		&.main-col {
+			margin-left: 250px;
+		}
+	}
+	.side-col h3 {
+		font-size: 24px;
+	}
+}
+html[lang="fr"] {
+	div {
+		&.side-col {
+			width: 250px;
+			margin-right: -250px;
+		}
+		&.main-col {
+			margin-left: 250px;
+		}
+	}
+	.login-container .form-button {
+		background-image: $url_91;
+	}
+}
+.simple-container-popup {
+	min-height: 50px !important;
+	padding: 1.8em 2.3em 6em 2.3em;
+	background: $url_53 repeat-x;
+}
+.page-popup {
+	background: $color_9;
+}
+.header-container {
+	background: $color_66;
+}
+.header {
+	.clear {
+		display: none;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.logo {
+	float: left;
+	height: 47px;
+	margin: 9px 0 0 25px;
+}
+.header-top {
+	display: inline;
+}
+.header-right {
+	padding: 10px 20px 0 0;
+	color: $color_23;
+	float: right;
+	position: relative;
+	z-index: 2;
+	a {
+		color: $color_51;
+		&:hover {
+			color: $color_51;
+			text-decoration: none;
+		}
+	}
+	.separator {
+		color: $color_84;
+	}
+	.link-account {
+		color: $color_23;
+	}
+	.link-support {
+		color: $color_23;
+		padding: 0 0 3px 17px;
+		background: $url_55 0 50% no-repeat;
+	}
+	.link-suggest {
+		color: $color_23;
+	}
+	fieldset {
+		width: 206px;
+		padding: 6px 0 6px 30px;
+		height: 15px;
+		background: $url_56 no-repeat 0 0;
+		position: relative;
+		top: 50px;
+		input.input-text {
+			width: 200px;
+			float: left;
+			border: 0;
+			padding: 0;
+			margin: 0;
+			background: none;
+			color: $color_84;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+	}
+	.super {
+		position: absolute;
+		z-index: 1;
+		white-space: nowrap;
+		right: 20px;
+		top: 5px;
+		line-height: 1.2;
+		font-size: 1em;
+		font-family: $font_0, $font_1;
+	}
+	.autocomplete-indicator {
+		display: inline-block;
+		position: absolute;
+		left: 8px;
+		width: 16px;
+		height: 16px;
+		overflow: hidden;
+		background: $color_9;
+		img {
+			display: block;
+		}
+	}
+}
+.footer {
+	clear: both;
+	font-size: 11px;
+	margin: 10px 8px 15px;
+	padding: 0 19px 0 0;
+	background: $url_57 no-repeat 100% 0;
+	.footer-inner {
+		padding: 13px 0 0 19px;
+		background: $url_57 no-repeat 0 0;
+	}
+	.footer-select {
+		float: right;
+		text-align: right;
+		color: $color_95;
+		width: 35%;
+	}
+	.legality {
+		float: left;
+		width: 30%;
+		color: $color_95;
+		.copyright {
+			color: $color_1;
+			padding-left: 28px;
+			margin-bottom: 7px;
+			line-height: 22px;
+			display: block;
+			background: $url_58 no-repeat 0 0;
+		}
+		p {
+			margin: 0;
+			padding-left: 28px;
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.footer-links {
+		margin: 0 35% 0 30%;
+		padding-top: 5px;
+		li {
+			margin-bottom: 7px;
+			line-height: 1.2;
+			a {
+				margin-bottom: 7px;
+				line-height: 1.2;
+				color: $color_97;
+			}
+		}
+	}
+	&:after {
+		@extend %extend_35;
+	}
+	.language-select select {
+		width: 300px !important;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		border: 1px solid $color_96;
+		padding: 0;
+	}
+}
+.order-summary {
+	.side-col {
+		padding-right: 25px;
+	}
+	.main-col {
+		padding-left: 25px;
+	}
+}
+h3 {
+	color: $color_1;
+}
+.left-col-block {
+	width: 200px;
+}
+.content-header-floating {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background: $url_60 repeat-x 0 100%;
+	.content-header {
+		margin: 0 !important;
+		background: none;
+		padding: 2px 0 16px 24px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 0;
+		border: 0;
+		h3 {
+			font-size: 17px;
+			font-weight: normal;
+			color: $color_9;
+		}
+	}
+	td {
+		padding-right: 13px;
+	}
+	button {
+		margin-top: 3px;
+	}
+	.content-buttons {
+		float: right;
+	}
+	.form-buttons {
+		padding-right: 20px;
+	}
+	h3 {
+		margin-left: 20px;
+		display: inline;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.box-head {
+	margin-bottom: .6em;
+	text-align: right;
+	h4 {
+		float: left;
+		margin-bottom: 0;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.icon-head {
+	min-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	padding-left: 22px !important;
+	&:before {
+		display: inline-block;
+		font-family: $font_2;
+		text-rendering: auto;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(0, 0);
+		float: left;
+		margin-right: 5px;
+		font-size: 1.75em;
+		font-weight: 100;
+	}
+}
+.head-adminhtml {
+	padding-left: 0;
+}
+.head-customer-address-list {
+	background-image: $url_61;
+}
+.head-customer-view {
+	background-image: $url_62;
+	padding-left: 18px;
+}
+.head-categories {
+	padding-left: 20px;
+	color: $color_99 !important;
+	&:before {
+		content: "\f02c";
+	}
+}
+.head-user {
+	background-image: $url_63;
+}
+.head-user-edit {
+	background-image: $url_64;
+}
+.head-user-comment {
+	background-image: $url_65;
+}
+.head-comment {
+	background-image: $url_66;
+}
+.head-cart {
+	background-image: $url_67;
+}
+.head-account {
+	background-image: $url_68;
+}
+.head-catalog-product {
+	background-image: $url_69;
+}
+.head-newsletter-queue {
+	background-image: $url_70;
+}
+.head-newsletter-list {
+	background-image: $url_71;
+}
+.head-newsletter-report {
+	background-image: $url_72;
+}
+.head-tag {
+	background-image: $url_73;
+}
+.head-tag-product {
+	background-image: $url_73;
+}
+.head-sales-order {
+	background-image: $url_74;
+}
+.head-sales-invoice {
+	background-image: $url_74;
+}
+.head-tax {
+	background-image: $url_77;
+}
+.head-cms-page {
+	background-image: $url_78;
+}
+.head-cms-block {
+	background-image: $url_78;
+}
+.head-backups-control {
+	background-image: $url_79;
+}
+.head-money {
+	background-image: $url_80;
+}
+.head-promo-quote {
+	background-image: $url_80;
+}
+.head-shipping-address {
+	background-image: $url_61;
+}
+.head-billing-address {
+	background-image: $url_61;
+}
+.head-shipping-method {
+	background-image: $url_81;
+}
+.head-payment-method {
+	background-image: $url_82;
+}
+.head-order-date {
+	background-image: $url_83;
+}
+.head-customer-sales-statistics {
+	background-image: $url_80;
+}
+.head-notification {
+	background-image: $url_74;
+}
+.head-compilation {
+	background-image: $url_84;
+}
+.categories-side-col {
+	.content-header {
+		padding: 0;
+		h3 {
+			float: none;
+		}
+		button {
+			margin: 5px 0 0;
+		}
+	}
+	.switcher {
+		margin: 10px 20px 0 0;
+	}
+	.tree-actions {
+		text-align: center;
+		margin: 10px 20px 10px 0;
+	}
+	.tree-holder {
+		margin-right: 20px;
+	}
+	.icon-head.head-categories {
+		display: none;
+	}
+}
+#page-login {
+	background: scroll $color_100 $url_85 50% 0 no-repeat;
+	background-position: center top;
+}
+.login-box {
+	width: 704px;
+	margin: 0 auto;
+	padding: 130px 0 0;
+	.button-set:after {
+		@extend %extend_35;
+	}
+}
+.login-form {
+	padding: 0 0 20px;
+	text-align: left;
+	background: $url_86 0 0 no-repeat;
+	.input-box {
+		padding: 0 0 0 72px;
+		br {
+			display: none;
+		}
+	}
+	.input-left {
+		float: left;
+	}
+	.input-right {
+		float: right;
+		padding: 0 72px 0 0;
+	}
+	input {
+		&.input-text {
+			width: 255px;
+			background: transparent $url_87 no-repeat 0 0;
+			border: 0;
+			padding: 8px 10px 9px;
+			font-size: 16px;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+		&.validation-failed {
+			background-position: 0 -47px;
+		}
+	}
+	h2 {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 1.1;
+		color: $color_101;
+		margin: 0 0 40px;
+		background: $url_88 no-repeat 33px 19px;
+		padding: 38px 0 20px 239px;
+	}
+	label {
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 1.1;
+		color: $color_102;
+		display: block;
+		padding: 0 0 5px 5px;
+	}
+	.form-buttons {
+		margin: 12px 0 0;
+		padding: 0 72px;
+		clear: both;
+		text-align: right;
+		.left {
+			font-size: 13px;
+			line-height: 34px;
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.validation-advice {
+		margin: 3px 0 0;
+	}
+	.forgot-link {
+		margin: 0 17px 0 0;
+		text-align: right;
+	}
+}
+.login-container {
+	a {
+		color: $color_103;
+		text-decoration: none;
+		&:hover {
+			color: $color_103;
+			text-decoration: underline;
+		}
+	}
+	.login-support {
+		margin: 0;
+		text-align: center;
+		padding: 10px 0 30px;
+		color: $color_102;
+		font-size: 11px;
+		background: $url_86 0 100% no-repeat;
+	}
+	.legal {
+		margin: 0;
+		text-align: center;
+		padding: 10px 0 0;
+		color: $color_104;
+		font-size: 11px;
+	}
+	.block-billing {
+		margin: 0;
+		background: $url_86 0 50% no-repeat;
+		padding: 10px 0;
+		span {
+			display: block;
+			border: solid $color_105;
+			border-width: 1px 0;
+			margin: 0 32px;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 1.1;
+			padding: 20px 40px;
+			text-align: left;
+			color: $color_102;
+		}
+	}
+	.form-button {
+		width: 95px;
+		height: 34px;
+		text-align: left;
+		font-size: 0;
+		line-height: 0;
+		text-indent: -999em;
+		overflow: hidden;
+		cursor: pointer;
+		padding: 0;
+		background: transparent $url_90 no-repeat 0 0;
+		border: 0;
+	}
+	.messages {
+		margin: -15px 72px 30px;
+	}
+	input.forgot-password {
+		width: 560px !important;
+		background-position: 0 -98px;
+		padding: 8px 10px 9px;
+		&.validation-failed {
+			background-position: 0 -145px;
+		}
+	}
+	button.btn-login {
+		padding: 0;
+		margin: 0;
+		background: none;
+		border: 0;
+		span {
+			height: 34px;
+			margin: 0 34px 0 10px;
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 34px;
+			text-transform: uppercase;
+			color: $color_9;
+			cursor: pointer;
+			text-align: center;
+			background: transparent $url_89 repeat-x 0 -35px;
+			position: relative;
+			border: 0;
+			display: block;
+			//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			text-shadow: 0 -2px 1px $color_106;
+			&:before {
+				@extend %extend_18;
+				width: 15px;
+				left: -15px;
+			}
+			&:after {
+				@extend %extend_18;
+				width: 34px;
+				right: -34px;
+				background-position: -16px 0;
+			}
+		}
+	}
+}
+.dashboard-container {
+	border: 1px solid $color_55;
+	.switcher {
+		margin: 0;
+		padding: 5px 25px;
+	}
+}
+.price {
+	white-space: nowrap !important;
+}
+.price-incl-tax {
+	display: block;
+	.label {
+		display: block;
+		white-space: nowrap;
+	}
+	.price {
+		font-weight: bold;
+	}
+}
+.price-excl-tax {
+	display: block;
+	.label {
+		display: block;
+		white-space: nowrap;
+	}
+	.price {
+		font-weight: bold;
+	}
+}
+.page-create-order {
+	.side-col {
+		width: 260px;
+		background: none;
+		padding: 0;
+	}
+	.main-col {
+		padding-left: 28px;
+	}
+	.switcher {
+		margin-bottom: 25px;
+	}
+}
+.create-order-sidebar-container {
+	border: 1px solid $color_107;
+	background: $color_46;
+}
+.create-order-sidebar-block {
+	.content {
+		margin: 0 !important;
+		padding: 4px 6px;
+		table td {
+			padding: 0 3px 0 0;
+		}
+	}
+	.head {
+		border-top: 1px solid $color_87;
+		background: $color_64;
+		padding: 2px 6px 1px;
+		font-size: .9em;
+		text-align: right;
+		h5 {
+			float: left;
+			margin: 0;
+			color: $color_108;
+			text-align: left;
+		}
+	}
+	select {
+		width: 170px;
+	}
+	ul {
+		margin-left: 20px;
+	}
+	table th {
+		padding: 0 3px 0 0;
+	}
+}
+.order-choose-address {
+	margin: 0 0 10px 0;
+	padding: 8px 15px;
+	background: $color_109;
+}
+.order-save-in-address-book {
+	margin: 0;
+	padding: 8px 15px;
+	background: $color_109;
+}
+.product-configure-popup {
+	background: $color_82;
+	border: 1px solid $color_110;
+	left: 50%;
+	margin: -200px 0 0 -450px;
+	position: fixed;
+	top: 50%;
+	width: 900px;
+	z-index: 1000;
+	.validation-advice {
+		margin-left: 0;
+	}
+	.content {
+		max-height: 400px;
+		overflow: auto;
+		background: $color_9;
+		margin: 12px !important;
+		border: 1px solid $color_107;
+		.grid {
+			padding: 0;
+			table {
+				border-bottom: 1px solid $color_16;
+			}
+		}
+	}
+	.product-options {
+		border-bottom: 1px solid $color_112;
+		margin: 0 0 15px;
+		padding: 0 0 12px;
+		.required {
+			color: $color_56 !important;
+			font-weight: normal !important;
+			em {
+				color: $color_72;
+				margin: 0 5px 0 -3px;
+			}
+		}
+	}
+	.buttons-set {
+		margin: 0;
+		padding: 10px 12px;
+		button {
+			margin: 0 0 0 5px;
+		}
+	}
+	> form > .entry-edit > .entry-edit-head {
+		padding: 3px 5px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		border-width: 0 0 1px;
+		border-color: $color_9;
+		color: $color_9;
+		background: $url_4 repeat-x 0 0 $color_111;
+		.icon-head {
+			color: $color_9;
+			padding-left: 10px!important;
+		}
+	}
+	.last-fieldset .product-options {
+		border: 0 none;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+#product_composite_configure_messages {
+	margin-left: 0 !important;
+	padding: 10px 15px;
+}
+.backup-dialog {
+	background: $color_82;
+	border: 1px solid $color_110;
+	left: 50%;
+	margin: -200px 0 0 -235px;
+	position: fixed;
+	top: 50%;
+	width: 470px;
+	z-index: 1000;
+	.content {
+		background: $color_9;
+		border-bottom: 1px solid $color_55;
+		max-height: 400px;
+		overflow: auto;
+	}
+	.question {
+		margin-top: 15px;
+	}
+	.buttons-set {
+		border-top: 1px solid $color_87;
+		background: $color_40;
+		margin: 0;
+		overflow: hidden;
+		padding: 7px 10px 8px;
+		width: 448px;
+		button {
+			margin: 0 0 0 5px;
+		}
+	}
+	#ftp-credentials-container {
+		margin-top: 25px;
+		fieldset {
+			margin-bottom: 0;
+		}
+	}
+	.password-box-container {
+		margin-top: 15px;
+	}
+	input[type=text] {
+		width: 180px;
+	}
+	input[type=password] {
+		width: 180px;
+	}
+	.exclude-media-checkbox-container {
+		margin-top: 15px;
+	}
+	> .entry-edit > .entry-edit-head {
+		padding: 3px 5px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		border-width: 0 0 1px;
+		border-color: $color_9;
+		color: $color_9;
+		background: $url_4 repeat-x 0 0 $color_111;
+		h4 {
+			padding-left: 10px;
+		}
+		.head-edit-form {
+			background-image: none;
+			color: $color_93;
+		}
+		.icon-head {
+			color: $color_9;
+			padding-left: 10px!important;
+		}
+	}
+	td.maintenance-checkbox-container {
+		margin-top: 0;
+		padding-top: 4px;
+	}
+}
+.giftcard-form {
+	.availability {
+		font-weight: bold;
+		margin-bottom: 1em;
+	}
+	.in-stock {
+		color: $color_113;
+	}
+	.out-of-stock {
+		color: $color_114;
+	}
+	.price-box {
+		margin: 1em 0;
+	}
+	label {
+		float: left;
+		width: 25%;
+		padding-top: 5px;
+		text-align: right;
+		em {
+			display: none;
+		}
+		&.required:after {
+			content: '*';
+			color: $color_72;
+		}
+	}
+	.input-box {
+		float: right;
+		width: 72%;
+		p.notice {
+			float: left;
+			font-size: 11px;
+			margin: -4px 0 -5px;
+			span {
+				display: block;
+				padding-left: 10px;
+			}
+		}
+	}
+	.field {
+		margin-bottom: 10px;
+		width: 50%;
+		float: left;
+	}
+	.v-fix {
+		float: left;
+		.validation-advice {
+			margin-right: -100px;
+		}
+	}
+}
+.giftcard-send-form {
+	.field .input-text {
+		width: 80%;
+	}
+	.form-list textarea {
+		height: 100px;
+	}
+}
+.product-options {
+	margin: 10px 0 0;
+	dt {
+		label {
+			font-weight: bold;
+			font-size: 12px;
+		}
+		.qty-holder {
+			float: right;
+			label {
+				vertical-align: middle;
+			}
+		}
+		.qty-disabled {
+			background: none;
+			border: 0;
+			padding: 3px;
+			color: $color_1;
+		}
+	}
+	dd {
+		margin: 5px 0 15px;
+		padding: 0 0 12px;
+		border-bottom: 1px solid $color_112;
+		&.last {
+			border-bottom: 0;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.input-box {
+			display: block;
+		}
+		input {
+			&.input-text {
+				width: 98%;
+			}
+			&.datetime-picker {
+				width: 150px;
+			}
+		}
+		.time-picker {
+			display: inline-block;
+			padding: 2px 0;
+			vertical-align: middle;
+			select {
+				vertical-align: middle;
+			}
+		}
+		textarea {
+			width: 98%;
+			height: 8em;
+		}
+		select {
+			width: 100%;
+		}
+	}
+	.options-list {
+		li {
+			vertical-align: middle;
+			margin: 0;
+			padding: 2px 0;
+			line-height: 1.315;
+		}
+		input {
+			&.radio {
+				float: left;
+				margin: 2px -18px 0 0;
+			}
+			&.checkbox {
+				float: left;
+				margin: 2px -20px 0 0;
+			}
+		}
+		.label {
+			display: block;
+			margin-left: 20px;
+		}
+	}
+	li {
+		margin: 3px 0;
+	}
+}
+.order-totals {
+	margin-left: auto;
+	border: 1px solid $color_115 !important;
+	padding: 12px 0;
+	background: $color_116;
+	text-align: right;
+	table {
+		border: none;
+		background: none;
+		margin-left: auto;
+		td {
+			padding: 3px 20px 3px 10px;
+			&.label {
+				white-space: normal;
+				padding: 3px 10px 3px 20px;
+			}
+			&.last {
+				padding: 2px 6px;
+			}
+		}
+		.validation-advice {
+			text-align: right;
+			white-space: nowrap;
+			background-position: 100% 1px;
+			padding-right: 14px;
+			padding-left: 0;
+		}
+	}
+}
+.order-totals-bottom {
+	padding: 0 20px;
+}
+.grand-total {
+	@extend %extend_19;
+}
+.grand_total {
+	@extend %extend_19;
+}
+.summary-total {
+	cursor: pointer;
+	td {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+	.summary-collapse {
+		float: right;
+		padding-left: 20px;
+		background: $url_93 0 4px no-repeat;
+		text-align: right;
+		cursor: pointer;
+	}
+}
+.show-details {
+	.summary-collapse {
+		background-position: 0 -52px;
+	}
+	td {
+		border-top: 1px solid $color_118;
+	}
+}
+.payment-methods {
+	dt {
+		margin-bottom: 3px;
+	}
+	dd {
+		margin-left: 20px;
+	}
+	.validation-advice {
+		margin-left: 2px;
+	}
+}
+.cards-list {
+	dt {
+		font-weight: bold;
+		margin: 5px 0 0;
+	}
+	dd {
+		margin-left: 0;
+	}
+	.offset {
+		padding: 2px 0 2px 20px;
+	}
+	.info-table {
+		th {
+			text-align: left;
+			vertical-align: top;
+			font-weight: bold;
+			padding: 2px 7px 2px 0;
+		}
+		td {
+			text-align: left;
+			vertical-align: top;
+			padding: 2px 0;
+		}
+	}
+}
+.release-amounts {
+	margin: 0.5em 0;
+}
+.pbridge-reload {
+	display: block;
+	text-align: right;
+}
+.giftmessage-order-create {
+	.entire-order {
+		@extend %extend_20;
+		.entry-edit {
+			height: 250px;
+			overflow: auto;
+		}
+	}
+	.each-order-item {
+		@extend %extend_20;
+		.scroll {
+			height: 250px;
+			overflow: auto;
+		}
+	}
+	.single {
+		width: 100%;
+		float: left;
+		padding: 1.2em 1.5em;
+	}
+	h5 {
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 1.5;
+		margin-bottom: 10px;
+	}
+	h6 {
+		font-size: 11px;
+		font-weight: normal;
+		line-height: 1.55;
+		background-color: $color_120;
+		margin-bottom: 10px;
+		padding: 2px 6px;
+		width: 95%;
+	}
+	.fieldset {
+		padding: 0;
+	}
+	.form-list {
+		width: 100%;
+		td {
+			&.value {
+				textarea {
+					width: 95%;
+				}
+				input.input-text {
+					width: 95%;
+				}
+			}
+			&.label label {
+				width: 100px;
+			}
+		}
+	}
+}
+.giftmessage-single-item {
+	padding: 0 !important;
+	.item-container {
+		cursor: auto;
+	}
+	.item-text {
+		padding: 2px 4px;
+	}
+	.gift-form {
+		margin-top: 3px;
+		background: $color_121 $url_94 0 0 repeat-x;
+		.entry-edit {
+			fieldset {
+				border: none !important;
+				margin-bottom: 0;
+				background: none !important;
+				padding: 15px;
+				.last {
+					margin-bottom: 0;
+				}
+			}
+			textarea {
+				width: 96% !important;
+			}
+			input.input-text {
+				width: 75% !important;
+			}
+		}
+	}
+	.action-link {
+		padding-right: 10px;
+		background: $url_95 100% 50% no-repeat;
+		cursor: pointer;
+	}
+	.open {
+		background: $url_96 100% 50% no-repeat;
+	}
+}
+#popup-window-mask {
+	@extend %extend_21;
+}
+.popup-window-mask {
+	@extend %extend_21;
+}
+.packaging-window {
+	@extend %extend_22;
+	.entry-edit-head {
+		padding: 3px 5px;
+		margin-bottom: 0;
+		button {
+			float: right;
+		}
+	}
+	.messages {
+		border: 1px solid $color_122;
+		color: $color_123;
+		background: $color_37 $url_105 no-repeat 10px 10px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding: 10px 10px 10px 35px;
+	}
+	.validation-failed {
+		background: $color_77;
+		border: 1px dashed $color_78;
+	}
+	.packaging-content {
+		@extend %extend_24;
+	}
+	.package-block {
+		background: $color_124;
+		border: 2px solid $color_125;
+		margin: 0 0 20px;
+		padding: 10px;
+	}
+	.package-options {
+		width: 100%;
+		border-top: 1px solid $color_55;
+		padding: 10px 0 0;
+		margin: 3px 0 0;
+		td {
+			vertical-align: middle;
+		}
+		select {
+			width: 130px;
+			padding: 0;
+			@extend %extend_25;
+			&.disabled {
+				background: $color_40;
+			}
+		}
+		textarea {
+			@extend %extend_25;
+		}
+		.input-text {
+			width: 50px;
+		}
+		.customs-value {
+			width: 80px;
+		}
+		.options-weight {
+			width: 75px;
+		}
+		.options-units-weight {
+			width: 45px;
+		}
+		.options-units-dimensions {
+			width: 45px;
+		}
+		.options-content-type {
+			width: 120px;
+		}
+		input.input-text {
+			@extend %extend_25;
+		}
+		input[type=text].disabled {
+			background: $color_40;
+		}
+	}
+	.package_prapare {
+	}
+	.package-options-contents {
+		border-top: 0;
+	}
+	.package-add-products {
+		margin: 10px 0 0;
+		.grid {
+			padding: 0;
+			margin: 0;
+			button {
+				vertical-align: middle;
+			}
+		}
+	}
+	.package-number {
+		font-weight: bold;
+		span {
+			margin-left: 5px;
+		}
+	}
+	.buttons-set {
+		padding: 0 10px;
+	}
+	> .entry-edit > .entry-edit-head {
+		@extend %extend_23;
+		h4.icon-head {
+			color: $color_9;
+			padding-left: 10px!important;
+		}
+	}
+}
+.packed-window {
+	@extend %extend_22;
+	.entry-edit-head {
+		padding: 3px 5px;
+		margin-bottom: 0;
+	}
+	.packed-content {
+		@extend %extend_24;
+	}
+	.package {
+		background: $color_124;
+		border: 7px solid $color_100;
+		margin-bottom: 10px;
+		padding: 10px;
+		h4 {
+			background: $color_124;
+			border: solid $color_55;
+			border-width: 0 0 1px 1px;
+			float: right;
+			color: $color_126;
+			font-size: 12px;
+			margin: -10px -10px 0 0;
+			padding: 5px 10px;
+			position: relative;
+			z-index: 100;
+		}
+		strong {
+			display: block;
+			padding: 0 0 3px;
+		}
+		.grid {
+			padding: 0;
+		}
+	}
+	.package-info {
+		background: $color_20;
+		border-bottom: 1px solid $color_55;
+		margin: -10px -10px 10px;
+		padding: 5px 10px;
+		position: relative;
+	}
+	.package-options {
+		width: 60%;
+		td {
+			padding: 1px 0;
+		}
+		th {
+			padding: 1px 0;
+		}
+	}
+	.buttons-set {
+		padding: 5px 10px;
+	}
+	> .entry-edit > .entry-edit-head {
+		@extend %extend_23;
+		h4.icon-head {
+			color: $color_9;
+			padding-left: 10px!important;
+		}
+	}
+}
+.order-comment {
+	width: 96%;
+	height: 8em;
+	resize: vertical;
+}
+#tree-div {
+	overflow: auto !important;
+	padding-bottom: 15px;
+	width: 200px;
+}
+.x-tree-node {
+	margin: 0 !important;
+	.leaf .x-tree-node-icon {
+		background-image: $url_106;
+	}
+	.system-leaf .x-tree-node-icon {
+		background-image: $url_107;
+	}
+}
+.x-tree-node-ct {
+	overflow: auto;
+	.x-tree-node-ct {
+		overflow: visible;
+	}
+}
+.webiste-groups {
+	padding: 10px 20px;
+}
+.group-stores {
+	padding: 2px 10px;
+}
+.bundle-option-row {
+	input {
+		&.option-label {
+			width: 50% !important;
+		}
+		&.option-position {
+			width: 70px !important;
+		}
+	}
+	table tbody td {
+		white-space: nowrap;
+		label {
+			float: left;
+		}
+	}
+}
+.tier-price-input {
+	margin-bottom: 8px;
+	input {
+		&.price {
+			width: 80px;
+			margin-right: 10px;
+		}
+		&.qty {
+			width: 80px;
+		}
+	}
+	.tier-container {
+		position: relative;
+		clear: both;
+		div {
+			float: left;
+		}
+		label {
+			width: 30px;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.validation-advice {
+		margin: 0;
+		height: 25px;
+	}
+	.qty-div {
+		padding-left: 20px;
+	}
+	.price-div {
+		padding-left: 20px;
+		.validation-advice {
+			margin: 0;
+		}
+	}
+	.custgroup-div select {
+		width: auto;
+		padding: 0;
+	}
+}
+.btn-remove-tier-group {
+	float: right;
+	right: 24px;
+	top: 5px;
+}
+.image-preview {
+	position: absolute;
+	cursor: pointer;
+}
+.edit-attribute-set {
+	.form-list td {
+		&.label {
+			width: 105px;
+			label {
+				width: 105px;
+			}
+		}
+		&.value .input-text {
+			width: 160px;
+		}
+	}
+	.entry-edit fieldset input.input-text {
+		width: 200px;
+	}
+}
+.ratings {
+	margin: 0;
+}
+.rating-box {
+	float: left;
+	position: relative;
+	width: 69px;
+	height: 16px;
+	margin: 0 5px 3px 0;
+	background: $url_108 repeat-x;
+	.rating {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 16px;
+		background: $url_109 repeat-x;
+	}
+}
+.product-review-box {
+	width: 450px;
+	table {
+		width: 100%;
+	}
+	td {
+		text-align: center;
+		padding-right: 5px;
+		&.label {
+			width: 100px;
+			text-align: left;
+		}
+	}
+	th {
+		text-align: center;
+		padding-right: 5px;
+	}
+}
+.rule-tree {
+	ul {
+		padding-left: 16px !important;
+		border-left: dotted 1px $color_86;
+	}
+	.rule-param-children {
+		dl {
+			float: left;
+			width: 32%;
+			margin: 4px 0 15px 7px;
+		}
+		dt {
+			font-weight: bold;
+			margin: 0 0 5px;
+			a {
+				color: $color_80;
+				text-decoration: underline;
+				cursor: pointer;
+				&:hover {
+					color: $color_80;
+					text-decoration: none;
+				}
+			}
+		}
+		dd {
+			margin: 3px 0;
+			li {
+				margin: 2px 0;
+			}
+			a {
+				text-decoration: underline;
+				cursor: pointer;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.x-tree ul {
+		padding-left: 0 !important;
+		border-left: none !important;
+	}
+}
+.rule-param {
+	.label {
+		font-weight: bold;
+		color: $color_127;
+		&:hover {
+			font-weight: bold;
+			color: $color_128;
+		}
+	}
+	.element {
+		display: none;
+	}
+	input {
+		width: auto !important;
+		min-width: 170px;
+	}
+	select {
+		width: auto !important;
+		min-width: 170px;
+		&.multiselect {
+			vertical-align: top;
+		}
+	}
+}
+.rule-param-edit {
+	.label {
+		display: none;
+	}
+	.element {
+		display: inline;
+	}
+}
+.rule-param-add {
+	font-weight: normal;
+	color: $color_129;
+	text-decoration: none;
+	&:hover {
+		font-weight: normal;
+		color: $color_128;
+		text-decoration: none;
+	}
+}
+.rule-param-apply {
+	font-weight: normal;
+	color: $color_129;
+	text-decoration: none;
+	&:hover {
+		font-weight: normal;
+		color: $color_128;
+		text-decoration: none;
+	}
+}
+.rule-param-remove {
+	font-weight: normal;
+	color: $color_130;
+	text-decoration: none;
+	&:hover {
+		font-weight: normal;
+		color: $color_128;
+		text-decoration: none;
+	}
+}
+.rule-chooser {
+	border: solid 1px $color_55;
+	margin: 5px;
+	padding: 5px;
+	display: none;
+}
+.rule-param-wait {
+	padding-left: 20px;
+	background-image: $url_110;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+.custom-options {
+	.box {
+		padding: 1px 1.5em;
+	}
+	.option-box {
+		border: 1px solid $color_125;
+		padding: 1em;
+		background: $color_109;
+		margin: 1.5em 0;
+		.border {
+			width: 615px;
+			input {
+				&.input-text {
+					width: 90% !important;
+				}
+				&.type-sku {
+					width: 150px !important;
+				}
+			}
+			select.select {
+				width: 90% !important;
+			}
+			.type-last input.input-text {
+				width: 60px !important;
+			}
+		}
+	}
+	.option-header {
+		border: 0;
+		width: 100%;
+		background: $color_109;
+		border-bottom: 1em solid $color_109;
+		.input-text {
+			width: 95%;
+		}
+		.select {
+			width: 95%;
+		}
+		th {
+			padding: 2px;
+			line-height: 28px;
+		}
+		td {
+			padding: 5px 2px;
+		}
+	}
+	.opt-title {
+		width: 175px;
+	}
+	.opt-type {
+		width: 150px;
+	}
+	.opt-req {
+		width: 80px;
+	}
+	.opt-order {
+		width: 70px;
+	}
+	th {
+		white-space: nowrap;
+	}
+	.type-title {
+		width: auto;
+	}
+	.type-price {
+		width: 60px;
+	}
+	.type-type {
+		width: 80px;
+	}
+	.type-uqty {
+		width: 100px;
+	}
+	.type-sku {
+		width: 150px;
+	}
+	.type-order {
+		width: 60px;
+	}
+	.type-butt {
+		width: 33px;
+	}
+	.type-last {
+		width: auto;
+	}
+	.giftregistry-custom-attributes {
+		overflow: hidden;
+		width: 100%;
+		.option-header {
+			border-bottom: none;
+			float: left;
+			margin-right: 10px;
+			width: auto;
+		}
+		.grid {
+			clear: left;
+			padding: 1em 0 0;
+		}
+	}
+}
+.bundle {
+	.option-box {
+		padding-bottom: 2em;
+		.border {
+			width: 100%;
+			border-bottom: 0;
+			td {
+				border-bottom: 1px solid $color_131 !important;
+			}
+		}
+	}
+	.option-title {
+		padding: 0 0 10px;
+		border-bottom: 1px solid $color_125;
+		button {
+			float: right;
+		}
+		label {
+			font-weight: bold;
+			line-height: 21px;
+			padding-right: 1em;
+			float: left;
+		}
+		.input-text {
+			float: left;
+			width: 260px;
+			vertical-align: middle;
+		}
+	}
+	.option-header {
+		clear: both;
+		margin-top: 5px;
+	}
+	.border .last {
+		width: 33px;
+	}
+}
+.files {
+	width: 195px;
+	label {
+		float: left;
+		width: 55px;
+	}
+	.row {
+		margin-bottom: 5px;
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.flex {
+		float: right !important;
+		position: static !important;
+	}
+	.uploader {
+		float: left;
+		overflow: hidden;
+		width: 100px;
+		.file-row-info {
+			margin: 0 !important;
+		}
+		.file-row-narrow {
+			margin: 0 !important;
+		}
+	}
+	input.input-text {
+		float: left;
+		width: 134px !important;
+	}
+}
+.files-wide {
+	width: 355px;
+	label {
+		float: left;
+		width: 55px;
+	}
+	.row {
+		margin-bottom: 5px;
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.flex {
+		float: right !important;
+		position: static !important;
+	}
+	.uploader {
+		float: left;
+		overflow: hidden;
+		width: 260px;
+		.file-row-info {
+			margin: 0 !important;
+		}
+		.file-row-narrow {
+			margin: 0 !important;
+		}
+	}
+	input.input-text {
+		float: left;
+		width: 294px !important;
+	}
+}
+.address-list {
+	width: 28em;
+	padding-right: 22px;
+	address {
+		width: 100%;
+		overflow: hidden;
+	}
+	.btn-edit-address {
+		position: absolute;
+		top: 8px;
+		right: 8px;
+	}
+	.btn-remove-address {
+		position: absolute;
+		top: 8px;
+		right: 27px;
+	}
+	li {
+		position: relative;
+		padding: 12px 14px;
+		cursor: pointer;
+		border-top: 1px solid $color_76;
+		background: $url_111 repeat;
+		&.on {
+			background: $color_109;
+		}
+		&.over {
+			background-color: $color_18;
+		}
+		table {
+			width: 100%;
+		}
+	}
+}
+.delete-address {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+.template-preview {
+	width: 100%;
+	height: 200px;
+	background-color: $color_9;
+}
+.stores-tree {
+	td {
+		padding-top: 3px !important;
+		padding-bottom: 3px !important;
+		&.label label {
+			display: inline;
+			width: auto;
+			padding-right: 10px;
+		}
+		&.website-label label {
+			font-weight: bold;
+		}
+		&.store-group-label label {
+			font-weight: bold;
+			padding-left: 15px;
+		}
+		&.store-label label {
+			padding-left: 30px;
+		}
+	}
+	.buttons-set {
+		margin: 10px 0;
+	}
+}
+.log-details {
+	border: 1px solid $color_107;
+	padding: 15px;
+	background: $color_46;
+	margin: 0 0 15px;
+	table {
+		width: 100%;
+		th {
+			@extend %extend_27;
+			font-weight: bold;
+			padding-right: 30px;
+			white-space: nowrap;
+		}
+		td {
+			@extend %extend_27;
+		}
+	}
+}
+.inline-table {
+	border: 0 !important;
+	td {
+		border: 0 !important;
+		padding: 0 5px 5px !important;
+	}
+}
+.system-fieldset-sub-head {
+	td {
+		padding: 20px 5px 5px;
+	}
+	h4 {
+		margin: 0 0 15px;
+	}
+}
+.comment {
+	padding: 5px;
+	a {
+		color: $color_86;
+		font-size: 11px;
+		margin-left: 3px;
+	}
+}
+.paypal-payment-notice {
+	font-weight: bold;
+	margin: -10px 0 10px;
+}
+.payment-group-title {
+	border: 0;
+	padding: 10px 5px;
+	strong {
+		display: inline;
+		font-size: 13px;
+		border: 0;
+	}
+	a {
+		color: $color_86;
+		font-size: 11px;
+		margin-left: 3px;
+	}
+}
+.complex {
+	&.active {
+		margin-bottom: 30px;
+	}
+	> .config > {
+		.comment {
+			padding-left: 0;
+			padding-bottom: 15px;
+		}
+		.payment-group-title {
+			padding-left: 0;
+			padding-bottom: 15px;
+		}
+	}
+	table td {
+		&:first-child {
+			padding-left: 0!important;
+		}
+		&.use-default {
+			width: 1px;
+			white-space: nowrap;
+		}
+	}
+	tr[id] + tr.nested > td {
+		padding-top: 15px !important;
+		> div > {
+			.entry-edit-head {
+				border-top-color: $color_133;
+			}
+			.config-heading {
+				border-top-color: $color_133;
+			}
+		}
+	}
+	tr.nested + tr[id] > td {
+		padding-top: 15px !important;
+		padding-bottom: 30px !important;
+		&.use-default {
+			padding-top: 18px !important;
+		}
+		&.scope-label {
+			padding-top: 19px !important;
+		}
+	}
+	.form-list .form-list .form-list {
+		td {
+			&:first-child {
+				width: 159px;
+			}
+			&.label label {
+				width: 159px;
+			}
+		}
+		.form-list {
+			td {
+				&:first-child {
+					width: 146px;
+				}
+				&.label label {
+					width: 146px;
+				}
+			}
+			.section-config .form-list td.label {
+				width: 146px;
+				label {
+					width: 146px;
+				}
+			}
+		}
+		.config-advanced .form-list td.label {
+			width: 159px;
+			label {
+				width: 159px;
+			}
+		}
+	}
+}
+.section-config {
+	.section-config {
+		border: 1px solid $color_133;
+		margin: -1px 0 0;
+		border-top: 0;
+		> {
+			.entry-edit-head {
+				border: 0;
+				border-top: 1px solid $color_107;
+				margin: 0;
+				padding: 0 10px 0 0;
+				background: $color_83 $url_115 repeat-x 0 0;
+				//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: none;
+				> a {
+					color: $color_134;
+					font-weight: bold;
+					font-size: 12px;
+					background: $url_116 100% 13px no-repeat;
+					padding: 8px 0 7px 10px;
+					border: 0;
+					&.open {
+						background-position: 100% -188px;
+					}
+					&:hover {
+					}
+				}
+			}
+			.config {
+				border: 0;
+				border-top: 1px solid $color_107;
+				margin: 0;
+				padding: 15px 12px 20px;
+				background: $color_9;
+			}
+		}
+		&.active > .entry-edit-head > a.open {
+		}
+	}
+	.config-advanced {
+		border: 0;
+		margin: 0;
+		> {
+			.entry-edit-head {
+				background: none;
+				padding: 0;
+				border: 0;
+				a {
+					background: none;
+					padding: 0;
+					display: inline-block;
+					border-bottom: 1px dotted $color_135;
+					color: $color_135!important;
+					line-height: 1.1;
+					white-space: nowrap;
+					background: none;
+					&.open {
+						background: none;
+						&:after {
+							background-position: 0 -5px;
+						}
+					}
+					&:after {
+						content: '';
+						width: 7px;
+						height: 5px;
+						background: $url_120 no-repeat 0 0;
+						overflow: hidden;
+						display: inline-block;
+						vertical-align: middle;
+						margin-right: -13px;
+						margin-left: 5px;
+					}
+				}
+			}
+			.config {
+				border: 0;
+				padding: 15px 0 0;
+			}
+		}
+	}
+	&.complex table.form-list {
+		width: 100%!important;
+	}
+}
+.config-heading {
+	padding: 10px 10px 10px 0;
+	background: $color_35 $url_118 repeat-x 0 0;
+	border-top: 1px solid $color_107;
+	margin: 0;
+	.button-container {
+		float: right;
+		text-align: right;
+	}
+	.button {
+		padding: 0 0 0 5px !important;
+		margin: 0;
+		line-height: 0;
+		font-size: 0;
+		height: 28px;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
+		.state-closed {
+			top: 0;
+		}
+		.state-opened {
+			top: 28px;
+		}
+		&.open {
+			.state-closed {
+				top: -28px;
+			}
+			.state-opened {
+				top: -28px;
+			}
+		}
+		&:active {
+			outline: 0 !important;
+			span {
+				outline: 0 !important;
+			}
+		}
+	}
+	button {
+		&.button {
+			span {
+				font-size: 13px;
+				font-weight: bold;
+				display: block;
+				text-transform: capitalize;
+				background: transparent $url_32 100% 0 no-repeat;
+				float: none;
+				height: 27px;
+				line-height: 25px;
+				padding: 1px 10px 0 5px;
+				position: relative;
+				left: 0;
+				top: 0;
+				&:before {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 0;
+					left: -5px;
+					width: 5px;
+					height: 28px;
+					background: transparent $url_32 0 0 no-repeat;
+				}
+			}
+			&:hover span {
+				background-position: 100% -70px;
+				&:before {
+					background-position: 0 -70px;
+				}
+			}
+		}
+		&.disabled {
+			span {
+				background-position: 100% 0;
+				color: $color_84;
+				&:before {
+					background-position: 0 0;
+				}
+			}
+			&:hover span {
+				background-position: 100% 0;
+				color: $color_84;
+				&:before {
+					background-position: 0 0;
+				}
+			}
+		}
+	}
+	.heading {
+		float: left;
+		padding-left: 26px;
+		background: transparent $url_119 no-repeat -999em -999em;
+		strong {
+			font-size: 12px;
+			display: inline-block;
+		}
+		a {
+			margin-left: 8px;
+			font-size: 11px;
+			color: $color_86;
+			font-weight: normal;
+			&.link-demo:before {
+				content: ' ';
+				display: inline-block;
+				margin-right: 8px;
+				color: $color_86;
+				font-size: 12px;
+			}
+		}
+		.heading-intro {
+			display: block;
+			font-size: 11px;
+		}
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.pp-buttons-container {
+	white-space: nowrap;
+	float: left;
+	position: relative;
+	z-index: 1;
+	margin-right: -200px;
+	button {
+		display: inline-block;
+		&:first-child {
+			margin: 0;
+		}
+	}
+}
+.pp-permissions-links {
+	button {
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+	div {
+		font-size: 13px;
+		line-height: 1.35em;
+		padding: 3px 0 0;
+		text-align: left;
+	}
+}
+.with-tooltip {
+}
+.field-tooltip {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	z-index: 1;
+	background: $url_121 no-repeat 0 0;
+	cursor: help;
+	vertical-align: middle;
+	&:hover {
+		z-index: 100;
+		> div {
+			opacity: 1;
+			width: 316px;
+			visibility: visible;
+			bottom: 30px;
+			&:hover {
+				@extend %extend_29;
+			}
+		}
+	}
+	> {
+		span {
+			display: none;
+		}
+		div {
+			@extend %extend_29;
+			&:before {
+				position: absolute;
+				top: -5px;
+				left: 0;
+				content: '';
+				width: 340px;
+				height: 5px;
+				overflow: hidden;
+				background: $url_122 no-repeat 0 0;
+			}
+			&:after {
+				position: absolute;
+				bottom: -14px;
+				left: 0;
+				content: '';
+				width: 340px;
+				height: 14px;
+				overflow: hidden;
+				background: $url_122 no-repeat -340px 0;
+			}
+		}
+	}
+}
+#profile-generator {
+	select {
+		width: 207px;
+	}
+	input.input-text {
+		width: 200px;
+	}
+	.field-row button.delete {
+		vertical-align: middle;
+	}
+	fieldset button.add {
+		display: inline;
+		margin: 0;
+	}
+}
+.attribute-change-checkbox {
+	white-space: nowrap;
+	clear: none;
+	margin-left: 5px;
+	label {
+		margin-left: 5px;
+		float: none !important;
+	}
+}
+.calendar {
+	z-index: 105;
+}
+.order-history {
+	width: 70%;
+	margin-right: 27px;
+}
+.uploader {
+	.file-row {
+		width: 600px;
+		padding: 0.5em 0.6em;
+		margin: 0.5em 0.6em;
+		border: 1px solid $color_55;
+		background-color: $color_137;
+		.file-info {
+			float: left;
+		}
+		.progress-text {
+			float: right;
+			font-weight: bold;
+		}
+		.delete-button {
+			float: right;
+		}
+	}
+	.file-row-narrow {
+		width: auto;
+		margin: 0 0 2px 40px;
+	}
+	.file-row-info {
+		margin: 0 0 0 10px;
+		.file-info-name {
+			font-weight: bold;
+		}
+	}
+	.buttons {
+		float: left;
+	}
+	.flex {
+		float: right;
+	}
+	.progress {
+		border: 1px solid $color_138;
+		background-color: $color_139;
+	}
+	.error {
+		border: 1px solid $color_140;
+		background-color: $color_141;
+		.progress-text {
+			padding-right: 10px;
+		}
+	}
+	.complete {
+		border: 1px solid $color_142;
+		background-color: $color_143;
+	}
+}
+.grid-row-title {
+	color: $color_145;
+	font-weight: bold;
+}
+.grid-severity-critical {
+	@extend %extend_30;
+	background-position: 0 0;
+	margin: 1px 0;
+	span {
+		@extend %extend_30;
+		background-position: 100% 0;
+		padding: 0 7px 0 0;
+	}
+}
+.grid-severity-major {
+	@extend %extend_30;
+	background-position: 0 -16px;
+	margin: 1px 0;
+	span {
+		@extend %extend_30;
+		background-position: 100% -16px;
+		padding: 0 7px 0 0;
+	}
+}
+.grid-severity-minor {
+	@extend %extend_30;
+	background-position: 0 -32px;
+	margin: 1px 0;
+	span {
+		@extend %extend_30;
+		background-position: 100% -32px;
+		padding: 0 7px 0 0;
+	}
+}
+.grid-severity-notice {
+	@extend %extend_30;
+	background-position: 0 -48px;
+	margin: 1px 0;
+	span {
+		@extend %extend_30;
+		background-position: 100% -48px;
+		padding: 0 7px 0 0;
+	}
+}
+.super-attributes {
+	margin: 0;
+	padding: 0;
+	li {
+		&.attribute {
+			border: 1px solid $color_35;
+			background-color: $color_105;
+			margin: 1px 0;
+			ul.attribute-values {
+				margin: 0;
+				padding: 0;
+			}
+			div.values-container {
+				width: 80%;
+				margin-top: 2px;
+				margin-bottom: 2px;
+				display: block;
+			}
+		}
+		&.attribute-value {
+			display: block;
+			margin: 1px 0;
+			.validation-advice {
+				margin: 0;
+				white-space: normal;
+			}
+			.attribute-value-label-container {
+				width: 200px;
+				display: block;
+			}
+			.attribute-values-container {
+				display: block;
+			}
+			.attribute-values-container-main {
+				display: block;
+			}
+			.attribute-price {
+				width: 70px !important;
+			}
+			.attribute-price-type {
+				width: 70px !important;
+			}
+		}
+	}
+	div.attribute-name-container {
+		display: block;
+		cursor: move;
+		background-image: $url_124;
+		background-repeat: no-repeat;
+		background-position: 4px 50%;
+		font-weight: bold;
+		padding-left: 15px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
+}
+.configurable-simple-product {
+	.attribute-values-container {
+		display: block;
+	}
+	.attribute-values-container-main {
+		display: block;
+	}
+	.attribute-price {
+		width: 70px !important;
+	}
+	.attribute-price-type {
+		width: 70px !important;
+	}
+	div.values-container {
+		display: block;
+	}
+}
+.preview {
+	.cell-image .place-holder {
+		border: 1px solid $color_146;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		span {
+			margin-top: 30px;
+			display: block;
+		}
+	}
+	.cell-position input.input-text {
+		width: 90% !important;
+	}
+}
+.link-feed {
+	background: $url_125 no-repeat left 1px;
+	padding-left: 18px;
+	white-space: nowrap;
+}
+#page-help-link {
+	line-height: 26px;
+	padding-left: 20px;
+	color: $color_147;
+	background: $url_126 no-repeat 0 50%;
+	&:link {
+		text-decoration: none;
+	}
+	&:visited {
+		text-decoration: none;
+	}
+	&:hover {
+		color: $color_9;
+	}
+}
+.table-editable {
+	border: solid 1px $color_55;
+	background: $color_46;
+	padding: 5px;
+	margin-bottom: 5px;
+	th {
+		border-bottom: solid 1px $color_55;
+		text-align: center;
+		padding: 1px 3px;
+		vertical-align: middle;
+	}
+	td {
+		padding: 1px 3px;
+		vertical-align: middle;
+	}
+	select {
+		height: 19px;
+	}
+}
+.breadcrumbs {
+	margin: 0 0 10px;
+	li {
+		display: inline;
+		span {
+			margin: 0 2px;
+		}
+	}
+}
+.adminhtml-cms-page-revision-preview {
+	background: $color_9;
+}
+.toolbar {
+	background: $url_60 repeat-x 0 100%;
+	color: $color_9;
+	padding: 6px 0 20px 24px;
+	margin-bottom: -12px;
+	position: relative;
+	z-index: 100;
+	label {
+		color: $color_9;
+		vertical-align: middle;
+	}
+	select {
+		margin-right: 7px;
+		margin-left: 7px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		padding: 0;
+		border-color: $color_91;
+		vertical-align: middle;
+	}
+	button {
+		vertical-align: middle;
+	}
+}
+.cms-revision-preview {
+	height: 100%;
+	iframe {
+		width: 100%;
+		height: 91%;
+		border: 0;
+	}
+}
+.cms-revision-info {
+	border: 1px solid $color_107;
+	padding: 15px;
+	background: $color_46;
+	margin: 0 0 15px;
+	table {
+		width: 100%;
+		th {
+			@extend %extend_31;
+			font-weight: bold;
+			padding-right: 30px;
+			white-space: nowrap;
+		}
+		td {
+			@extend %extend_31;
+		}
+	}
+}
+.cms-tree {
+	width: 100%;
+	overflow: auto;
+	.cms_node_root {
+		&.x-tree-node-expanded .x-tree-node-icon:before .cms-tree .cms_node_root.x-tree-node-collapsed .x-tree-node-icon:before {
+			content: "\f114";
+		}
+		&.x-tree-node-collapsed .x-tree-node-icon {
+		}
+	}
+	.cms_node {
+		.x-tree-node-icon {
+			background-image: $url_128 !important;
+		}
+		&.x-tree-node-leaf .x-tree-node-icon {
+			background-image: $url_129;
+		}
+	}
+	.cms_page {
+		&.x-tree-node-expanded .x-tree-node-icon {
+			background-image: $url_130;
+		}
+		&.x-tree-node-collapsed .x-tree-node-icon {
+			background-image: $url_130;
+		}
+	}
+	.x-tree-node-leaf .x-tree-node-icon {
+		background-image: $url_129;
+	}
+	.disallowed.x-tree-node-leaf .x-tree-node-icon {
+		background-image: $url_131;
+	}
+	.x-tree-node .disallowed a span {
+		color: $color_62;
+	}
+	.x-dd-drag-ghost .disallowed a span {
+		color: $color_62;
+	}
+	.cms-current a span {
+		background-color: $color_19;
+		color: $color_1;
+	}
+	.modified a {
+		background-image: $url_12;
+		background-position: 100% 50%;
+		background-repeat: no-repeat;
+		padding-right: 20px;
+	}
+}
+.cms-hierarchy {
+	.x-tree-node-ct {
+		overflow: inherit;
+	}
+	.switcher {
+		margin-bottom: 20px;
+		select {
+			width: auto !important;
+		}
+	}
+	.col-left {
+		padding: 0 10px;
+		border-right: 1px solid $color_107;
+	}
+	.col-right {
+		padding: 0 10px 20px;
+		.form-list td.label {
+			width: 120px;
+			label {
+				width: 105px;
+			}
+		}
+	}
+	.cms-tree {
+		height: 400px;
+	}
+}
+.options-box {
+	.option-box {
+		border: 1px solid $color_125;
+		padding: 1em;
+		background: $color_109;
+		margin: 1.5em 0;
+	}
+	.option-title {
+		padding: 0 0 10px;
+		border-bottom: 1px solid $color_125;
+		button {
+			float: right;
+		}
+		label {
+			font-weight: bold;
+			line-height: 21px;
+			padding-right: 1em;
+			float: left;
+		}
+		select {
+			float: left;
+			width: 260px;
+			vertical-align: middle;
+		}
+	}
+	.option-header {
+		margin: 5px 0 0;
+		width: 100%;
+		border: 0;
+		background: $color_109;
+		border-bottom: 1em solid $color_109;
+		.input-text {
+			width: 95%;
+		}
+		select {
+			width: 95%;
+		}
+		th {
+			padding: 2px;
+		}
+		td {
+			padding: 5px 2px;
+		}
+		.tree {
+			margin: 5px 0 0;
+		}
+	}
+}
+.popup-window {
+	height: auto !important;
+	.magento_message {
+		padding: 0 18px;
+	}
+	.grid {
+		position: static;
+	}
+	.columns {
+		background-image: none;
+	}
+	.middle {
+		background: none;
+		padding: 10px 0;
+	}
+	#contents-uploader {
+		margin-bottom: 10px;
+		background: $color_148;
+		padding: 5px 10px;
+		.flex {
+			font-size: 0;
+			line-height: 0;
+			height: 28px;
+		}
+	}
+	#contents {
+		margin-left: -3px;
+		height: 400px;
+		overflow: auto;
+		position: relative;
+		.filecnt {
+			float: left;
+			border: 1px solid $color_55;
+			cursor: pointer;
+			padding: 3px;
+			display: inline;
+			margin: 0 0 15px 4px;
+			overflow: hidden;
+			position: relative;
+			width: 100px;
+			&.file-js {
+				float: none;
+				width: auto;
+				display: block;
+				margin-bottom: 8px;
+				p {
+					background: $url_132 no-repeat 0 0;
+					padding: 0 0 0 20px;
+					line-height: 16px;
+					margin: 0;
+				}
+			}
+			&.file-font {
+				width: 150px;
+				p {
+					background: $url_133 no-repeat 0 0;
+					padding: 0 0 0 20px;
+					line-height: 16px;
+					margin: 0;
+				}
+			}
+		}
+		.selected {
+			border: 1px solid $color_2;
+			background-color: $color_149;
+			cursor: default;
+		}
+		.nm {
+			text-align: center;
+			img {
+				vertical-align: bottom;
+			}
+		}
+	}
+	.table_window td.value2 .grid {
+		td {
+			padding: 2px 4px !important;
+		}
+		th {
+			padding: 2px 4px !important;
+		}
+		tr.headings th {
+			padding: 1px 4px 2px !important;
+		}
+	}
+	.uploader .file-row {
+		margin: 16px 0;
+		width: auto;
+	}
+}
+#widget-chooser {
+	.columns {
+		background-image: none;
+	}
+	.magento_message {
+		padding: 10px 18px;
+	}
+	.grid {
+		th {
+			padding: 2px 4px;
+		}
+		td {
+			padding: 2px 4px;
+		}
+		tr.filter th {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+	}
+	.side-col {
+		padding-top: 0.5em;
+	}
+	.main-col {
+		padding-right: 4px;
+	}
+}
+#catalog-wysiwyg-editor {
+	.buttons-set {
+		margin-top: 10px;
+	}
+	.magento_content {
+		height: auto !important;
+		overflow: hidden;
+	}
+	.textarea {
+		width: 930px !important;
+	}
+	.magento_message {
+		padding: 0 7px;
+	}
+	.magento_buttons {
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+}
+.app-tab {
+	h1 {
+		padding: 15px 24px 15px !important;
+	}
+	.top-tip {
+		position: relative !important;
+		float: right;
+		z-index: 1;
+		cursor: help;
+		top: 30px !important;
+		left: 0 !important;
+		margin: 0 10px 0 0;
+	}
+	#integr-tip {
+		margin: 8px 0 0 0 !important;
+		position: absolute;
+		right: -5px;
+		top: 10px;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 0 2px 1px $color_28;
+	}
+}
+.app-store {
+	input {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+	select {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+	textarea {
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+	.connect-block .search button {
+		margin-left: 0;
+	}
+	.trusted-ext h5 {
+		font-size: 25px!important;
+		line-height: 28px!important;
+		margin: 23px 0 30px;
+	}
+}
+.mdte {
+	.splash-content {
+		min-height: 350px;
+		padding: 0 0 15px;
+		.disc {
+			list-style: inside disc;
+			margin: 0 0 .5em;
+			li {
+				padding-left: 10px;
+			}
+		}
+		.splash-pic {
+			float: right;
+			width: 400px;
+			margin: 0 0 10px 10px;
+		}
+	}
+	.buttons-set {
+		.more-info {
+			font-weight: bold;
+			border-bottom: 4px solid $color_35;
+			margin: 0 0 7px;
+			padding: 0 0 7px;
+			a {
+				font-weight: normal;
+			}
+		}
+		button {
+			float: right;
+		}
+		.skip-splash label {
+			vertical-align: middle;
+		}
+	}
+	.theme-item {
+		width: 200px;
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 3.8% 30px 0;
+	}
+	.theme-current {
+		margin: 10px 0 10px 20px;
+		.current-theme-info:after {
+			@extend %extend_35;
+		}
+	}
+	.theme-thumb {
+		width: 200px;
+		margin-bottom: 13px;
+		height: 200px;
+		display: block;
+		//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 3px 6px $color_28;
+	}
+	.theme-name {
+		font-size: 12px;
+		padding: 0 7px;
+		margin: 0 0 5px;
+		font-weight: normal;
+	}
+	.theme-desc {
+		font-size: 11px;
+		padding: 0 7px;
+		margin: 0 0 5px;
+	}
+	.theme-actions {
+		margin: 10px -10px 0 7px;
+	}
+	.settings {
+		.form-list {
+			label {
+				width: 130px;
+			}
+			.label {
+				width: 150px;
+			}
+			.value {
+				.input-checkbox {
+					margin-right: 5px;
+				}
+				.input-text {
+					width: 78px;
+					margin-right: 5px;
+					border: 1px solid $color_153;
+				}
+				.input-text-title {
+					width: 280px;
+					border: 1px solid $color_153;
+				}
+				.or-custom {
+					margin: 0 10px;
+				}
+				.bg-position {
+					float: left;
+					width: 50px;
+				}
+			}
+		}
+		.heading-tab {
+			margin: 0 10px 20px 0;
+			font-size: 14px;
+		}
+		.ui-widget-content {
+			background: none;
+			border: 0;
+		}
+		.ui-tabs {
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 0;
+			font-family: $font_3, $font_4, $font_5;
+			* {
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 0;
+				font-family: $font_3, $font_4, $font_5;
+			}
+			.ui-tabs-panel {
+				@extend %extend_33;
+				fieldset {
+					@extend %extend_34;
+				}
+				.fieldset {
+					@extend %extend_34;
+				}
+			}
+			.ui-tabs-nav li {
+				margin: 2px 1px 0;
+				background: $color_43 $url_139 repeat-x 0 100%;
+			}
+		}
+		.ui-widget-header {
+			border: 0;
+			background: none;
+			padding: 1px 0 0 2px;
+		}
+		.ui-state-default {
+			border-color: $color_154;
+			a {
+				color: $color_1;
+				padding: 2px 22px;
+				font-size: 13px;
+				font-weight: normal;
+			}
+		}
+		.ui-state-active {
+			border: 1px solid $color_155;
+			background: $color_9;
+			margin: 0 2px 0 !important;
+			a {
+				color: $color_1;
+				padding-top: 4px;
+				background: $color_9;
+			}
+		}
+	}
+	.themes-section {
+		.themes-grid {
+			&:after {
+				@extend %extend_35;
+			}
+			.theme-actions button {
+				min-width: 85 px\0/;
+			}
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.themes-preinstalled .themes-grid {
+		margin-right: -5%;
+	}
+	.themes-screen button {
+		&.scalable span {
+			height: auto;
+			font-size: 11px;
+			line-height: 20px;
+			background-position: 0 50%;
+			padding: 0;
+			span span {
+				padding-right: 6px !important;
+				padding-left: 21px;
+			}
+		}
+		&.cancel span span span {
+			padding-left: 16px;
+		}
+		&.delete span span span {
+			padding-left: 16px;
+		}
+		&.btn-preview span span span {
+			padding-left: 21px;
+		}
+	}
+}
+.themes-screen {
+	.themes-user {
+		float: left;
+		width: 270px;
+		.content-header {
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 3px 0 0 3px;
+			border-bottom-color: $color_150;
+			border-right-color: $color_150;
+		}
+		.themes-customized {
+			padding: 20px;
+			h3.block-title {
+				border-bottom: 1px solid $color_151;
+				padding: 0 0 10px;
+				margin: 0 0 20px;
+			}
+		}
+		.pager {
+			margin-top: -10px;
+			.separator {
+				display: block;
+				height: 0;
+				overflow: hidden;
+				margin: 2px 0;
+			}
+		}
+	}
+	.themes-preinstalled {
+		margin-left: 270px;
+		.content-header {
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 0 3px 3px 0;
+			border-bottom-color: $color_150;
+			border-left-color: $color_150;
+		}
+		.inner-wrapper {
+			float: left;
+			width: 100%;
+		}
+		.themes-section {
+			border: 2px solid $color_152;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 3px;
+			padding: 15px;
+			background: $color_47 $url_134 repeat-x 0 0;
+			overflow: hidden;
+		}
+	}
+	.pager {
+		margin: 0 0 20px;
+		padding: 0 0 5px;
+		border-bottom: 1px solid $color_151;
+	}
+}
+.uploader_container {
+	margin: 20px 0 0;
+	.flex {
+		float: right !important;
+	}
+}
+#tabs-headings {
+	fieldset {
+		@extend %extend_33;
+	}
+	.fieldset {
+		@extend %extend_33;
+	}
+	.ui-tabs {
+		fieldset {
+			@extend %extend_34;
+		}
+		.fieldset {
+			@extend %extend_34;
+		}
+	}
+}
+.option-fill-frame {
+	border-top: 1px $color_81 solid;
+	margin: 10px 0 0;
+	padding: 15px 0;
+	input[type="checkbox"] {
+		vertical-align: top;
+		margin-top: 2px;
+	}
+	.tip {
+		font-size: 11px;
+		color: $color_26;
+		margin: 10px 0 0;
+		overflow: hidden;
+		padding: 10px 0 0 70px;
+		background: $url_140 no-repeat 0 0;
+		min-height: 40px;
+	}
+}
+#cms-revision-preview {
+	width: 100%;
+	height: 100%;
+	#preview_iframe {
+		width: 100%;
+		height: 90%;
+	}
+}
+.gsw {
+	text-align: left;
+	position: relative;
+	z-index: 999;
+}
+.gsw-bar {
+	height: 34px;
+	padding: 0 14px;
+	margin: 0 0 -6px;
+	background: $url_141 0 0 repeat-x;
+	cursor: pointer;
+	position: relative;
+	z-index: 999;
+	h2 {
+		font-size: 13px/28px;
+		color: $color_9;
+		padding: 0 16px;
+		span {
+			display: inline-block;
+			padding-left: 42px;
+			font-weight: normal;
+		}
+	}
+	&.gsw-opened h2 {
+		background-position: 0 -83px;
+	}
+}
+.gsw-content {
+	position: absolute;
+	top: 22px;
+	right: 0;
+	left: 0;
+	background: $url_142 0 100% repeat-x;
+	z-index: 997;
+	.gsw-content-inner {
+		padding: 0 0 7px;
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.btn-close {
+		width: 17px;
+		height: 17px;
+		background: $url_143 0 0 no-repeat;
+		text-align: left;
+		text-indent: -999em;
+		position: absolute;
+		right: 11px;
+		bottom: 11px;
+		overflow: hidden;
+	}
+	&:after {
+		@extend %extend_35;
+	}
+}
+.gsw-menu {
+	float: left;
+	width: 220px;
+	ul {
+		background: $color_9;
+		padding: 6px 0 0;
+		border: solid $color_156;
+		border-width: 0 1px 1px 0;
+		li {
+			position: relative;
+			a {
+				display: block;
+				border-bottom: 1px solid $color_157;
+				font-size: 12px/1.25;
+				color: $color_26;
+				text-decoration: none !important;
+				span {
+					display: block;
+					border-bottom: 1px solid $color_5;
+					padding: 10px 0 11px 30px;
+					background-position: 2px 50%;
+					background-repeat: no-repeat;
+					em {
+						font-style: normal;
+					}
+				}
+			}
+			&:hover {
+				background: $color_158 $url_147 0 100% repeat-x;
+				> a {
+					color: $color_1;
+				}
+			}
+			&.parent > a {
+				background: $url_144 100% 50% no-repeat;
+			}
+			&.complete > a span {
+				background-image: $url_145;
+			}
+			&.in-progress > a span {
+				background-image: $url_146;
+			}
+			&:last-child a {
+				border-bottom: 0;
+				span {
+					border-bottom: 0;
+				}
+			}
+			&.last a {
+				border-bottom: 0;
+				span {
+					border-bottom: 0;
+				}
+			}
+		}
+		.level-sub {
+			float: left;
+			position: absolute;
+			left: 219px;
+			top: -1px;
+			width: 230px;
+			padding-left: 3px;
+			border-left: 1px solid transparent;
+			ul {
+				padding: 0;
+				border-width: 1px;
+			}
+			li a span {
+				padding: 9px 20px 11px 30px;
+			}
+		}
+	}
+}
+.gsw-step {
+	margin: 0 0 0 457px;
+	padding: 10px 30px 0 0;
+	font-size: 12px;
+	line-height: 1.35;
+	color: $color_26;
+	h3 {
+		margin: 7px 0;
+		font-size: 23px;
+		line-height: 1.15;
+		color: $color_51;
+	}
+	p {
+		margin: 0 0 7px;
+	}
+}
+.gsw-step-content {
+	min-width: 500px;
+	max-width: 900px;
+	.gsw-img {
+		display: block;
+	}
+}
+.gsw-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: $color_9 $url_148 0 100% repeat-x;
+	overflow: hidden;
+	z-index: 99998;
+	opacity: .84;
+}
+.gsw-popup {
+	width: 718px;
+	border: 1px solid $color_133;
+	background: $color_20;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 7px $color_159;
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -335px;
+	z-index: 99999;
+	.gsw-popup-title {
+		background: $color_17 $url_149 repeat-x 0 100%;
+		min-height: 21px;
+		padding: 5px 6px 6px;
+		color: $color_1;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 5px 5px 0 0;
+		.link-back {
+			float: left;
+			padding-left: 20px;
+			background: $url_150 0 50% no-repeat;
+			text-decoration: none !important;
+			color: $color_1;
+			display: none;
+			&:hover {
+				color: $color_56;
+			}
+		}
+		.btn-close {
+			float: right;
+			width: 16px;
+			height: 17px;
+			background: $url_151 0 0 no-repeat;
+			text-indent: -999em;
+			overflow: hidden;
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	h2 {
+		font-size: 21px;
+		font-weight: normal;
+		line-height: 1.05;
+		color: $color_51;
+		text-align: center;
+	}
+	.gsw-popup-wrapper {
+		padding: 10px 110px 16px;
+		position: relative;
+	}
+	.gsw-popup-content {
+		margin: 0 auto;
+		border: 1px solid $color_52;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		background: $color_9 $url_152 0 100% repeat-x;
+		padding: 15px;
+		.gsw-title {
+			margin: 0 0 5px;
+			&:after {
+				@extend %extend_35;
+			}
+		}
+		.gsw-title-paypal {
+			text-align: right;
+			h3 {
+				float: left;
+				width: 108px;
+				height: 35px;
+				text-align: left;
+				overflow: hidden;
+				text-indent: -999em;
+				background: $url_153 no-repeat 0 0;
+			}
+			a {
+				display: inline-block;
+				font-size: 11px;
+				vertical-align: middle;
+				background: $url_154 no-repeat 0 .2em;
+				margin-top: 10px;
+				padding-left: 18px;
+				text-decoration: none;
+				font-weight: bold;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.gsw-fieldset {
+		min-height: 300px;
+		border: 1px solid $color_160;
+		padding: 10px 15px;
+		background: $color_9 $url_155 0 100% repeat-x;
+	}
+	.gsw-form {
+		li {
+			margin: 0 0 7px;
+			&.gsw-required {
+				margin: 0;
+				text-align: right;
+			}
+			&:after {
+				@extend %extend_35;
+			}
+			&.control input {
+				&.radio {
+					float: left;
+					margin: 2px 5px;
+				}
+				&.checkbox {
+					float: left;
+					margin: 2px 5px;
+				}
+			}
+		}
+		label {
+			font-weight: bold;
+			padding-left: 2px;
+			em {
+				margin-left: 3px;
+			}
+			small {
+				font-size: 10px;
+				font-weight: normal;
+			}
+		}
+		.input-box {
+			margin: 5px 0 0;
+		}
+		input {
+			&.input-text {
+				display: block;
+				width: 364px;
+			}
+			&.input-file {
+				width: 364px;
+			}
+		}
+		textarea {
+			display: block;
+			width: 364px;
+			height: 4em;
+		}
+		select {
+			display: block;
+			width: 386px !important;
+			margin: 5px 0 0;
+		}
+		p.note {
+			margin: 0;
+			padding: 0 0 0 13px;
+			background: $url_30 1px 6px no-repeat;
+			font-size: 11px;
+		}
+	}
+	.buttons-set {
+		padding: 10px 0 0;
+		text-align: right;
+		clear: both;
+	}
+	.gsw-popup-content-alt {
+		margin: 0 -95px;
+		padding: 15px 0;
+		p {
+			margin: 15px 0;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.gsw-popup-main {
+		float: right;
+		width: 415px;
+		color: $color_56;
+		font-size: 13px;
+	}
+	.gsw-popup-aside {
+		width: 254px;
+		float: left;
+		color: $color_26;
+	}
+	.gsw-express-checkout {
+		position: relative;
+		.gsw-popup-aside {
+			background: $url_156 no-repeat 0 0;
+			padding-top: 70px;
+			margin-bottom: 60px;
+		}
+		.buttons-set {
+			text-align: left;
+			padding: 0 0 0 9px;
+		}
+		.gsw-popup-links {
+			position: absolute;
+			left: 14px;
+			bottom: 32px;
+			.gsw-paypal-logo {
+				display: inline-block;
+				width: 54px;
+				height: 14px;
+				background: $url_159 0 0 no-repeat;
+				vertical-align: bottom;
+				text-indent: -9999px;
+				overflow: hidden;
+			}
+			a {
+				color: $color_168;
+			}
+		}
+	}
+	.gsw-popup-intro {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	.gsw-popup-fieldset {
+		background: $color_9;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		padding: 12px 9px;
+		border: 1px solid $color_161;
+		margin: 15px 0;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		label {
+			font-weight: normal;
+			display: block;
+			font-size: 13px;
+			color: $color_56;
+			margin: 0 0 10px;
+			padding: 0 0 0 3px;
+		}
+		.input-box {
+			font-weight: normal;
+			display: block;
+			font-size: 13px;
+			padding-bottom: 10px;
+			.validation-advice {
+				font-weight: normal!important;
+				font-size: 12px!important;
+				color: $color_162!important;
+				background: none;
+				padding: 4px 0 0 4px;
+				margin: 0;
+			}
+		}
+		input[type="text"] {
+			border: 1px solid $color_161;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 4px;
+			background: $color_9;
+			padding: 5px 10px;
+			width: 306px;
+			font-size: 16px;
+			line-height: 1;
+			color: $color_163;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: inset 0 1px 2px 0 $color_164;
+			&:focus {
+				border-color: $color_165;
+				//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: inset 0 1px 2px 0 $color_164, 0 0 2px 0 $color_164;
+			}
+			&.validation-failed {
+				border-color: $color_166;
+			}
+		}
+	}
+	.input-box {
+		position: relative;
+		z-index: 1;
+		&.status-loading {
+			background: transparent $url_158 no-repeat 96% 0;
+		}
+		.btn-gsw {
+			vertical-align: middle;
+			margin-left: 5px;
+			display: none;
+			position: absolute;
+			right: 0;
+			top: 1px;
+		}
+		&.status-waiting .btn-gsw {
+			display: inline-block;
+		}
+		&.status-success .btn-gsw {
+			display: inline-block;
+		}
+		button.btn-update {
+			span {
+				background: transparent $url_32 0 0 no-repeat;
+				padding: 0 0 0 5px;
+				overflow: hidden;
+				height: 28px;
+				span {
+					background-position: 100% 0;
+					padding: 0 8px 0 2px;
+					font-weight: bold;
+					font-size: 12px/27px;
+					//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					text-shadow: none;
+					color: $color_56;
+				}
+			}
+			&:hover > span {
+				background-position: 0 -70px;
+				> span {
+					background-position: 100% -70px;
+				}
+			}
+		}
+	}
+	#advice-success-business_account {
+		color: $color_167;
+		padding: 4px 0 0 4px;
+	}
+	.advice-enabled-business_account {
+		padding: 4px 0 0 4px;
+	}
+	.gsw-other-paypal-solution {
+		.gsw-list {
+			font-weight: bold;
+			color: $color_169;
+			margin-bottom: 30px;
+		}
+		p:first-child {
+			margin: 0 0 10px;
+		}
+	}
+	button {
+		&.btn-gsw::-moz-focus-inner {
+			padding: 0;
+			border: 0;
+		}
+		&.btn-gsw {
+			margin: 0;
+			overflow: visible;
+			background: none;
+			border: 0;
+			padding: 0;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 36px;
+			color: $color_9;
+			span {
+				display: block;
+				height: 36px;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 36px;
+				color: $color_9;
+				background: $url_160 0 0 no-repeat;
+				padding: 0 0 0 5px;
+				span {
+					//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					text-shadow: 0 -1px 1px $color_134;
+					background-position: 100% 0;
+					padding: 0 30px 0 25px;
+				}
+			}
+			&:hover span {
+				background-position: 0 -36px;
+				span {
+					background-position: 100% -36px;
+				}
+			}
+		}
+		&.btn-gsw-submit {
+			margin-left: 10px;
+			span {
+				background-position: 0 -72px;
+				span {
+					background-position: 100% -72px;
+				}
+			}
+			&:hover span {
+				background-position: 0 -108px;
+				span {
+					background-position: 100% -108px;
+				}
+			}
+		}
+	}
+	.gsw-list > li {
+		background: $url_157 no-repeat 0 .4em;
+		padding-left: 14px;
+		margin-bottom: 10px;
+	}
+	.ppec-enabled button.btn-gsw-submit {
+		display: none;
+	}
+}
+.gsw-popup-loading-mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: $color_4;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: center;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 0 0 5px 5px;
+	z-index: 1007;
+	background: $url_161 0 0 repeat\0/;
+	.loader {
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		width: 120px;
+		margin-left: -120px;
+		padding: 15px 60px;
+		background: $color_3;
+		border: 2px solid $color_2;
+		color: $color_4;
+		font-weight: bold;
+		text-align: center;
+		z-index: 1000;
+	}
+}
+.adminhtml-googleshopping-types-edit {
+	.form-list {
+		width: 970px;
+	}
+	#attributes_details {
+		padding: 4px 0 0;
+	}
+	.entry-edit-head {
+		padding: 4px 15px;
+	}
+	#category_show {
+		padding: 4px 0 8px;
+	}
+	#select_googleshopping_category {
+		margin-left: -4px;
+	}
+}
+.adminhtml-googleshopping-types-new {
+	#attributes_details {
+		padding: 4px 0 0;
+	}
+	.entry-edit-head {
+		padding: 4px 15px;
+	}
+	#category_show {
+		padding: 4px 0 8px;
+	}
+	#select_googleshopping_category {
+		margin-left: -4px;
+	}
+}
+.f-left {
+	float: left;
+}
+.left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.right {
+	float: right;
+}
+.v-top {
+	vertical-align: top;
+}
+.v-middle {
+	vertical-align: middle !important;
+}
+.v-bottom {
+	vertical-align: bottom;
+}
+.a-left {
+	text-align: left !important;
+}
+.a-center {
+	text-align: center !important;
+}
+.a-right {
+	text-align: right !important;
+}
+.nm {
+	margin: 0 !important;
+}
+.np {
+	padding: 0 !important;
+}
+.no-display {
+	display: none;
+}
+.no-show {
+	display: none;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.nobr {
+	white-space: nowrap;
+}
+.wrap {
+	white-space: normal !important;
+}
+.no-float {
+	float: none !important;
+}
+.pointer {
+	cursor: pointer;
+}
+.emph {
+	color: $color_171 !important;
+}
+.accent {
+	color: $color_171 !important;
+}
+.subdue {
+	color: $color_172;
+}
+.bold {
+	font-weight: bold !important;
+}
+.normal {
+	font-weight: normal !important;
+}
+#ip {
+	font-size: 3px;
+	display: inline-block;
+	&:hover {
+		font-size: 23px;
+	}
+}
+.blcg-grid-pinned-actions-block {
+	top: 79px !important;
+}
+.ui-widget {
+	font-family: $font_0, $font_1;
+}
+.mm_name span {
+	border: 1px solid $color_57;
+	display: block;
+	padding: 2px 0;
+	text-align: center;
+	margin: 0 7px 5px;
+}
+a.error span {
+	color: $color_72 !important;
+	font-weight: bold !important;
+}
+#grop_fields .messages li {
+	color: $color_73 !important;
+}
+#loginForm .messages li {
+	color: $color_73 !important;
+}
+#messages .messages :before {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translate(0, 0);
+	float: left;
+	margin-right: 5px;
+}
+#messages>ul>li.error-msg::before {
+	content: "\f06a";
+	color: $color_71;
+	font-size: 1.25em/1.25em;
+}
+.staging-datetime-advice .validation-advice {
+	background-position: right center;
+	padding: 0 16px 0 0;
+}
+label.inline {
+	float: none !important;
+	width: auto !important;
+}
+.nested-content .entry-edit {
+	margin-left: 2em;
+	.entry-edit {
+		margin-left: 0;
+	}
+}
+#coupon_container .entry-edit {
+	min-width: 310px;
+}
+.checkboxes li {
+	margin: 0 0 5px !important;
+}
+.dialog .content-header .form-buttons {
+	white-space: normal;
+}
+#catalog_management button {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.entry-edit-head .icon-head:before {
+	font-size: 1.2em;
+	font-weight: 100;
+}
+.head-edit-form:before {
+	content: "\f0f6";
+}
+.head-customer:before {
+	content: "\f007";
+}
+.head-customer-groups:before {
+	content: "\f0c0";
+}
+.head-online-visitors:before {
+	content: "\f21b";
+}
+.head-products:before {
+	content: "\f16b";
+}
+.head-report-shopcart-product:before {
+	content: "\f217";
+}
+.head-adminhtml-process:before {
+	content: "\f0ae";
+}
+.head-adminhtml-eventtickets:before {
+	content: "\f145";
+}
+.head-catalog-product-attribute:before {
+	content: "\f12e";
+}
+.head-product-attribute-sets:before {
+	content: "\f022";
+}
+.adminhtml-system-store-deletestore .content-footer .content-buttons {
+	float: left;
+}
+.adminhtml-system-store-deletegroup .content-footer .content-buttons {
+	float: left;
+}
+.adminhtml-system-store-deletewebsite .content-footer .content-buttons {
+	float: left;
+}
+.overlay span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin: -5px 0 0;
+	color: $color_1;
+}
+.order-tables td {
+	.option-label {
+		font-weight: bold;
+		font-style: italic;
+	}
+	.option-value {
+		padding-left: 10px;
+	}
+	.qty-table {
+		border: 0 !important;
+		width: 100%;
+		td {
+			border: 0 !important;
+			padding: 0 4px !important;
+		}
+	}
+	h5.title {
+		font-size: 1em;
+		font-weight: bold;
+	}
+}
+.order-search-items .entry-edit .grid {
+	height: 610px;
+	overflow: auto;
+	table {
+		width: 99.9%;
+	}
+}
+.giftcard-amount-form .form-list {
+	.input-text {
+		width: 70px;
+	}
+	select {
+		width: 165px;
+	}
+}
+.giftcard-qty-form .field .input-text {
+	width: 143px;
+}
+.summary-details td {
+	font-size: 11px;
+	background-color: $color_119;
+}
+.summary-details-first td {
+	border-top: 1px solid $color_118;
+}
+.centinel .authentication {
+	background: $color_9;
+	iframe {
+		width: 99%;
+		height: 400px;
+		background: transparent !important;
+		margin: 0 0 7px !important;
+		padding: 0 !important;
+		border: 1px solid $color_87 !important;
+	}
+}
+.giftmessage-whole-order-container .entry-edit {
+	textarea {
+		width: 99% !important;
+		padding: 2px 3px;
+	}
+	label {
+		width: 121px;
+	}
+	input.input-text {
+		width: 280px !important;
+	}
+}
+.pp-general-uk > .config-heading {
+	.button-container {
+		padding: 9px 0 0 201px;
+		background: $url_101 no-repeat 0 0;
+		height: 27px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-payflow > .config-heading {
+	.button-container {
+		padding: 0 0 0 99px;
+		background: $url_100 no-repeat 1px 0;
+		height: 36px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-express > .config-heading {
+	.button-container {
+		padding: 0 0 0 160px;
+		background: $url_99 no-repeat 0 0;
+		height: 29px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-general-bml > .config-heading {
+	.button-container {
+		padding: 6px 0 0 237px;
+		background: $url_102 no-repeat 0 0;
+		height: 28px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-payflow-bml > .config-heading {
+	.button-container {
+		padding: 4px 0 0 156px;
+		background: $url_103 no-repeat 1px 0;
+		height: 41px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-express-bml > .config-heading {
+	.button-container {
+		padding: 1px 0 0 217px;
+		background: $url_104 no-repeat 0 0;
+		height: 30px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.pp-method-general > .config-heading {
+	.button-container {
+		padding: 6px 0 0 180px;
+		background: $url_98 no-repeat 0 0;
+		height: 28px;
+	}
+	.heading strong {
+		padding-left: 56px;
+		background: $url_97 no-repeat 0 2px;
+	}
+}
+.option-box .option-header {
+	textarea {
+		@extend %extend_26;
+	}
+	select {
+		@extend %extend_26;
+		padding: 0;
+	}
+	input.input-text {
+		@extend %extend_26;
+	}
+}
+#category_edit_form .form-list td.label label {
+	white-space: nowrap;
+}
+.no-active-category a span {
+	color: $color_62 !important;
+}
+.address-type .address-type-line {
+	display: block;
+	margin: 2px 0;
+	input {
+		margin-right: 3px;
+	}
+}
+.adminhtml-system-config-edit .note {
+	width: 283px;
+}
+.nested:first-child > td > div > {
+	.entry-edit-head {
+		border-top-color: $color_133;
+	}
+	.config-heading {
+		border-top-color: $color_133;
+	}
+}
+.with-button.active {
+	&:after {
+		background: transparent $url_117 repeat-x 0 0;
+		height: 5px;
+		overflow: hidden;
+		position: relative;
+		left: 0;
+		margin: 0 0 -5px;
+		z-index: 2;
+		display: block;
+		content: '';
+	}
+	> .config {
+		z-index: 1;
+		position: relative;
+	}
+}
+.enabled .config-heading .heading {
+	background-position: 5px 0;
+}
+.tier .data {
+	width: 465px;
+	select {
+		width: 99%;
+	}
+	input.qty {
+		width: 20px !important;
+	}
+}
+.weee .data {
+	width: 465px;
+	select {
+		width: 99%;
+	}
+}
+.giftcard-amounts .data {
+	width: 465px;
+	select {
+		width: 99%;
+	}
+}
+#widget_window .magento_content {
+	height: auto !important;
+	min-height: 450px;
+}
+#variables-chooser .magento_message {
+	padding: 10px 18px;
+}
+.files_list_container ul li {
+	clear: both;
+	margin: 3px 0;
+	.file-js {
+		border: 1px solid $color_55;
+		margin-left: 10px;
+		padding: 5px 5px 10px 30px;
+		background: $color_64 $url_132 5px 50% no-repeat;
+		&:hover {
+			background-color: $color_132;
+		}
+	}
+	&.movable {
+		position: relative;
+		z-index: 1;
+		padding: 1px 1px 1px 14px;
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	.up {
+		@extend %extend_32;
+		background: $color_64 $url_138 50% 3px no-repeat;
+		&:hover {
+			background-color: $color_132;
+		}
+	}
+	.down {
+		@extend %extend_32;
+		background: $color_64 $url_138 50% -27px no-repeat;
+		bottom: 0;
+		top: auto;
+		&:hover {
+			background-color: $color_132;
+		}
+	}
+	a.remove {
+		float: right;
+	}
+}
+.table-cat-img-sizes td {
+	vertical-align: middle;
+}
+.adminhtml-giftcardaccount-edit .columns .form-list td.value {
+	vertical-align: bottom;
+}
+.gsw-content-3 dd {
+	margin: 15px 0 -25px;
+}
+.gsw-content-4 dt {
+	margin: -27px 0 0;
+}
+.gsw-content-5 dd {
+	margin: 15px 0 -40px;
+}
+.gsw-content-6 dd {
+	margin: 15px 0 -40px;
+}
+.gsw-content-7 dd {
+	margin: 15px 0 -40px;
+}
+.gsw-content-8 dd {
+	margin: 15px 0 -30px;
+}
+*/ .adminhtml-googleshopping-types-new .form-list {
+	width: 970px;
+}
+.tree-categories .x-tree-node-icon {
+	background: none;
+	height: 0;
+	width: 0;
+}
+.adminhtml-tax-rate-importexport #import_form input[type=file] {
+	float: left;
+	margin: 2px 0 0;
+}
+.adminhtml-sales-order-view .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-invoice-view .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-creditmemo-view .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-shipment-view .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-invoice-new .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-shipment-new .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-sales-order-creditmemo-new .form-list td.label label {
+	padding-top: 0;
+}
+.adminhtml-widget-instance-edit #widget_instace_tabs_properties_section_content .form-list td.value {
+	vertical-align: bottom;
+}
+.option-title:after {
+	@extend %extend_35;
+}
+.main-col:after {
+	@extend %extend_35;
+}
+.content:after {
+	@extend %extend_35;
+}
+#topnav:after {
+	@extend %extend_35;
+}
+.main:after {
+	@extend %extend_35;
+}
+.container:after {
+	@extend %extend_35;
+}
+.tier-container:after {
+	@extend %extend_35;
+}
+.clear:after {
+	@extend %extend_35;
+} 
