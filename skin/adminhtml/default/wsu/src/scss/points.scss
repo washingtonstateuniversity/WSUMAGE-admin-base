@@ -2235,8 +2235,8 @@ input[type=file] {
 		@extend %extend_35;
 	}
 }
-html[lang {
-	="fr"] {
+html{
+	[lang="fr"] {
 		.form-list td.label {
 			width: 280px;
 			label {
@@ -2247,13 +2247,14 @@ html[lang {
 			width: 266px;
 		}
 	}
-	="de"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
+	[lang="de"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
 		width: 260px;
 	}
-	="es"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
+	[lang="es"] .gsw-popup .gsw-popup-fieldset input[type="text"] {
 		width: 288px;
 	}
 }
+
 .columns {
 	.form-list {
 		width: auto;
@@ -5921,7 +5922,7 @@ h3 {
 				@extend %extend_35;
 			}
 			.theme-actions button {
-				min-width: 85 px\0/;
+				min-width: 85px;
 			}
 		}
 		&:after {
@@ -6639,7 +6640,7 @@ h3 {
 	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
 	border-radius: 0 0 5px 5px;
 	z-index: 1007;
-	background: $url_161 0 0 repeat\0/;
+	background: $url_161 0 0 repeat;
 	.loader {
 		position: absolute;
 		top: 45%;
@@ -7176,7 +7177,7 @@ label.inline {
 .gsw-content-8 dd {
 	margin: 15px 0 -30px;
 }
-*/ .adminhtml-googleshopping-types-new .form-list {
+.adminhtml-googleshopping-types-new .form-list {
 	width: 970px;
 }
 .tree-categories .x-tree-node-icon {

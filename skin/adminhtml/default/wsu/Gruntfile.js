@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 		sass: {	
 			dev: {
 				files: [
-					{ src: "src/scss/joint.scss", dest: "build/_pre_sass/pre_boxes.css" },
+					{ src: "src/scss/joint.scss", dest: "build/_pre_sass/boxes.css" },
 					//{ src: "src/scss/centrals.scss", dest: "build/_pre_sass/front.styles.css" },
 					//{ src: "src/scss/embeds.scss", dest: "build/_pre_sass/map.view.styles.css" },
 				]
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 		copy:{
 			maps: {
 				files: [ // This can be drastically simplified by putting this stuff in a `src` folder.
-					{ expand: true, src: ["build/_pre_sass/*.map"], dest: "build/css/", flatten: true, },
+					{ expand: true, src: ["build/_pre_sass/*.map"], dest: "", flatten: true, },
 					//{ expand: true, src: ["build/_pre_sass/*.map"], dest: "dis/css/", flatten: true, },
 				]
 			}
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 					//'src/css/colorbox.css',
 					//'src/css/share_link.css',
 					//'src/css/reactive.css',
-					'build/_pre_sass/pre_boxes.css'
+					'build/_pre_sass/boxes.css'
 				],
 				dest: 'build/css/boxes.css',
 			},
@@ -70,14 +70,17 @@ module.exports = function(grunt) {
 			},
 			front_styles: {
 				src: 'build/css/boxes.css',
-				dest: 'build/_precss/pre_boxes.css'
+				dest: 'build/_precss/boxes.css'
 			},
 		},
 		cssmin: {
+			options: {
+				sourceMap: true,
+			},
 			combine: {
 				files: {
 					// Hmmm, in reverse order
-					'/boxes.css': ['build/_precss/boxes.css'],
+					'boxes.css': ['build/_precss/boxes.css'],
 				}
 			}
 		},
