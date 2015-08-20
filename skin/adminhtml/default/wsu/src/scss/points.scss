@@ -1,4 +1,4 @@
- //colors
+//colors
 $color_0: #cacaca;
 $color_1: #000;
 $color_2: #f1af73;
@@ -1938,6 +1938,19 @@ ul {
 		color: $color_9 !important;
 	}
 }
+#messages .messages li{
+    color: #CACACA !important;
+	text-indent: 24px;
+}
+.messages li{
+    color: #272727 !important;
+}
+.messages .notice-msg li{
+    color: #272727 !important;
+	text-indent: 24px;
+}
+
+
 .error-msg {
 	background: none;
 }
