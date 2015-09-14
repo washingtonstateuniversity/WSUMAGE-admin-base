@@ -3224,8 +3224,17 @@ h3 {
 	background-image: $url_77;
 }
 .head-cms-page {
-	background-image: $url_78;
+	//background-image: $url_78;
 }
+.head-cms-page {
+	//padding-left: 20px;
+	//color: $color_99 !important;
+	&:before {
+		content: "\f247";
+	}
+}
+
+
 .head-cms-block {
 	background-image: $url_78;
 }
