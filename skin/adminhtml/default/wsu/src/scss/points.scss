@@ -1448,7 +1448,7 @@ dl {
 		}
 		.icon-head {
 			background-position: 16px 6px;
-			padding-left: 38px !important;
+			//padding-left: 38px !important; this may still be needed..
 		}
 		&:after {
 			@extend %extend_35;
@@ -3215,10 +3215,16 @@ h3 {
 	background-image: $url_73;
 }
 .head-sales-order {
-	background-image: $url_74;
+	//background-image: $url_74;
+	&:before {
+		content: "\f15c";
+	}
 }
 .head-sales-invoice {
-	background-image: $url_74;
+	//background-image: $url_74;
+	&:before {
+		content: "\f15c";
+	}
 }
 .head-tax {
 	background-image: $url_77;
@@ -3233,8 +3239,16 @@ h3 {
 		content: "\f247";
 	}
 }
-
-
+/*
+head-account -- vcard -- "\f022" "\f1ea"
+head-sales-order -- folder invoice thing "\f15c"  */
+.head-account {
+	background-image: none;
+	&:before {
+		content: "\f022";
+	}
+}
+	
 .head-cms-block {
 	background-image: $url_78;
 }
@@ -3248,16 +3262,28 @@ h3 {
 	background-image: $url_80;
 }
 .head-shipping-address {
-	background-image: $url_61;
+	//background-image: $url_61;
+	&:before {
+		content: "\f015";
+	}
 }
 .head-billing-address {
-	background-image: $url_61;
+	//background-image: $url_61;
+	&:before {
+		content: "\f015";
+	}
 }
 .head-shipping-method {
-	background-image: $url_81;
+	//background-image: $url_81;
+	&:before {
+		content: "\f1b3";
+	}
 }
 .head-payment-method {
-	background-image: $url_82;
+	//background-image: $url_82;
+	&:before {
+		content: "\f09d";
+	}
 }
 .head-order-date {
 	background-image: $url_83;
