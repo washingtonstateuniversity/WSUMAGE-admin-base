@@ -2129,6 +2129,18 @@ input[type=file] {
 .form-list {
 	width: auto;
 	border: 0 !important;
+	tr{
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		&:hover{
+			td{
+				&.scope-label {
+					opacity:1;
+				}
+			}
+		}
+	}
 	td {
 		&.label {
 			@extend %extend_15;
@@ -2211,10 +2223,50 @@ input[type=file] {
 		}
 		&.scope-label {
 			@extend %extend_15;
-			padding-left: 5px;
-			color: $color_89;
+			color: #e2e2e2;
 			font-size: .9em;
-			padding-top: 11px !important;
+			position: absolute;
+			right: -16px;
+			top: calc(50% - .9em);
+			background: #940D26!important;
+			letter-spacing: .2em;
+			text-align: center;
+			text-transform: uppercase;
+			line-height: 2.2em;
+			font-weight: bold;
+			padding-top: 0px !important;
+			padding-bottom: 0px !important;
+			opacity: .45;
+
+			&:before,
+			&:after {
+				content: '';
+				position: absolute;
+				border-bottom: 20px solid #940D26;
+				border-left: 10px solid transparent;
+				border-right: 22px solid transparent;
+				top: 0px;
+				left: -14px;
+				-webkit-transform: rotate(63deg);
+				-moz-transform: rotate(63deg);
+				-ms-transform: rotate(63deg);
+				-o-transform: rotate(63deg);
+			}
+			
+			&:after {
+				top: auto;
+				bottom: 0px;
+				left: -22px;
+				border-left: 22px solid transparent;
+				border-right: 10px solid transparent;
+				border-top: 20px solid #940D26;
+				border-bottom: none;
+				-webkit-transform: rotate(422deg);
+				-moz-transform:    rotate(422deg);
+				-ms-transform:     rotate(422deg);
+				-o-transform:      rotate(422deg);
+			}
+
 		}
 		&.use-default {
 			@extend %extend_15;
@@ -7285,3 +7337,7 @@ label.inline {
 .clear:after {
 	@extend %extend_35;
 } 
+
+
+
+
