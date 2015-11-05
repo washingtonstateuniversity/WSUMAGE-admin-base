@@ -2143,7 +2143,17 @@ input[type=file] {
 				}
 			}
 		}
+		&.system-fieldset-sub-head:hover{
+			background:none;
+			td{
+				background:none;
+				&.scope-label {
+					opacity:1;
+				}
+			}
+		}
 	}
+
 	td {
 		&.label {
 			@extend %extend_15;
