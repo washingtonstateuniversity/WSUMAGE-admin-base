@@ -2129,12 +2129,15 @@ input[type=file] {
 .form-list {
 	width: auto;
 	border: 0 !important;
-	tr{
+	tr[id*="row_"]{
 		position: relative;
 		display: inline-block;
 		width: 100%;
+		
 		&:hover{
+			background:rgba(232,232,232,1.00);
 			td{
+				background:rgba(232,232,232,1.00);
 				&.scope-label {
 					opacity:1;
 				}
