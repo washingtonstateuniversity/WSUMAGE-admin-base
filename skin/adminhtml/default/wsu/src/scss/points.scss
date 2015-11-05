@@ -2129,15 +2129,15 @@ input[type=file] {
 .form-list {
 	width: auto;
 	border: 0 !important;
-	tr[id*="row_"]{
+	tr:not(.skip_flag){
 		position: relative;
 		display: inline-block;
 		width: 100%;
 		
 		&:hover{
-			background:rgba(232,232,232,1.00);
+			background:rgba(232,232,232,0.35);
 			td{
-				background:rgba(232,232,232,1.00);
+				background:rgba(232,232,232,0.35);
 				&.scope-label {
 					opacity:1;
 				}
@@ -2152,151 +2152,152 @@ input[type=file] {
 				}
 			}
 		}
-	}
-
-	td {
-		&.label {
-			@extend %extend_15;
-			width: 180px;
-			text-align: right;
-			padding-right: 20px;
-			label {
-				display: block;
+		td {
+			&.label {
+				@extend %extend_15;
 				width: 180px;
-				float: right;
-				padding: 3px 0 0;
-				font-size: 13px;
-				color: $color_1;
-				position: relative;
-				z-index: 1;
-			}
-		}
-		&.value {
-			@extend %extend_15;
-			textarea {
-				width: 274px;
-				height: 15em;
-			}
-			select {
-				width: 296px;
-				&.select-date {
-					width: 90px;
-				}
-				&.select-day {
-					width: 65px;
-				}
-				&.select-month {
-					width: 120px;
-				}
-			}
-			select[type="time"] {
-				width: 5.5em !important;
-			}
-			.label-color {
-				float: left;
-				display: block;
-				width: auto !important;
-				height: 23px;
-				padding: 1px;
-				margin-top: 2px;
-				border: 1px solid $color_88;
-				.color {
+				text-align: right;
+				padding-right: 20px;
+				label {
 					display: block;
-					width: 23px;
-					height: 23px;
+					width: 180px;
+					float: right;
+					padding: 3px 0 0;
+					font-size: 13px;
+					color: $color_1;
+					position: relative;
+					z-index: 1;
 				}
 			}
-			.color-field {
-				float: left;
-				width: 75px !important;
-				margin: 2px 0 0 6px;
-				background: $color_9 !important;
-				color: $color_1 !important;
+			&.value {
+				@extend %extend_15;
+				textarea {
+					width: 274px;
+					height: 15em;
+				}
+				select {
+					width: 296px;
+					&.select-date {
+						width: 90px;
+					}
+					&.select-day {
+						width: 65px;
+					}
+					&.select-month {
+						width: 120px;
+					}
+				}
+				select[type="time"] {
+					width: 5.5em !important;
+				}
+				.label-color {
+					float: left;
+					display: block;
+					width: auto !important;
+					height: 23px;
+					padding: 1px;
+					margin-top: 2px;
+					border: 1px solid $color_88;
+					.color {
+						display: block;
+						width: 23px;
+						height: 23px;
+					}
+				}
+				.color-field {
+					float: left;
+					width: 75px !important;
+					margin: 2px 0 0 6px;
+					background: $color_9 !important;
+					color: $color_1 !important;
+				}
+				.store-scope {
+					white-space: nowrap;
+				}
+				.link-store-scope {
+					float: none;
+					margin-right: 0;
+					vertical-align: top;
+					margin-top: 6px;
+				}
+				input.input-text {
+					width: 274px;
+				}
 			}
-			.store-scope {
-				white-space: nowrap;
+			&.value2 {
+				@extend %extend_15;
 			}
-			.link-store-scope {
-				float: none;
-				margin-right: 0;
-				vertical-align: top;
-				margin-top: 6px;
+			&.note {
+				@extend %extend_15;
+				background: $url_29 6px 10px no-repeat !important;
+				padding-left: 18px;
 			}
-			input.input-text {
-				width: 274px;
-			}
-		}
-		&.value2 {
-			@extend %extend_15;
-		}
-		&.note {
-			@extend %extend_15;
-			background: $url_29 6px 10px no-repeat !important;
-			padding-left: 18px;
-		}
-		&.scope-label {
-			@extend %extend_15;
-			color: #e2e2e2;
-			font-size: .9em;
-			position: absolute;
-			right: -16px;
-			top: calc(50% - .9em);
-			background: #940D26!important;
-			letter-spacing: .2em;
-			text-align: center;
-			text-transform: uppercase;
-			line-height: 2.2em;
-			font-weight: bold;
-			padding-top: 0px !important;
-			padding-bottom: 0px !important;
-			opacity: .45;
-
-			&:before,
-			&:after {
-				content: '';
+			&.scope-label {
+				@extend %extend_15;
+				color: #e2e2e2;
+				font-size: .9em;
 				position: absolute;
-				border-bottom: 20px solid #940D26;
-				border-left: 10px solid transparent;
-				border-right: 22px solid transparent;
-				top: 0px;
-				left: -14px;
-				-webkit-transform: rotate(63deg);
-				-moz-transform: rotate(63deg);
-				-ms-transform: rotate(63deg);
-				-o-transform: rotate(63deg);
+				right: -16px;
+				top: calc(50% - .9em);
+				background: #940D26!important;
+				letter-spacing: .2em;
+				text-align: center;
+				text-transform: uppercase;
+				line-height: 2.2em;
+				font-weight: bold;
+				padding-top: 0px !important;
+				padding-bottom: 0px !important;
+				opacity: .45;
+	
+				&:before,
+				&:after {
+					content: '';
+					position: absolute;
+					border-bottom: 20px solid #940D26;
+					border-left: 10px solid transparent;
+					border-right: 22px solid transparent;
+					top: 0px;
+					left: -14px;
+					-webkit-transform: rotate(63deg);
+					-moz-transform: rotate(63deg);
+					-ms-transform: rotate(63deg);
+					-o-transform: rotate(63deg);
+				}
+				
+				&:after {
+					top: auto;
+					bottom: 0px;
+					left: -22px;
+					border-left: 22px solid transparent;
+					border-right: 10px solid transparent;
+					border-top: 20px solid #940D26;
+					border-bottom: none;
+					-webkit-transform: rotate(422deg);
+					-moz-transform:    rotate(422deg);
+					-ms-transform:     rotate(422deg);
+					-o-transform:      rotate(422deg);
+				}
+	
 			}
-			
-			&:after {
-				top: auto;
-				bottom: 0px;
-				left: -22px;
-				border-left: 22px solid transparent;
-				border-right: 10px solid transparent;
-				border-top: 20px solid #940D26;
-				border-bottom: none;
-				-webkit-transform: rotate(422deg);
-				-moz-transform:    rotate(422deg);
-				-ms-transform:     rotate(422deg);
-				-o-transform:      rotate(422deg);
+			&.use-default {
+				@extend %extend_15;
+				padding-top: 10px !important;
+				padding-right: 10px!important;
 			}
-
-		}
-		&.use-default {
-			@extend %extend_15;
-			padding-top: 10px !important;
-			padding-right: 10px!important;
-		}
-		&.hidden {
-			border: 0 !important;
-			padding: 0 !important;
-			background: 0 !important;
-		}
-		&.pp-permissions-links {
-			font-size: 13px;
-			line-height: 30px;
-			text-align: left;
+			&.hidden {
+				border: 0 !important;
+				padding: 0 !important;
+				background: 0 !important;
+			}
+			&.pp-permissions-links {
+				font-size: 13px;
+				line-height: 30px;
+				text-align: left;
+			}
 		}
 	}
+
+
 	p.note {
 		margin: 4px 0 0;
 		padding: 0 0 0 13px;
@@ -2336,7 +2337,7 @@ html{
 .columns {
 	.form-list {
 		width: auto;
-		td.value {
+		td.value:not(.scope-label) {
 			min-width: 315px;
 			padding-right: 5px !important;
 			.next-toinput {

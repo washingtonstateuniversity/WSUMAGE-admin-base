@@ -16,7 +16,7 @@
 					
 			<action method="addCss"><script>wsu/admintheme/styles.css</script></action>
 
-			<action method="addItem"><type>skin_js</type><script>wsu/admintheme/js/custom.js</script></action>
+			<action method="addItem"><type>skin_js</type><script>wsu/admintheme/js/base.js</script></action>
 			
 			<action method="addCss"><script>wsu/admintheme/corrections.css</script></action>
 			<action method="addCss"  ifconfig="wsu_admintheme/config/extendmenu">
