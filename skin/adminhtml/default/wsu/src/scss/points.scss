@@ -2235,7 +2235,7 @@ input[type=file] {
 			&.scope-label {
 				@extend %extend_15;
 				color: #e2e2e2;
-				font-size: .9em;
+				font-size: 0.7em;
 				position: absolute;
 				right: -16px;
 				top: calc(50% - .9em);
@@ -2253,29 +2253,25 @@ input[type=file] {
 				&:after {
 					content: '';
 					position: absolute;
-					border-bottom: 20px solid #940D26;
-					border-left: 10px solid transparent;
-					border-right: 22px solid transparent;
-					top: 0px;
-					left: -14px;
-					-webkit-transform: rotate(63deg);
-					-moz-transform: rotate(63deg);
-					-ms-transform: rotate(63deg);
-					-o-transform: rotate(63deg);
+					border-bottom: 13px solid #940d26;
+					border-left: 7px solid transparent;
+					border-right: 11px solid transparent;
+					top: -2px;
+					left: -8px;
+					-webkit-transform: rotate(62deg);
+					-moz-transform: rotate(62deg);
+					-ms-transform: rotate(62deg);
+					-o-transform: rotate(62deg);
 				}
 				
 				&:after {
 					top: auto;
-					bottom: 0px;
-					left: -22px;
-					border-left: 22px solid transparent;
-					border-right: 10px solid transparent;
-					border-top: 20px solid #940D26;
+					bottom: -2px;
+					left: -13px;
+					border-left: 11px solid transparent;
+					border-right: 6px solid transparent;
+					border-top: 13px solid #940d26;
 					border-bottom: none;
-					-webkit-transform: rotate(422deg);
-					-moz-transform:    rotate(422deg);
-					-ms-transform:     rotate(422deg);
-					-o-transform:      rotate(422deg);
 				}
 	
 			}
