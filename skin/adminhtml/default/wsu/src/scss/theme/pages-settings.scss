@@ -1,0 +1,192 @@
+@import 'vars/global';
+@import 'vars/colors';
+ul {
+	&.tabs {
+		font-size: 13px;
+		color: $color_26;
+		a {
+			display: block;
+			text-decoration: none;
+			color: $color_51;
+			font-size: 13px;
+			color: $color_26;
+			padding: 5px 8px 5px 7px;
+			margin: 1px 0;
+			&:hover {
+				text-decoration: none;
+				color: $color_51;
+				border: 1px solid $color_52;
+				padding: 4px 7px 4px 6px;
+				color: $color_51;
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				span {
+				}
+			}
+			&.active {
+				border: 1px solid $color_52;
+				padding: 4px 7px 4px 6px;
+				color: $color_51;
+				//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				span {
+					background: $url_11 100% 50% no-repeat;
+				}
+			}
+			&.subitem {
+				padding-left: 2.2em;
+			}
+			&.changed {
+				font-style: italic;
+				span.changed {
+					background: $url_12 0 0 no-repeat !important;
+					width: 16px;
+					height: 16px;
+				}
+			}
+			&.error span.error {
+				background: $url_13 0 0 no-repeat !important;
+				width: 16px;
+				height: 16px;
+			}
+		}
+		span {
+			display: block;
+			em {
+				float: right;
+			}
+			&.changed {
+				@extend %extend_8;
+			}
+			&.error {
+				@extend %extend_8;
+			}
+		}
+		li {
+		}
+	}
+	&.tabs-horiz {
+		margin: 0 0 18px 0;
+		background: $url_14 repeat-x 0 100% $color_53;
+		padding: 8px 0 0 5px;
+		li {
+			float: left;
+			margin: 0 4px;
+			a {
+				display: block;
+				background: $color_54;
+				border: 1px solid $color_55;
+				padding: 2px 10px;
+				color: $color_56 !important;
+				text-decoration: none !important;
+				&.notloaded {
+				}
+				&.active {
+					border-bottom: 1px solid $color_9;
+					background: $color_9;
+				}
+			}
+		}
+		&:after {
+			@extend %extend_35;
+		}
+	}
+	&.config-tabs {
+		dt {
+			border-bottom: 1px solid $color_132;
+			padding: 2px 6px;
+			margin: 0 0 5px;
+			font-weight: bold;
+			color: $color_1;
+		}
+		dl {
+			margin-bottom: 15px;
+		}
+	}
+	&.super-product-attributes {
+		padding-left: 15px;
+	}
+	&.item-options li {
+		padding-left: .7em;
+	}
+}
+/*%%%--collapseables--%%%%%%%%%%%%%%%%%%%%%%%%*/
+div {
+	&.collapseable {
+		margin-top: 1px;
+		a {
+			@extend %extend_7;
+			&:hover {
+				color: $color_51;
+				text-decoration: none;
+			}
+			&.open {
+				background: $url_10 100% -179px no-repeat;
+			}
+		}
+	}
+	&.side-col {
+		clear: both;
+		float: left;
+		width: 210px;
+		margin-right: -210px;
+		padding-bottom: 25px;
+		padding-left: 15px;
+	}
+	&.main-col {
+		margin-left: 210px;
+		min-height: 450px;
+		padding: 0 0 25px 25px;
+	}
+	&.main-col-inner {
+		float: left;
+		width: 100%;
+	}
+	&.autocomplete {
+		z-index: 10000;
+		position: absolute;
+		width: 250px;
+		background-color: $color_93;
+		border: 1px solid $color_94;
+		border-top: none;
+		padding: 0;
+		top: 26px !important;
+		left: auto !important;
+		right: 3px !important;
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				padding: .5em .7em;
+				min-height: 32px;
+				cursor: pointer;
+				text-align: left;
+				color: $color_80;
+				line-height: 1.3em;
+				&.selected {
+					background-color: $color_18;
+				}
+			}
+		}
+	}
+	&.tree_item {
+		@extend %extend_28;
+		background-image: $url_112;
+	}
+	&.tree_item_last {
+		@extend %extend_28;
+		background-image: $url_113;
+	}
+	&.tree_line {
+		position: absolute;
+		left: 0;
+		background-image: $url_114;
+	}
+	&.disabled a {
+		background-position: 100% -358px;
+		color: $color_50 !important;
+	}
+	&.actions:after {
+		@extend %extend_35;
+	}
+}

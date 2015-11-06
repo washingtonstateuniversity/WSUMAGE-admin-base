@@ -1,0 +1,586 @@
+@import 'colors';
+
+//fonts
+$font_primary: 'Open Sans';//'proxima-nova';
+$font_secondary: 'Lucida Sans';
+$font_tertiary: 'sans-serif';
+$font_quaternary: 'Arial';
+$font_quaternary_alt: 'Arial';
+
+
+/*include fa()*/
+@mixin fa(){
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);	
+}
+
+@mixin textshadow(){
+	text-shadow: 2px 1px 1px $textshadow;
+}
+
+//fonts
+$font_2: FontAwesome !important;
+
+
+//urls
+$url_0: url(images/bkg_btn-close.gif);
+$url_1: url(images/bkg_btn-close2.gif);
+$url_2: url(images/more_arrow.gif);
+$url_3: url(images/bkg_gridshadow.png);
+$url_4: url(images/bkg_row-headings.png);
+$url_5: url(images/bkg_headings-cell.png);
+$url_6: url(images/bkg_sorton.png);
+$url_7: url(images/bkg_grid-sort.png);
+$url_8: url(images/bkg_row-filter.png);
+$url_9: url(images/bkg_head-accordion.png);
+$url_10: url(images/bkg_accordion-arrows.png);
+$url_11: url(images/bkg_tabs-item.png);
+$url_12: url(images/fam_bullet_disk.png);
+$url_13: url(images/fam_bullet_error.gif);
+$url_14: url(images/horiz_tabs_ul_bg.gif);
+$url_15: url(images/r-arrow.gif);
+$url_16: url(images/l-arrow.gif);
+$url_17: url(images/full-arrow.gif);
+$url_18: url(images/xmlconnect_tab.png);
+$url_19: url(images/bkg_notifications-wrapper.gif);
+$url_20: url(images/i_msg-error.png);
+$url_21: url(images/i_msg-notice.png);
+$url_22: url(images/i_msg-success.png);
+$url_23: url(images/warning_msg_icon.gif);
+$url_24: url(images/validation_advice_bg.gif);
+$url_25: url(images/i_notice.gif);
+$url_26: url(images/bkg_bar-global.gif);
+$url_27: url(images/i_bar-global.png);
+$url_28: url(images/bkg_box.png);
+$url_29: url(images/note_cell_bg.gif);
+$url_30: url(images/note_bg.gif);
+$url_31: url(images/sub_button_bg.gif);
+$url_32: url(images/bkg_btn.png);
+$url_33: url(images/bkg_btn-disabled.png);
+$url_34: url(images/bkg_btn-delete.png);
+$url_35: url(images/i_btn-save.png);
+$url_36: url(images/i_btn-add.png);
+$url_37: url(images/bkg_btn-back.png);
+$url_38: url(images/i_btn-showhide.png);
+$url_39: url(images/btn_add-image_icon.gif);
+$url_40: url(images/btn_add-widget_icon.gif);
+$url_41: url(images/btn_add-variable_icon.gif);
+$url_42: url(images/btn_go.gif);
+$url_43: url(images/i_btn-editor.png);
+$url_44: url(images/btn_gr_bg.gif);
+$url_45: url(images/btn_gr_over.gif);
+$url_46: url(images/btn_gr_on.gif);
+$url_47: url(images/i_question-mark.png);
+$url_48: url(images/db-scroll-bg.gif);
+$url_49: url(images/icon_note_list.gif);
+$url_50: url(images/bkg_page-middle.png);
+$url_51: url(images/middle_bg.gif);
+$url_52: url(images/side_col_bg.gif);
+$url_53: url(images/simple_container_bg.gif);
+$url_54: url(images/bkg_header.png);
+$url_55: url(images/i_support-dot.png);
+$url_56: url(images/bkg_header-search.png);
+$url_57: url(images/bkg_footer.png);
+$url_58: url(images/bkg_footer-logo.png);
+$url_59: url(images/bkg_content-header.png);
+$url_60: url(images/bkg_panel-floating.png);
+$url_61: url(images/fam_house.gif);
+$url_62: url(images/fam_status_online.gif);
+$url_63: url(images/fam_user.gif);
+$url_64: url(images/fam_user_edit.gif);
+$url_65: url(images/fam_user_comment.gif);
+$url_66: url(images/fam_comment.gif);
+$url_67: url(images/fam_cart.gif);
+$url_68: url(images/fam_account.gif);
+$url_69: url(images/fam_package.gif);
+$url_70: url(images/fam_newspaper_go.gif);
+$url_71: url(images/fam_newspaper.gif);
+$url_72: url(images/fam_newspaper_error.gif);
+$url_73: url(images/fam_tag_orange.gif);
+$url_74: url(images/fam_folder_table.gif);
+$url_75: url(images/fam_rainbow.gif);
+$url_76: url(images/fam_folder_palette.gif);
+$url_77: url(images/fam_money_add.gif);
+$url_78: url(images/application_view_tile.gif);
+$url_79: url(images/fam_server_database.gif);
+$url_80: url(images/fam_money.gif);
+$url_81: url(images/fam_lorry.gif);
+$url_82: url(images/fam_creditcards.gif);
+$url_83: url(images/fam_calendar.gif);
+$url_84: url(images/fam_package_go.gif);
+$url_85: url(images/bkg_login.jpg);
+$url_86: url(images/bkg_login-box.png);
+$url_87: url(images/bkg_login-input.png);
+$url_88: url(images/login-logo.gif);
+$url_89: url(images/bkg_btn-login.png);
+$url_90: url(images/btn-admin-login.png);
+$url_91: url(images/btn-admin-login-vf.png);
+$url_92: url(images/bkg_create_order_totals.gif);
+$url_93: url(images/bkg_collapse.gif);
+$url_94: url(images/gift-message-grid-column-bg.gif);
+$url_95: url(images/gift-message-expand.gif);
+$url_96: url(images/gift-message-collapse.gif);
+$url_97: url(images/paypal/logo-paypal.png);
+$url_98: url(images/paypal/pp-allinone.png);
+$url_99: url(images/paypal/pp-alt.png);
+$url_100: url(images/paypal/pp-gateways.png);
+$url_101: url(images/paypal/pp-uk.png);
+$url_102: url(images/paypal/pp-allinone-bml.png);
+$url_103: url(images/paypal/pp-gateways-bml.png);
+$url_104: url(images/paypal/pp-alt-bml.png);
+$url_105: url(images/error_msg_icon.gif);
+$url_106: url(images/fam_leaf.png);
+$url_107: url(images/fam_application_form_delete.png);
+$url_108: url(images/product_rating_blank_star.gif);
+$url_109: url(images/product_rating_full_star.gif);
+$url_110: url(images/rule-ajax-loader.gif);
+$url_111: url(images/address_list_li.gif);
+$url_112: url(images/tree_icons/join.gif);
+$url_113: url(images/tree_icons/joinbottom.gif);
+$url_114: url(images/tree_icons/line.gif);
+$url_115: url(images/bkg_nested-heading.png);
+$url_116: url(images/bkg_config-nested.png);
+$url_117: url(images/bkg_config-shaddow.png);
+$url_118: url(images/bkg_config-heading.png);
+$url_119: url(images/icon-enabled.png);
+$url_120: url(images/bkg_config-advanced.png);
+$url_121: url(images/icon-tooltip.png);
+$url_122: url(images/bkg_tooltip.png);
+$url_123: url(images/bkg_notifications.gif);
+$url_124: url(images/arrow_sort_move.gif);
+$url_125: url(images/icon_feed.gif);
+$url_126: url(images/fam_help.gif);
+$url_127: url(images/cms_tree_icons/cms_node_root.gif);
+$url_128: url(images/cms_tree_icons/cms_node2.gif);
+$url_129: url(images/cms_tree_icons/cms_page2.gif);
+$url_130: url(images/cms_tree_icons/cms_page.gif);
+$url_131: url(images/cms_tree_icons/cms_page-disabled.gif);
+$url_132: url(images/js_icon.gif);
+$url_133: url(images/icon_font.gif);
+$url_134: url(images/bkg_preinstalled.png);
+$url_135: url(images/btn_customize_icon.png);
+$url_136: url(images/bkg_btn-preview.png);
+$url_137: url(images/btn_duplicate_icon.png);
+$url_138: url(images/bkg_movable-arrows.png);
+$url_139: url(images/bkg_tabs-nav-item.png);
+$url_140: url(images/bkg_fill-frame.png);
+$url_141: url(images/gsw/bkg_gsw-bar.png);
+$url_142: url(images/gsw/bkg_gsw.png);
+$url_143: url(images/gsw/btn-gsw-close.png);
+$url_144: url(images/gsw/i_parent.png);
+$url_145: url(images/gsw/i_complete.png);
+$url_146: url(images/gsw/i_in-progress.png);
+$url_147: url(images/gsw/bkg_gsw-menu-hover.gif);
+$url_148: url(images/gsw/bkg_gsw-overlay.gif);
+$url_149: url(images/gsw/bkg_gsw-popup-title.png);
+$url_150: url(images/gsw/i_gsw-back.gif);
+$url_151: url(images/gsw/i_gsw-close.png);
+$url_152: url(images/gsw/bkg_gsw-popup2.gif);
+$url_153: url(images/logo_paypal.png);
+$url_154: url(images/i_question.png);
+$url_155: url(images/gsw/bkg_gsw-popup3.gif);
+$url_156: url(images/gsw/content/bkg_express-checkout.png);
+$url_157: url(images/gsw/bkg_gsw-list.png);
+$url_158: url(images/gsw/status-loading.gif);
+$url_159: url(images/gsw/content/paypallogo-small.png);
+$url_160: url(images/gsw/bkg_gsw-buttons.png);
+$url_161: url(images/bkg_transparent.png);
+$url_162: url(skin/adminhtml/default/wsu/images/bkg_btn-disabled.png);
+$url_163: url(skin/adminhtml/default/wsu/images/bkg_btn-delete.png);
+$url_164: url(skin/adminhtml/default/wsu/images/i_btn-save.png);
+$url_165: url(skin/adminhtml/default/wsu/images/i_btn-add.png);
+$url_166: url(skin/adminhtml/default/wsu/images/bkg_btn-back.png);
+$url_167: url(skin/adminhtml/default/wsu/images/i_btn-showhide.png);
+$url_168: url(skin/adminhtml/default/wsu/images/btn_add-image_icon.gif);
+$url_169: url(skin/adminhtml/default/wsu/images/btn_add-widget_icon.gif);
+$url_170: url(skin/adminhtml/default/wsu/images/btn_add-variable_icon.gif);
+$url_171: url(skin/adminhtml/default/wsu/images/btn_go.gif);
+$url_172: url(skin/adminhtml/default/wsu/images/i_btn-editor.png);
+
+//@extend-elements
+//original selectors
+//.grid tr.headings th a.sort-arrow-desc, .grid tr.headings th a.sort-arrow-asc
+%extend_1 {
+	background: $url_6 0 0 repeat-x;
+	color: $color_30;
+	border: solid $color_31;
+	border-width: 0 1px;
+	border-color: $color_32;
+}
+
+//original selectors
+//.grid tr.headings th a.sort-arrow-desc span.sort-title, .grid tr.headings th a.sort-arrow-asc span.sort-title
+%extend_2 {
+	background: $url_7 no-repeat 100% 0;
+	border: solid $color_33;
+	border-width: 0 1px;
+	border-color: $color_34;
+}
+
+//original selectors
+//.massaction .entry-edit fieldset span.form_row, .massaction .entry-edit fieldset span.field-row
+%extend_3 {
+	clear: none !important;
+	display: inline;
+	float: left !important;
+	margin: 0;
+	padding: 0 5px 0 0;
+}
+
+//original selectors
+//.grid input.input-text, .grid textarea, .grid select
+%extend_4 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.grid .field-100 textarea, .grid .field-100 input.input-text
+%extend_5 {
+	float: left;
+	width: 100% !important;
+	border: 0 !important;
+	padding: 0 !important;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+
+//original selectors
+//dl.accordion dt, .entry-edit .entry-edit-head
+%extend_6 {
+	background: $color_43 $url_9 repeat-x 0 0;
+	border: 1px solid $color_44;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 10px $color_45;
+	z-index: 2;
+	margin-bottom: 6px;
+}
+
+//original selectors
+//dl.accordion dt a, div.collapseable a
+%extend_7 {
+	background: $url_10 100% 4px no-repeat;
+	color: $color_1;
+	font-size: 15px/1.1;
+	display: block;
+	text-decoration: none;
+	padding: 4px 15px;
+	border: 1px solid;
+	border-color: $color_46 $color_47 $color_48 $color_49;
+}
+
+//original selectors
+//ul.tabs span.changed, ul.tabs span.error
+%extend_8 {
+	display: inline-block;
+	background: 0;
+	padding: 0;
+	vertical-align: top;
+	margin-top: 1px;
+}
+
+//original selectors
+//.box, .entry-edit fieldset, .entry-edit .fieldset
+%extend_9 {
+	padding: 20px 16px;
+	border: solid $color_81;
+	border-width: 0 2px 2px;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 0 0 3px 3px;
+	background: $color_82 $url_28 repeat-x 0 0;
+	margin: -6px 0 20px;
+}
+
+//original selectors
+//.box fieldset, .box .fieldset, .entry-edit fieldset .fieldset, .entry-edit fieldset fieldset, .entry-edit .fieldset fieldset, .entry-edit .fieldset .fieldset
+%extend_10 {
+	padding: 16px;
+	border: 1px solid $color_83;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 0;
+	background: $color_82 $url_28 repeat-x 0 -20px;
+	margin: 10px 0 20px;
+}
+
+//original selectors
+//.entry-edit fieldset span.form_row, .entry-edit .fieldset span.form_row, .entry-edit fieldset .field-row .hint, .entry-edit .fieldset .field-row .hint
+%extend_11 {
+	float: left;
+	color: $color_84;
+	padding-left: 12em;
+}
+
+//original selectors
+//.entry-edit .entry-edit-head > div:first-child[style*="right"], .entry-edit .form-buttons
+%extend_12 {
+	float: right;
+	margin: 2px 3px 0 0;
+	padding-bottom: 4px;
+}
+
+//original selectors
+//input.input-text, textarea, select
+%extend_13 {
+	border: 1px solid $color_83;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 6px $color_28;
+}
+
+//original selectors
+//.field-100 textarea, .field-100 input.input-text
+%extend_14 {
+	float: left;
+	width: 100% !important;
+	border: 0 !important;
+	padding: 0 !important;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+}
+
+//original selectors
+//.form-list td.label, .form-list td.value, .form-list td.value2, .form-list td.note, .form-list td.scope-label, .form-list td.use-default
+%extend_15 {
+	border: 0 !important;
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+	padding-left: 5px !important;
+	background: 0 !important;
+}
+
+//original selectors
+//span.delete-image, span.delete-file
+%extend_16 {
+	display: block;
+	white-space: nowrap;
+	padding-left: 26px;
+}
+
+//original selectors
+//.separator, .pipe
+%extend_17 {
+	padding: 0 6px;
+	font-size: .9em;
+	color: $color_92;
+}
+
+//original selectors
+//.login-container button.btn-login span:before, .login-container button.btn-login span:after
+%extend_18 {
+	content: "";
+	height: 34px;
+	position: absolute;
+	top: 0;
+	background: $url_89 no-repeat 0 0;
+}
+
+//original selectors
+//.grand-total, .grand_total
+%extend_19 {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: $color_117 !important;
+}
+
+//original selectors
+//.giftmessage-order-create .entire-order, .giftmessage-order-create .each-order-item
+%extend_20 {
+	background-color: $color_40;
+	padding: 6px 14px;
+	height: 275px;
+}
+
+//original selectors
+//#popup-window-mask, .popup-window-mask
+%extend_21 {
+	background: $color_1;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+//original selectors
+//.packaging-window, .packed-window
+%extend_22 {
+	background: $color_82;
+	border: 1px solid $color_110;
+	left: 50%;
+	margin: -200px 0 0 -471px;
+	position: fixed;
+	top: 50%;
+	width: 1100px;
+	z-index: 1000;
+}
+
+//original selectors
+//.packed-window > .entry-edit > .entry-edit-head, .packaging-window > .entry-edit > .entry-edit-head
+%extend_23 {
+	padding: 3px 5px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	border-width: 0 0 1px;
+	border-color: $color_9;
+	color: $color_9;
+	background: $url_4 repeat-x 0 0 $color_111;
+}
+
+//original selectors
+//.packed-window .packed-content, .packaging-window .packaging-content
+%extend_24 {
+	overflow: auto;
+	height: auto !important;
+	max-height: 400px;
+	margin: 0 0 10px;
+	padding: 10px 10px 0;
+}
+
+//original selectors
+//.packaging-window .package-options input.input-text, .packaging-window .package-options textarea, .packaging-window .package-options select
+%extend_25 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.option-box .option-header input.input-text, .option-box .option-header textarea, .option-box .option-header select
+%extend_26 {
+	padding: 1px;
+	border: 1px solid $color_27;
+	color: $color_1;
+	background: $color_9;
+	font-size: 12px;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 2px 1px $color_28;
+}
+
+//original selectors
+//.log-details table th, .log-details table td
+%extend_27 {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	vertical-align: middle;
+}
+
+//original selectors
+//div.tree_item, div.tree_item_last
+%extend_28 {
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+//original selectors
+//.field-tooltip:hover > div:hover, .field-tooltip > div
+%extend_29 {
+	width: 316px;
+	background: transparent $url_122 repeat-y -680px 0;
+	opacity: 0;
+	position: absolute;
+	z-index: 999;
+	left: -311px;
+	bottom: 28px;
+	padding: 3px 12px;
+	color: $color_136;
+	visibility: hidden;
+}
+
+//original selectors
+//.grid-severity-critical, .grid-severity-critical span, .grid-severity-major, .grid-severity-major span, .grid-severity-minor, .grid-severity-minor span, .grid-severity-notice, .grid-severity-notice span
+%extend_30 {
+	display: block;
+	height: 16px;
+	background-image: $url_123;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 0 7px;
+	white-space: nowrap;
+	color: $color_9;
+}
+
+//original selectors
+//.cms-revision-info table th, .cms-revision-info table td
+%extend_31 {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+//original selectors
+//.files_list_container ul li .up, .files_list_container ul li .down
+%extend_32 {
+	margin: 2px 5px;
+	width: 15px;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	height: 15px;
+	cursor: pointer;
+	border: 1px solid $color_55;
+	outline: none;
+	display: block;
+	overflow: hidden;
+}
+
+//original selectors
+//#tabs-headings fieldset, #tabs-headings .fieldset, .mdte .settings .ui-tabs .ui-tabs-panel
+%extend_33 {
+	border: 1px solid $color_83;
+	margin: 0 0 20px;
+	padding: 16px;
+	background: $color_82 $url_28 repeat-x 0 -20px;
+}
+
+//original selectors
+//#tabs-headings .ui-tabs fieldset, #tabs-headings .ui-tabs .fieldset, .mdte .settings .ui-tabs .ui-tabs-panel fieldset, .mdte .settings .ui-tabs .ui-tabs-panel .fieldset
+%extend_34 {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+//original selectors
+//.config-heading:after, .gsw-popup .gsw-popup-content-alt:after, .form-list li:after, .footer .legality:after, .message-popup .message-popup-head:after, .message-popup .message-popup-content .message:after, .login-form .form-buttons:after, .wrapper:after, .option-title:after, .columns:after, .main-col:after, .content-header-floating:after, .entry-edit .entry-edit-head:after, .content-header:after, .login-box .button-set:after, ul.tabs-horiz:after, dl.accordion dt:after, .field-100:after, .entry-edit fieldset li:after, .entry-edit fieldset span.field-row:after, .content:after, #topnav:after, .main:after, .container:after, .footer:after, .middle:after, .header:after, .box-head:after, div.actions:after, .tier-container:after, .clear:after, .notification-global:after, .files .row:after, .files-wide .row:after, .grid tr.filter .range .range-line:after, .gsw-popup .gsw-popup-content .gsw-title:after, .files_list_container ul li.movable:after, .mdte .themes-section:after, .mdte .themes-section .themes-grid:after, .mdte .theme-current .current-theme-info:after, .gsw-content:after, .gsw-content .gsw-content-inner:after, .gsw-popup .gsw-popup-title:after, .gsw-popup .gsw-form li:after, .store-scope:after
+%extend_35 {
+	display: block;
+	clear: both;
+	content: ".";
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+//original selectors
+//button.btn-wysiwyg span span span, button.cancel_button span span span, button.ok_button span span span, button.delete span span span, button.cancel span span span, button.fail span span span, button.save span span span, button.add span span span, button.back span span span, button.show-hide span span span, button.add-image span span span, button.add-widget span span span, button.add-variable span span span, button.go span span span
+%extend_36 {
+	padding-left: 25px;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
