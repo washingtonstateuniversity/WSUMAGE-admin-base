@@ -16,6 +16,18 @@
 					
 			<action method="addItem"><type>cdn_css</type><name>//fonts.googleapis.com/css?family=Open+Sans</name></action>	
 
+<!--
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/node-main.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/currency.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/date.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/message.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/number.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/plural.js</name></action>
+			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/relative-time.js</name></action>
+-->
+
+
 					
 			<action method="addCss"><script>wsu/admintheme/styles.css</script></action>
 
