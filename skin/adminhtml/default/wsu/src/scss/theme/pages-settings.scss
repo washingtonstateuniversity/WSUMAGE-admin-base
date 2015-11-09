@@ -53,9 +53,16 @@ ul {
 				}
 			}
 			&.error span.error {
-				background: $url_13 0 0 no-repeat !important;
+				//background: $url_13 0 0 no-repeat !important;
+				background: none;
 				width: 16px;
 				height: 16px;
+				line-height: 1.8em;
+				&:before {
+					color:#FF5F2B;
+					@include fa();
+					content:"\f071";
+				}
 			}
 		}
 		span {
