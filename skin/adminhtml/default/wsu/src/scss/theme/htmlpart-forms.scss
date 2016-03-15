@@ -187,3 +187,10 @@
 		@extend %extend_35;
 	}
 }
+
+.adminhtml-cms-page-edit{
+	.form-list td.value[colspan="3"] {
+		display: inline-block;
+		width: 100% !important;
+	}
+}
