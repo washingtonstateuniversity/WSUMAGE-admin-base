@@ -28,5 +28,8 @@ jQuery(function(){
 				$(this).toggleClass("open","close");
 			});
 		}
+        if($("#block_content").length){
+            $("#block_content").closest("td").attr("style","width:100% !important");
+        }
 	})(jQuery,window);
 });
