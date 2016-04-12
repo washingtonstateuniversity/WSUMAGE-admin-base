@@ -1,6 +1,18 @@
 @import 'vars/global';
 @import 'vars/colors';
 
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label {
+    position: relative !important;
+    background-color: transparent !important;
+    color: #494949 !important;
+    opacity: 1;
+}
+
+
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label:after,
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label:before {
+    content: none;
+}
 
 .form-list {
 	width: auto;
