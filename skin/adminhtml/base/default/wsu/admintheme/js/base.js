@@ -59,15 +59,27 @@
             var defaults = {
                 "weight":"0",
                 "status":"1",
-                "tax_class_id":"2"
+                "tax_class_id":"2",
+                "website_ids":["1","2"]
             };
             $.each(defaults,function(idx,val){
                 var target = $("[name='product["+idx+"]']");
-                
-                if(target.is("select")){
-                    target.find("[value='"+val+"']").attr("selected",true);
+                if($.isArray(val)){
+                    $.each(val,function(sub_idx,item){
+                        if(target.is("select")){
+                            target.find("[value='"+item+"']").attr("selected",true);
+                        }else if(target.is(":radio") || target.is(":checkbox")){
+                            target.find("[value='"+item+"']").attr("checked",true);
+                        }
+                    });
                 }else{
-                    target.val(val);
+                    if(target.is("select")){
+                        target.find("[value='"+val+"']").attr("selected",true);
+                    }else if(target.is(":radio") || target.is(":checkbox")){
+                        target.find("[value='"+val+"']").attr("checked",true);
+                    }else{
+                        target.val(val);
+                    }
                 }
             });
         }
