@@ -60,7 +60,8 @@
                 "weight":"0",
                 "status":"1",
                 "tax_class_id":"2",
-                "website_ids":["1","2"]
+                "website_ids":["1","2"],
+                "stock_data][is_in_stock":"1"
             };
             $.each(defaults,function(idx,val){
                 var target = $("[name='product["+idx+"]']");
