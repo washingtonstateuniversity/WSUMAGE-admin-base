@@ -63,14 +63,17 @@
                 "website_ids":["1","2"]
             };
             $.each(defaults,function(idx,val){
-                var target = $("[name^='product["+idx+"]']");
+                var target = $("[name='product["+idx+"]']");
                 if($.isArray(val)){
-                    $.each(val,function(sub_idx,item){
-                        if(target.is("select")){
-                            target.find("[value='"+item+"']").attr("selected",true);
-                        }else if(target.is(":radio") || target.is(":checkbox")){
-                            target.find("[value='"+item+"']").attr("checked",true);
-                        }
+                    target = $("[name='product["+idx+"][]']");
+                    $.each(target ,function(tar_idx,item){
+                        $.each(val,function(sub_idx,value){
+                            if($(item).is("select")){
+                                $(item).find("[value='"+value+"']").attr("selected",true);
+                            }else if($(item).is(":radio") || $(item).is(":checkbox")){
+                                $("[name='product["+idx+"][]'][value='"+value+"']").attr("checked",true);
+                            }
+                        });
                     });
                 }else{
                     if(target.is("select")){
