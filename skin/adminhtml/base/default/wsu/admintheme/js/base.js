@@ -55,7 +55,22 @@
 			culture:"en-US"
 		});
 
-
+        if($(".adminhtml-catalog-product-new").length){
+            var defaults = {
+                "weight":"0",
+                "status":"1",
+                "tax_class_id":"2"
+            };
+            $.each(defaults,function(idx,val){
+                var target = $("[name='product["+idx+"]']");
+                
+                if(target.is("select")){
+                    target.find("[value='"+val+"']").attr("selected",true);
+                }else{
+                    target.val(val);
+                }
+            });
+        }
 		
 		
 		
