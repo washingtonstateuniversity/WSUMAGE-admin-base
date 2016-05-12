@@ -63,7 +63,7 @@
                 "website_ids":["1","2"]
             };
             $.each(defaults,function(idx,val){
-                var target = $("[name='product["+idx+"]']");
+                var target = $("[name^='product["+idx+"]']");
                 if($.isArray(val)){
                     $.each(val,function(sub_idx,item){
                         if(target.is("select")){
