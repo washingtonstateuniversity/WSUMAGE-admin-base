@@ -31,9 +31,59 @@ jQuery(function(){
         if($("#block_content").length){
             $("#block_content").closest("td").attr("style","width:100% !important");
         }
-        if($("#wsu_themecontrol_override_editor_override").length){
-            $("#wsu_themecontrol_override_editor_override").closest("td").attr("style","width:100% !important");
+ 
+ 
+ 
+ 
+        var codeblockID = null;
+        var mode = null;
+        
+        /*if($("textarea[name='content']").length){
+            
+            codeblockID = $("textarea[name='content']").attr("id");
+            mode = "htmlmixed";
+            var myCodeMirror = null;
+            $("#page_tabs_content_section").on("click",function(){
+                if(null === myCodeMirror){
+                    myCodeMirror = CodeMirror.fromTextArea(document.getElementById(codeblockID), {
+                        lineNumbers: true,
+                        mode: mode
+                    });
+                }
+                myCodeMirror.refresh();
+            });
         }
+        
+          if($("#description").length){
+            
+            codeblockID = "description";
+            mode = "htmlmixed";
+            var myCodeMirror_description = null;
+            $("#product_info_tabs_group_49").on("click",function(){
+                if(null === myCodeMirror_description){
+                    myCodeMirror_description = CodeMirror.fromTextArea(document.getElementById(codeblockID), {
+                        lineNumbers: true,
+                        mode: mode
+                    });
+                }
+                myCodeMirror_description.refresh();
+            });
+        }      
+           if($("#short_description").length){
+            codeblockID = "short_description";
+            mode = "htmlmixed";
+            var myCodeMirror_short_description = null;
+            $("#product_info_tabs_group_49").on("click",function(){
+                if(null === myCodeMirror_short_description){
+                    myCodeMirror_short_description = CodeMirror.fromTextArea(document.getElementById(codeblockID), {
+                        lineNumbers: true,
+                        mode: mode
+                    });
+                }
+                myCodeMirror_short_description.refresh();
+            });
+        }     */      
+        
         
         
         

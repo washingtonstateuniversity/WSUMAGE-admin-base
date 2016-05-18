@@ -26,7 +26,11 @@
 			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/plural.js</name></action>
 			<action method="addItem"><type>cdn_js</type><name>//ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/relative-time.js</name></action>
 -->
-
+<action method="addItem"><type>js</type><name>wsu/codemirror/lib/codemirror.js</name></action>
+<action method="addItem"><type>js</type><name>wsu/codemirror/mode/htmlmixed/htmlmixed.js</name></action>
+<action method="addItem"><type>js</type><name>wsu/codemirror/mode/css/css.js</name></action>
+<action method="addItem"><type>js</type><name>wsu/codemirror/mode/javascript/javascript.js</name></action>
+<action method="addItem"><type>cdn_css</type><name>/js/wsu/codemirror/lib/codemirror.css</name></action>
 
 					
 			<action method="addCss"><script>wsu/admintheme/styles.css</script></action>
