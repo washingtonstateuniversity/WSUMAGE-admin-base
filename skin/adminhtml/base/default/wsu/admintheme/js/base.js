@@ -1,6 +1,22 @@
 (function($){
 	"use strict";
-	
+	$.fn.stripClass = function (partialMatch, endOrBegin) {
+		console.log("stripClass----------->>>>>>>>>>>");
+		var regx;
+		regx = new RegExp((!endOrBegin ? "\\b" : "\\S+") + partialMatch + "\\S*", "g");
+		console.log(regx);
+		this.attr("class", function (i, classlist) {
+			console.log("classlist-----------");
+			console.log(classlist);
+			if (!classlist) {
+				return;
+			}
+			var output = classlist.replace(regx, "");
+			console.log(output);console.log("^^^^^^^^^-----output------");
+			return output;
+		});
+		return this;
+	};
 	$.observeDOM = function(obj,callback){
 		var config,mutationObserver;
 		if (window.MutationObserver) {
