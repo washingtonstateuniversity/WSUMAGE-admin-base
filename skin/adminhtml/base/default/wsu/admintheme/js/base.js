@@ -62,7 +62,7 @@
 			$('.form-list').find('table tr').addClass('skip_flag');
 		});
 		
-		$('input[name*="price"]').spinner({
+		$('input[name*="price"]:not([name*="color"])').spinner({
 			min: 0,
 			max: 2500,
 			step: 0.01,
