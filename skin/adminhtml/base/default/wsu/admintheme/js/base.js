@@ -67,11 +67,14 @@
                         apply_sort();
                     });
                 }*/
-                
-                if(jQuery("#category_edit_form.changing").length){
+                if(jQuery( "#catalog_category_products_table tbody.ui-sortable" ).length !== 0){
+                    jQuery( "#catalog_category_products_table tbody" ).sortable( "destroy" );
+                }
+                if(jQuery("#category-edit-container .changing").length){
                     setTimeout(function(){ apply_sort(); },500);
                 }else{
                     if(jQuery( "#catalog_category_products_table tbody" ).length){
+                        //jQuery("#category_edit_form").addClass("changing");
                         jQuery( "#catalog_category_products_table tbody" ).sortable({ 
                             opacity: 0.6, 
                             cursor: 'move',  
@@ -94,14 +97,14 @@
 
                     
                     console.log("observeDOM on #category_edit_form");
-                    jQuery(".x-tree-node-el,[title='Save Category'],#sort_cat_prod,#catalog_category_products_table .headings a").on("click", function(){
-
-                        if(jQuery( "#catalog_category_products_table tbody.ui-sortable" ).length === 0){
-                            jQuery( "#catalog_category_products_table tbody" ).sortable( "destroy" );
+                    jQuery(".x-tree-node-el,[title='Save Category'],#sort_cat_prod,#category_edit_form .headings a").on("click", function(){
+                        if( ! jQuery(this).is("#category_edit_form .headings a") ){
+                            jQuery("#category_edit_form").addClass("changing");
+                            console.log("loading");
+                        }else{
+                            jQuery("#catalog_category_products table").addClass("changing");
+                            console.log("sorting");
                         }
-                        
-                        jQuery("#category_edit_form").addClass("changing");
-                        console.log("changing");
                         apply_sort();
                     });
                     
@@ -115,7 +118,7 @@
                     jQuery("#category_edit_form").addClass("changing");
                     console.log("changing");
                     apply_sort();
-                });
+                }); 
              },500);
             
             
