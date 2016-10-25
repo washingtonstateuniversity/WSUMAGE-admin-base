@@ -94,6 +94,7 @@
 
                     
                     console.log("observeDOM on #category_edit_form");
+                    jQuery(".x-tree-node-el,[title='Save Category'],#sort_cat_prod,#catalog_category_products_table .headings a").on("click", function(){
 
                         if(jQuery( "#catalog_category_products_table tbody.ui-sortable" ).length === 0){
                             jQuery( "#catalog_category_products_table tbody" ).sortable( "destroy" );
