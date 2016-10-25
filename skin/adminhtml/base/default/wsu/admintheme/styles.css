@@ -74,3 +74,27 @@ button.ui-state-default  span.ui-icon {background-image: url("//code.jquery.com/
   margin-left: 0;
   margin-top: -0.04em;
 }
+
+
+html>body #sortable li {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+#sortable li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    height: 1.5em;
+}
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #dad55e;
+    background: #fffa90;
+    color: #777620;
+}
+
+

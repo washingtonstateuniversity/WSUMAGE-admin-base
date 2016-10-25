@@ -77,7 +77,8 @@
                         //jQuery("#category_edit_form").addClass("changing");
                         jQuery( "#catalog_category_products_table tbody" ).sortable({ 
                             opacity: 0.6, 
-                            cursor: 'move',  
+                            cursor: 'move',
+                            placeholder: "ui-state-highlight",  
                             update: function(){
                                 var str = [];
                                 jQuery('.ui-sortable [name="position"]').each(function(){
