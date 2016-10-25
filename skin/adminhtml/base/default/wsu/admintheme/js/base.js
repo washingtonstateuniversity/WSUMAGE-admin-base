@@ -54,9 +54,41 @@
 		}
 	};
 
-	
-	
+
 	$(document).ready(function(){
+        
+            function apply_sort(){
+                if(jQuery("#category_edit_form.changing").length){
+                    setTimeout(function(){ apply_sort(); },500);
+                }else{
+                    if(jQuery( "#catalog_category_products_table tbody" ).length){
+                        jQuery( "#catalog_category_products_table tbody" ).sortable({ 
+                            opacity: 0.6, 
+                            cursor: 'move',  
+                            update: function(){
+                                jQuery('.ui-sortable [name="position"]').each(function(){
+                                    jQuery(this).val( jQuery(this).closest('tr').prevAll().length + 1 );
+                                });
+                            }
+                        });
+                        jQuery( "#catalog_category_products_table tbody" ).disableSelection();
+                    }
+                }
+            }
+            
+            console.log("here");
+            if( jQuery(".adminhtml-catalog-category-edit").length ){
+                jQuery(".x-tree-node-el,[title='Save Category']").on("click", function(){
+                    jQuery("#category_edit_form").addClass("changing");
+                    if(jQuery( "#catalog_category_products_table tbody.ui-sortable" ).length === 0){
+                        jQuery( "#catalog_category_products_table tbody" ).sortable( "destroy" );
+                    }
+                    apply_sort();
+                });
+                apply_sort();
+            }
+        
+        
 		$('.form-list').find('table tr').addClass('skip_flag');
 		$.observeDOM( $('body') , function(){
 			$('.form-list').find('table tr').addClass('skip_flag');
@@ -104,6 +136,7 @@
             });
         }
 		
+
 		
 		
 	});
