@@ -108,6 +108,20 @@
                         }
                         apply_sort();
                     });
+                    jQuery(".x-tree-node-el,[title='Save Category'],#sort_cat_prod,#category_edit_form .headings a").on("click", function(){
+                        if( ! jQuery(this).is("#category_edit_form .headings a") ){
+                            jQuery("#category_edit_form").addClass("changing");
+                            console.log("loading");
+                        }else{
+                            jQuery("#catalog_category_products table").addClass("changing");
+                            console.log("sorting");
+                        }
+                        apply_sort();
+                    });
+                    
+                    
+                    
+                    
                     jQuery('[name="limit"]').off().on(function(){
                         jQuery("#category_edit_form").addClass("changing");
                         console.log("changing");
@@ -119,7 +133,15 @@
             jQuery("#category_edit_form").addClass("changing");
             setTimeout(function(){ 
                 apply_sort();
-                $.observeDOM($("#category_edit_form"), function(){
+                jQuery.observeDOM($("#category_edit_form"), function(){
+                    jQuery("#category_edit_form").addClass("changing");
+                    console.log("changing");
+                    apply_sort();
+                }); 
+             },500);
+            setTimeout(function(){ 
+                apply_sort();
+                jQuery.observeDOM($("#catalog_category_products_table"), function(){
                     jQuery("#category_edit_form").addClass("changing");
                     console.log("changing");
                     apply_sort();
