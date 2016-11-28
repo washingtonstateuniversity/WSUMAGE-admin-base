@@ -108,7 +108,11 @@
                         }
                         apply_sort();
                     });
-                    
+                    jQuery('[name="limit"]').off().on(function(){
+                        jQuery("#category_edit_form").addClass("changing");
+                        console.log("changing");
+                        apply_sort();
+                    });
                     
                 }
             }
@@ -121,10 +125,6 @@
                     apply_sort();
                 }); 
              },500);
-            
-            
-
-        
 
         
 		$('.form-list').find('table tr').addClass('skip_flag');
