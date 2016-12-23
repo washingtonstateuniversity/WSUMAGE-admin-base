@@ -12,7 +12,7 @@ module.exports = function(grunt) {
             }
         },*/
         watch: {
-            files: [ "app/**/*.*","js/**/*.*","skin/**/*.*","media/**/*.*" ],
+            files: [ "./app/**/*.*","./js/**/*.*","./skin/**/*.*","./media/**/*.*" ],
             tasks: [/*"concat", "sass", "postcss", "cssmin", "copy", "csslint",*/  "clean", "phpcbf", "phpcs", "sync"]
         },
 
@@ -63,6 +63,7 @@ module.exports = function(grunt) {
             dev: {
                 files: [
                     { expand: true, src: ["./app/**/*","./js/**/*","./skin/**/*","./media/**/*"], dest: "../" },
+                    { expand: true, src: ["./app/**/*","./js/**/*","./skin/**/*","./media/**/*"], dest: "E:\\_GIT\\MAGE\\server\\app\\stores\\html\\" },
                 ]
             }
 
