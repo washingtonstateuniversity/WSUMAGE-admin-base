@@ -30,33 +30,33 @@
  */
 $shownotifications = Mage::getStoreConfig('wsu_admintheme/config/shownotifications');
 ?>
-<?php if($shownotifications): ?>
-<?php if ($this->isShow()): ?>
+<?php if ($shownotifications) : ?>
+<?php if ($this->isShow()) : ?>
 <div class="notification-global">
     <?php
         $sParts = array();
 
-        if ($this->getCriticalCount()):
-            $sParts[] = '<span class="critical"><i class="fa fa-bug"></i><strong>'.$this->getCriticalCount().'</strong> '.$this->__('critical').'</span>';
-        endif;
+    if ($this->getCriticalCount()) :
+        $sParts[] = '<span class="critical"><i class="fa fa-bug"></i><strong>'.$this->getCriticalCount().'</strong> '.$this->__('critical').'</span>';
+    endif;
 
-        if ($this->getMajorCount()):
-            $sParts[] = '<i class="fa fa-exclamation-circle" style="margin-right:2px;"></i><strong>'.$this->getMajorCount().'</strong> '.$this->__('major');
-        endif;
+    if ($this->getMajorCount()) :
+        $sParts[] = '<i class="fa fa-exclamation-circle" style="margin-right:2px;"></i><strong>'.$this->getMajorCount().'</strong> '.$this->__('major');
+    endif;
 
-        if ($this->getMinorCount()):
-            $sParts[] = '<i class="fa fa-exclamation" style="margin-right:2px;"></i><strong>'.$this->getMinorCount().'</strong> '.$this->__('minor');
-        endif;
+    if ($this->getMinorCount()) :
+        $sParts[] = '<i class="fa fa-exclamation" style="margin-right:2px;"></i><strong>'.$this->getMinorCount().'</strong> '.$this->__('minor');
+    endif;
 
-        if ($this->getNoticeCount()):
-            $sParts[] = '<i class="fa fa-exclamation-triangle" style="margin-right:2px;"></i><strong>'.$this->getNoticeCount().'</strong> '.$this->__('notice');
-        endif;
+    if ($this->getNoticeCount()) :
+        $sParts[] = '<i class="fa fa-exclamation-triangle" style="margin-right:2px;"></i><strong>'.$this->getNoticeCount().'</strong> '.$this->__('notice');
+    endif;
 
         $msgStats = '';
         $c = count($sParts);
-        for ($i = 0; $i < $c; $i++) {
-            $msgStats .= $sParts[$i] . ($i == $c-1 ? '' : ($i == $c-2 ? $this->__(' and ') : ', '));
-        }
+    for ($i = 0; $i < $c; $i++) {
+        $msgStats .= $sParts[$i] . ($i == $c-1 ? '' : ($i == $c-2 ? $this->__(' and ') : ', '));
+    }
 
         $latestNoticeUrl = $this->getLatestNoticeUrl();
     ?>
@@ -71,16 +71,19 @@ $shownotifications = Mage::getStoreConfig('wsu_admintheme/config/shownotificatio
 <?php /* ********** temporary commented
     <span class="f-right"><?php echo $this->__('You have %s, %s and %s unread messages. <a href="%s">Go to messages inbox</a>.', '<span class="critical"><strong>'.$this->getCriticalCount().'</strong> '.$this->__('critical').'</span>', '<strong>'.$this->getMajorCount().'</strong> '.$this->__('major'), '<strong>'.$this->getMinorCount().'</strong> '.$this->__('minor'), $this->getNoticesInboxUrl());?></span>
 ******** */?>
-    <?php if ($this->isMessageWindowAvailable()): ?>
+    <?php if ($this->isMessageWindowAvailable()) : ?>
         <strong class="label clickable" onclick="openMessagePopup()">
-    <?php else: ?>
+    <?php
+else : ?>
         <strong class="label">
-    <?php endif; ?>
+    <?php
+endif; ?>
 
     <?php echo $this->__('Latest Message:') ?></strong> <?php echo $this->getLatestNotice() ?>
-    <?php if (!empty($latestNoticeUrl)): ?>
+    <?php if (!empty($latestNoticeUrl)) : ?>
         <a href="<?php echo $latestNoticeUrl ?>" onclick="this.target='_blank';"><?php echo $this->__('Read details') ?></a>
-    <?php endif; ?>
+    <?php
+endif; ?>
 </div>
 <?php endif; ?>
 <?php endif; ?>

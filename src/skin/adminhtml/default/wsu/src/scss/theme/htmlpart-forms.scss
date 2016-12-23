@@ -1,0 +1,208 @@
+@import 'vars/global';
+@import 'vars/colors';
+
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label {
+    position: relative !important;
+    background-color: transparent !important;
+    color: #494949 !important;
+    opacity: 1;
+}
+
+
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label:after,
+.adminhtml-cache-index .form-list tr:not(.skip_flag) td.scope-label:before {
+    content: none;
+}
+
+.form-list {
+	width: auto;
+	border: 0 !important;
+	tr:not(.skip_flag){
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		
+		&:hover{
+			background:rgba(232,232,232,0.35);
+			td{
+				background:rgba(232,232,232,0.35);
+				&.scope-label {
+					opacity:1;
+				}
+			}
+		}
+		&.system-fieldset-sub-head:hover{
+			background:none;
+			td{
+				background:none;
+				&.scope-label {
+					opacity:1;
+				}
+			}
+		}
+		td {
+			&.label {
+				@extend %extend_15;
+				width: 180px;
+				text-align: right;
+				padding-right: 20px;
+				label {
+					display: block;
+					width: 180px;
+					float: right;
+					padding: 3px 0 0;
+					font-size: 13px;
+					color: $color_1;
+					position: relative;
+					z-index: 1;
+				}
+			}
+			&.value {
+				//@extend %extend_15;
+				textarea {
+					width: 274px;
+					height: 15em;
+				}
+				select {
+					width: 296px;
+					&.select-date {
+						width: 90px;
+					}
+					&.select-day {
+						width: 65px;
+					}
+					&.select-month {
+						width: 120px;
+					}
+				}
+				select[type="time"] {
+					width: 5.5em !important;
+				}
+				.label-color {
+					float: left;
+					display: block;
+					width: auto !important;
+					height: 23px;
+					padding: 1px;
+					margin-top: 2px;
+					border: 1px solid $color_88;
+					.color {
+						display: block;
+						width: 23px;
+						height: 23px;
+					}
+				}
+				.color-field {
+					float: left;
+					width: 75px !important;
+					margin: 2px 0 0 6px;
+					background: $color_9 !important;
+					color: $color_1 !important;
+				}
+				.store-scope {
+					white-space: nowrap;
+				}
+				.link-store-scope {
+					float: none;
+					margin-right: 0;
+					vertical-align: top;
+					margin-top: 6px;
+				}
+				input.input-text {
+					width: 274px;
+				}
+			}
+			&.value2 {
+				@extend %extend_15;
+			}
+			&.note {
+				@extend %extend_15;
+				background: $url_29 6px 10px no-repeat !important;
+				padding-left: 18px;
+			}
+			&.scope-label {
+				//@extend %extend_15;
+				color: #e2e2e2;
+				font-size: 0.65em;
+				position: absolute;
+				right: -16px;
+				top: calc(50% - .9em);
+				
+				letter-spacing: .2em;
+				text-align: center;
+				text-transform: uppercase;
+				line-height: 2.2em;
+				font-weight: bold;
+				padding: 0 5px!important;
+				opacity: .45;
+	
+				background-color: #940D26 !important;
+	
+				&:before,
+				&:after {
+					content: '';
+					position: absolute;
+					border-bottom: 13px solid #940d26;
+					border-left: 7px solid transparent;
+					border-right: 11px solid transparent;
+					top: -2px;
+					left: -8px;
+					-webkit-transform: rotate(62deg);
+					-moz-transform: rotate(62deg);
+					-ms-transform: rotate(62deg);
+					-o-transform: rotate(62deg);
+				}
+				
+				&:after {
+					top: auto;
+					bottom: -2px;
+					left: -13px;
+					border-left: 11px solid transparent;
+					border-right: 6px solid transparent;
+					border-top: 13px solid #940d26;
+					border-bottom: none;
+				}
+	
+			}
+			&.use-default {
+				@extend %extend_15;
+				padding-top: 10px !important;
+				padding-right: 10px!important;
+			}
+			&.hidden {
+				border: 0 !important;
+				padding: 0 !important;
+				background: 0 !important;
+			}
+			&.pp-permissions-links {
+				font-size: 13px;
+				line-height: 30px;
+				text-align: left;
+			}
+		}
+	}
+
+
+	p.note {
+		margin: 4px 0 0;
+		padding: 0 0 0 13px;
+		background: $url_30 1px 6px no-repeat;
+		font-size: 11px;
+		color: $color_26;
+	}
+	span.required {
+		position: absolute;
+		right: -12px;
+		bottom: 0;
+	}
+	li:after {
+		@extend %extend_35;
+	}
+}
+
+.adminhtml-cms-page-edit{
+	.form-list td.value[colspan="3"] {
+		display: inline-block;
+		width: 100% !important;
+	}
+}

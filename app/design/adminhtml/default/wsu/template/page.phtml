@@ -18,10 +18,10 @@
  * versions in the future. If you wish to customize Magento for your
  * needs please refer to http://www.magentocommerce.com for more information.
  *
- * @category    design
- * @package     default_default
- * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  design
+ * @package   default_default
+ * @copyright Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
 <?php /*{
@@ -67,7 +67,7 @@
     </div>
     <div class="middle" id="anchor-content">
         <div id="page:main-container">
-            <?php if($this->getChildHtml('left')): ?>
+            <?php if ($this->getChildHtml('left')) : ?>
                 <div class="columns <?php echo $this->getContainerCssClass() ?>">
                     <div class="side-col" id="page:left">
                         <?php echo $this->getChildHtml('left') ?>
@@ -78,9 +78,11 @@
                         </div>
                     </div>
                 </div>
-            <?php else: ?>
+            <?php
+else : ?>
                 <?php echo $this->getChildHtml('content') ?>
-            <?php endif; ?>
+            <?php
+endif; ?>
         </div>
     </div>
     <div class="footer">

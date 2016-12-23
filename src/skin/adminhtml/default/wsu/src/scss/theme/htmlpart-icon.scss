@@ -1,0 +1,192 @@
+@import 'vars/global';
+@import 'vars/colors';
+
+
+.icon-head {
+	min-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	padding-left: 22px !important;
+	&:before {
+		/*display: inline-block;
+		font-family: $font_2;
+		text-rendering: auto;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate(0, 0);
+		float: left;
+		margin-right: 5px;
+		font-size: 1.75em;
+		font-weight: 100;*/
+		@include fa();
+	}
+}
+.head-adminhtml {
+	padding-left: 0;
+}
+.head-customer-address-list {
+	background-image: $url_61;
+}
+.head-customer-view {
+	background-image: $url_62;
+	padding-left: 18px;
+}
+.head-categories {
+	padding-left: 20px;
+	color: $color_99 !important;
+	&:before {
+		content: "\f02c";
+	}
+}
+.head-user {
+	background-image: $url_63;
+}
+.head-user-edit {
+	background-image: $url_64;
+}
+.head-user-comment {
+	background-image: $url_65;
+}
+.head-comment {
+	background-image: $url_66;
+}
+.head-cart {
+	background-image: $url_67;
+}
+.head-account {
+	background-image: $url_68;
+}
+.head-catalog-product {
+	background-image: $url_69;
+}
+.head-newsletter-queue {
+	background-image: $url_70;
+}
+.head-newsletter-list {
+	background-image: $url_71;
+}
+.head-newsletter-report {
+	background-image: $url_72;
+}
+.head-tag {
+	background-image: $url_73;
+}
+.head-tag-product {
+	background-image: $url_73;
+}
+.head-sales-order {
+	//background-image: $url_74;
+	&:before {
+		content: "\f15c";
+	}
+}
+.head-sales-invoice {
+	//background-image: $url_74;
+	&:before {
+		content: "\f15c";
+	}
+}
+.head-tax {
+	background-image: $url_77;
+}
+.head-cms-page {
+	//background-image: $url_78;
+}
+.head-cms-page {
+	//padding-left: 20px;
+	//color: $color_99 !important;
+	&:before {
+		content: "\f247";
+	}
+}
+/*
+head-account -- vcard -- "\f022" "\f1ea"
+head-sales-order -- folder invoice thing "\f15c"  */
+.head-account {
+	background-image: none;
+	&:before {
+		content: "\f022";
+	}
+}
+	
+.head-cms-block {
+	background-image: $url_78;
+}
+.head-backups-control {
+	background-image: $url_79;
+}
+.head-money {
+	background-image: $url_80;
+}
+.head-promo-quote {
+	background-image: $url_80;
+}
+.head-shipping-address {
+	//background-image: $url_61;
+	&:before {
+		content: "\f015";
+	}
+}
+.head-billing-address {
+	//background-image: $url_61;
+	&:before {
+		content: "\f015";
+	}
+}
+.head-shipping-method {
+	//background-image: $url_81;
+	&:before {
+		content: "\f1b3";
+	}
+}
+.head-payment-method {
+	//background-image: $url_82;
+	&:before {
+		content: "\f09d";
+	}
+}
+.head-order-date {
+	background-image: $url_83;
+}
+.head-customer-sales-statistics {
+	background-image: $url_80;
+}
+.head-notification {
+	background-image: $url_74;
+}
+.head-compilation {
+	background-image: $url_84;
+}
+.entry-edit-head .icon-head:before {
+	font-size: 1.2em;
+	font-weight: 100;
+}
+.head-edit-form:before {
+	content: "\f0f6";
+}
+.head-customer:before {
+	content: "\f007";
+}
+.head-customer-groups:before {
+	content: "\f0c0";
+}
+.head-online-visitors:before {
+	content: "\f21b";
+}
+.head-products:before {
+	content: "\f16b";
+}
+.head-report-shopcart-product:before {
+	content: "\f217";
+}
+.head-adminhtml-process:before {
+	content: "\f0ae";
+}
+.head-adminhtml-eventtickets:before {
+	content: "\f145";
+}
+.head-catalog-product-attribute:before {
+	content: "\f12e";
+}
+.head-product-attribute-sets:before {
+	content: "\f022";
+}

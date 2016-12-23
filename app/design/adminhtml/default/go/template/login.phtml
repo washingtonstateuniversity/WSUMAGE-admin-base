@@ -1,31 +1,31 @@
 <?php
 
-	$config_logo=Mage::getStoreConfig('wsu_admintheme/config/logo');
-	if($config_logo==""){
-		$config_path = Mage::getBaseUrl('skin').'adminhtml/default/go/images/logo.gif';
-	}else{
-		$config_path = Mage::getBaseUrl('media').'theme/'.$config_logo;
-	}
-
-
-	$loginBk_img=Mage::getStoreConfig('wsu_admintheme/config/login_bk');
-	if($loginBk_img==""){
-		$loginBk_path = Mage::getBaseUrl('skin').'adminhtml/default/go/images/bkg_login.jpg';
-	}else{
-		$loginBk_path = Mage::getBaseUrl('media').'theme/admin/'.$loginBk_img;
-	}
-
-	$ns_enabled = Mage::helper('core')->isModuleEnabled('Wsu_Networksecurities');
-	$enableRequest = Mage::getStoreConfig('wsu_networksecurities/genadmin_settings/request_admin_enabled');
-	
-$honeyPot_html="";
-if(Mage::getStoreConfig('wsu_networksecurities/honeypot/usehoneypots')){
-	$honeyPot_html = $this->getLayout()->createBlock('wsu_networksecurities/honeypot')
-			->setTemplate('wsu/networksecurities/honeypot.phtml')->toHtml();
+    $config_logo=Mage::getStoreConfig('wsu_admintheme/config/logo');
+if ($config_logo=="") {
+    $config_path = Mage::getBaseUrl('skin').'adminhtml/default/go/images/logo.gif';
+} else {
+    $config_path = Mage::getBaseUrl('media').'theme/'.$config_logo;
 }
-	
-	
-	
+
+
+    $loginBk_img=Mage::getStoreConfig('wsu_admintheme/config/login_bk');
+if ($loginBk_img=="") {
+    $loginBk_path = Mage::getBaseUrl('skin').'adminhtml/default/go/images/bkg_login.jpg';
+} else {
+    $loginBk_path = Mage::getBaseUrl('media').'theme/admin/'.$loginBk_img;
+}
+
+    $ns_enabled = Mage::helper('core')->isModuleEnabled('Wsu_Networksecurities');
+    $enableRequest = Mage::getStoreConfig('wsu_networksecurities/genadmin_settings/request_admin_enabled');
+    
+$honeyPot_html="";
+if (Mage::getStoreConfig('wsu_networksecurities/honeypot/usehoneypots')) {
+    $honeyPot_html = $this->getLayout()->createBlock('wsu_networksecurities/honeypot')
+            ->setTemplate('wsu/networksecurities/honeypot.phtml')->toHtml();
+}
+    
+    
+    
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
@@ -36,22 +36,22 @@ if(Mage::getStoreConfig('wsu_networksecurities/honeypot/usehoneypots')){
     <link type="text/css" rel="stylesheet" href="<?=$this->getSkinUrl('boxes.css') ?>" media="all" />
     <link rel="icon" href="<?=$this->getSkinUrl('favicon.ico')  ?>" type="image/x-icon" />
     <link rel="shortcut icon" href="<?=$this->getSkinUrl('favicon.ico') ?>" type="image/x-icon" />
-	
-	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css"/>
-	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
-		
-	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+    
+    <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+        
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
 	<script type="text/javascript">if(!window.jQuery){ document.write(unescape("%3Cscript src='<?=$this->getJsUrl('jquery-1.11.1.min.js') ?>' type='text/javascript'%3E%3C/script%3E")); }</script>
-	
-	<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script> 
+    
+    <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script> 
 	<script type="text/javascript">if(!window.jQuery){document.write(unescape("%3Cscript src='<?=$this->getJsUrl('jquery-ui.min.1.10.4.js') ?>' type='text/javascript'%3E%3C/script%3E"));}</script>
-	
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
-	<script type="text/javascript">
-		if(!window.jQuery){
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+    <script type="text/javascript">
+        if(!window.jQuery){
 			document.write(unescape("%3Cscript src='<?=$this->getJsUrl('jquery-migrate-1.2.1.min.js') ?>' type='text/javascript'%3E%3C/script%3E"));
-		}</script>
-	
+        }</script>
+    
 	<script type="text/javascript" src="<?=$this->getJsUrl('noConflict.js') ?>"></script> 
     <script type="text/javascript" src="<?=$this->getJsUrl('prototype/prototype.js') ?>"></script>
     <script type="text/javascript" src="<?=$this->getJsUrl('prototype/validation.js') ?>"></script>
@@ -86,18 +86,21 @@ if(Mage::getStoreConfig('wsu_networksecurities/honeypot/usehoneypots')){
                     <input type="submit" class="form-button" value="<?=Mage::helper('adminhtml')->__('Login') ?>" title="<?=Mage::helper('adminhtml')->__('Login') ?>" /></div>
             </div>
         </form>
-		<div class="login-support">
-			<?php if($enableRequest): ?>
+        <div class="login-support">
+			<?php if ($enableRequest) : ?>
 				 <form action="<?=Mage::helper('adminhtml')->getUrl('adminhtml/wsu/requestaccess/', array('_nosecret' => true)) ?>" method="post" enctype="multipart/form-data" class="humanize">
-					<p>Need to get your own store? <input type="submit" value="Make a Request"  class="button"/></p>
-				 </form>
-			 <?php else: ?>
-				 
-			 <?php endif; ?>
-		</div>
-			<?php if($ns_enabled): ?>
+                    <p>Need to get your own store? <input type="submit" value="Make a Request"  class="button"/></p>
+                 </form>
+                <?php
+else : ?>
+                 
+                <?php
+endif; ?>
+        </div>
+			<?php if ($ns_enabled) : ?>
 				<p id="ip"><?=Mage::helper('wsu_networksecurities')->get_ip_address()?></p>
-			<?php endif; ?>
+			<?php
+endif; ?>
             <p class="legal"><?=Mage::helper('adminhtml')->__('Magento is a trademark of Magento Inc. Copyright &copy; %s Magento Inc.', date('Y')) ?></p>
         <div class="bottom"></div>
         <script type="text/javascript">

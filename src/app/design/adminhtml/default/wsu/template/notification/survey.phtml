@@ -1,0 +1,33 @@
+<?php
+/**
+* @see Mage_Adminhtml_Block_Notification_Survey
+*/
+$showmageads = Mage::getStoreConfig('wsu_admintheme/config/showmageads');
+?>
+<?php if ($showmageads) : ?>
+    <?php if ($this->canShow()) : ?>
+        <script type="text/javascript">
+            function surveyAction(decision) {
+                if (decision == 'yes') {
+                    var win = window.open('<?php echo $this->getSurveyUrl() ?>', '',
+                        'width=900,height=600,resizable=1,scrollbars=1');
+                    win.focus();
+                }
+                new Ajax.Request('<?php echo $this->getUrl('*/survey/index', array('_current' => true)); ?>', {
+                    method: 'post',
+                    params: {decision:decision},
+                    onComplete: function(transport) {
+                        if (200 == transport.status) {
+                            if ($('survey_notification'))
+                                $('survey_notification').remove();
+                        }
+                    }
+                });
+            }
+        </script>
+        <div id="survey_notification" class="notification-global notification-global-notice">
+            We appreciate our merchants' feedback, <a href="#" onclick="surveyAction('yes'); return false;">please take our survey</a> to provide insight on the features you would like included in Magento. <a href="#" onclick="surveyAction('no'); return false;">Remove this notification</a>
+        </div>
+    <?php
+endif; ?>
+<?php endif; ?>

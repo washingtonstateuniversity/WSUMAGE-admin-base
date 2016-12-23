@@ -1,0 +1,100 @@
+/* CSS Document */
+.fixed .nav-bar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: left;
+    float: left;
+    left: 0;
+    margin: 0;
+    padding:0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:101;
+	 border-bottom: 1px solid #CCCCCC;
+}
+.fixed .nav-bar #nav a {
+  color: #454545;
+}
+.fixed .content-header-floating {
+    top: 29px;
+}
+
+
+.content-header-floating{ top: 36px;}
+ul.config-tabs dt {
+    cursor: pointer;
+}
+ul.config-tabs dt:hover {
+    color:#454545;
+}
+ul.config-tabs dt:after{content:"\f067";font-family:'FontAwesome';float:right; font-weight:normal !important;font-size: 12px;}
+ul.config-tabs dt:hover:after{color:#940B0D;}
+ul.config-tabs dt.open:after{content:"\f068";}
+
+.header{height:95px;}
+.config.collapseable .form-list{width:100%;}
+
+/* jQuery UI corrects other CSS drops in to hard so we need to recorrect it*/
+/* Allow Font Awesome Icons in lieu of jQuery UI and only apply when using a FA icon */
+.ui-icon[class*=" icon-"] {
+    /* Remove the jQuery UI Icon */
+    background: none repeat scroll 0 0 transparent;
+    /* Remove the jQuery UI Text Indent */
+    text-indent: 0;
+    /* Bump it up - jQuery UI is -8px */
+    margin-top: -0.5em;
+}
+.ui-button-icon-only .ui-icon[class*=" icon-"] {
+    /* Bump it - jQuery UI is -8px */
+    margin-left: -7px;
+}
+/* Allow use of icon-large to be properly aligned */
+.ui-icon.icon-large {
+    margin-top: -0.75em;
+}
+
+
+
+.ui-button  span {padding: inherit !important;}
+button.ui-button-text-only .ui-button-text {height: inherit;padding: 0.4em 1em !important;}
+button.ui-state-default  span.ui-icon {background-image: url("//code.jquery.com/ui/1.10.3/themes/smoothness/images/ui-icons_888888_256x240.png") !important;}
+.ui-icon-closethick {background-position: -96px -128px !important;}
+.ui-button-text{background-image:none !important;}
+
+/*for lauchy */
+
+#nav li#wsulauncher-status a {
+  font-size: 0.9em;
+  margin-left: -19px;
+  margin-right: 7px;
+  margin-top: 0.2em;
+}
+#nav li#wsulauncher-quickfront a {
+  font-size: 2.1em;
+  margin-left: 0;
+  margin-top: -0.04em;
+}
+
+
+html>body #sortable li {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+#sortable li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    height: 1.5em;
+}
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #dad55e;
+    background: #fffa90;
+    color: #777620;
+}
+
+

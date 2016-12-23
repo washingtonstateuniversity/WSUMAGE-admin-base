@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Wsu_AdminTheme>
+            <version>0.2.0</version>
+        </Wsu_AdminTheme>
+    </modules>
+    <global>
+        <blocks>
+            <wsu_admintheme>
+                <class>Wsu_AdminTheme_Block</class>
+            </wsu_admintheme>
+			<adminhtml>
+				<rewrite>
+					<page_menu>Wsu_AdminTheme_Block_Adminhtml_Menu</page_menu>
+				</rewrite>
+			</adminhtml>
+
+
+
+        </blocks>
+        <helpers>
+            <wsu_admintheme>
+                <class>Wsu_AdminTheme_Helper</class>
+            </wsu_admintheme>
+        </helpers>
+        <models>
+            <wsu_admintheme>
+                <class>Wsu_AdminTheme_Model</class>
+            </wsu_admintheme>
+        </models>
+        <events>
+			<admin_system_config_changed_section_wsu_admintheme>
+				<observers>
+					<wsu_admintheme_admin_predispatch>
+						<class>Wsu_AdminTheme_Model_Adminhtml_Observer</class>
+						<method>cleanConfigCache</method>
+					</wsu_admintheme_admin_predispatch>
+				</observers>
+			</admin_system_config_changed_section_wsu_admintheme>
+            <adminhtml_controller_action_predispatch_start>
+                <observers>
+                    <wsu_admintheme_admin_predispatch>
+                        <class>Wsu_AdminTheme_Model_Adminhtml_Observer</class>
+                        <method>setTheme</method>
+                    </wsu_admintheme_admin_predispatch>
+                </observers>
+            </adminhtml_controller_action_predispatch_start>
+        </events>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <wsu_admintheme before="Mage_Adminhtml">Wsu_AdminTheme_Adminhtml</wsu_admintheme>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <wsu_admintheme>
+                    <file>wsu/admintheme.xml</file>
+                </wsu_admintheme>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Wsu_AdminTheme>
+                    <files>
+                        <default>Wsu_AdminTheme.csv</default>
+                    </files>
+                </Wsu_AdminTheme>
+            </modules>
+        </translate>
+        <themes>
+            <default module="wsu_admintheme">
+                <label>Default</label>
+            </default>
+            <go module="wsu_admintheme">
+                <label>Magento Go</label>
+            </go>
+            <wsu module="wsu_admintheme">
+                <label>WSU</label>
+            </wsu>
+        </themes>
+    </adminhtml>
+    <default>
+        <wsu_admintheme>
+            <config>
+                <theme>wsu</theme>
+				<extendmenu>1</extendmenu>
+				<showmageads>0</showmageads>
+				<shownotifications>0</shownotifications>
+				<logo></logo>
+            </config>
+        </wsu_admintheme>
+    </default>
+</config>

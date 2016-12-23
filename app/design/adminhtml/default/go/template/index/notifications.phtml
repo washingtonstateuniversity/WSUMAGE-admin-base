@@ -18,14 +18,14 @@
  * versions in the future. If you wish to customize Magento for your
  * needs please refer to http://www.magento.com for more information.
  *
- * @category    design
- * @package     default_default
- * @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
- * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @category  design
+ * @package   default_default
+ * @copyright Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+ * @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
 <?php $_processes = $this->getProcessesForReindex()?>
-<?php if($_processes):?>
+<?php if ($_processes) :?>
 <div class="notification-global">
     <i class="fa fa-exclamation-triangle" style="margin-right:2px;"></i><strong><?php echo $this->helper('index')->__('One or more of the Indexes are not up to date:') ?></strong>
     <?php echo implode(', ', $_processes)?>.

@@ -15,9 +15,9 @@
 					<page_menu>Wsu_AdminTheme_Block_Adminhtml_Menu</page_menu>
 				</rewrite>
 			</adminhtml>
-			
-			
-			
+
+
+
         </blocks>
         <helpers>
             <wsu_admintheme>
