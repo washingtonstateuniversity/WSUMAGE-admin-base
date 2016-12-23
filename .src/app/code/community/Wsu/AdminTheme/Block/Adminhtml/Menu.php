@@ -1,6 +1,9 @@
 <?php
 class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
 {
+    /*
+    *
+    */
     public function getMenuArray()
     {
         //Load standard menu
@@ -45,6 +48,9 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
         return $parentArr;
     }
 
+    /*
+    *
+    */
     public function getMenuLevel($menu, $level = 0)
     {
         $html = '<ul ' . (!$level ? 'id="nav"' : '') . '>' . PHP_EOL;
@@ -59,7 +65,6 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
                 . (!empty($item['click']) ? 'onclick="' . $item['click'] . '"' : '') . ' class="'
                 . ($level === 0 && !empty($item['active']) ? 'active' : '') . '"><span>'
                 . ((!empty($item['lable_html']))?$item['lable_html']:$this->escapeHtml($item['label'])) . '</span></a>' . PHP_EOL;
-
             if (!empty($item['children'])) {
                 $html .= $this->getMenuLevel($item['children'], $level + 1);
             }

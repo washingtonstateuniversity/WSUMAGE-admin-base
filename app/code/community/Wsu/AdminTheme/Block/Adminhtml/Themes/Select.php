@@ -1,5 +1,4 @@
 <?php
-
 class Wsu_AdminTheme_Block_Adminhtml_Themes_Select extends Mage_Adminhtml_Block_Html_Select
 {
     protected function _construct()
