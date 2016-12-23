@@ -3,6 +3,9 @@ class Wsu_AdminTheme_Block_Adminhtml_System_Config_Fieldset_Hint extends Mage_Ad
 {
     protected $_template = 'wsu/admintheme/system/config/fieldset/hint.phtml';
 
+    /*
+    * render
+    */
     public function render() //Varien_Data_Form_Element_Abstract $element)
     {
         return $this->toHtml();

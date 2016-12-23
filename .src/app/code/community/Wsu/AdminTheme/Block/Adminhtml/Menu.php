@@ -49,6 +49,7 @@ class Wsu_AdminTheme_Block_Adminhtml_Menu extends Mage_Adminhtml_Block_Page_Menu
     }
 
     /*
+    *
     * getMenuLevel
     */
     public function getMenuLevel($menu, $level = 0)
