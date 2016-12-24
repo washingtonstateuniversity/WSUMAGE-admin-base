@@ -10,7 +10,10 @@ class Wsu_AdminTheme_Adminhtml_ThemeController extends Mage_Adminhtml_Controller
     {
         return Mage::getSingleton('admin/session')->isAllowed('wsu_admintheme');
     }
-
+    /**
+    * changeAction
+    *
+    */
     public function changeAction()
     {
         $theme = $this->getRequest()->getParam('theme');
