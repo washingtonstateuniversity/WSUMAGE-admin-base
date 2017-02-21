@@ -56,7 +56,7 @@
 
 
 	$(document).ready(function(){
-        
+
             function apply_sort(){
                 /*if( 0 === $("#sort_cat_prod").length ){
                     var btn_html = '<button id="sort_cat_prod" title="Sort" type="button" class="scalable" style="position: absolute;right: 167px;top: 103px;"><span><span><span>Sort Cats</span></span></span></button>';
@@ -75,10 +75,10 @@
                 }else{
                     if(jQuery( "#catalog_category_products_table tbody" ).length){
                         //jQuery("#category_edit_form").addClass("changing");
-                        jQuery( "#catalog_category_products_table tbody" ).sortable({ 
-                            opacity: 0.6, 
+                        jQuery( "#catalog_category_products_table tbody" ).sortable({
+                            opacity: 0.6,
                             cursor: 'move',
-                            placeholder: "ui-state-highlight",  
+                            placeholder: "ui-state-highlight",
                             update: function(){
                                 var str = [];
                                 jQuery('.ui-sortable [name="position"]').each(function(){
@@ -87,16 +87,16 @@
                                     jQuery(this).val( idx );
                                     str.push( id + "=" + idx );
                                 });
-                                
+
                                 jQuery('[name="category_products"]').val(str.join("&"));
 
                             }
                         });
                         jQuery( "#catalog_category_products_table tbody" ).disableSelection();
                     }
-                    
 
-                    
+
+
                     console.log("observeDOM on #category_edit_form");
                     jQuery(".x-tree-node-el,[title='Save Category'],#sort_cat_prod,#category_edit_form .headings a").on("click", function(){
                         if( ! jQuery(this).is("#category_edit_form .headings a") ){
@@ -118,42 +118,47 @@
                         }
                         apply_sort();
                     });
-                    
-                    
-                    
-                    
+
+
+
+
                     jQuery('[name="limit"]').off().on(function(){
                         jQuery("#category_edit_form").addClass("changing");
                         console.log("changing");
                         apply_sort();
                     });
-                    
+
                 }
             }
-            jQuery("#category_edit_form").addClass("changing");
-            setTimeout(function(){ 
-                apply_sort();
-                jQuery.observeDOM($("#category_edit_form"), function(){
-                    jQuery("#category_edit_form").addClass("changing");
-                    console.log("changing");
+            if(jQuery("#category_edit_form").length){
+                jQuery("#category_edit_form").addClass("changing");
+                setTimeout(function(){
                     apply_sort();
-                }); 
-             },500);
-            setTimeout(function(){ 
-                apply_sort();
-                jQuery.observeDOM($("#catalog_category_products_table"), function(){
-                    jQuery("#category_edit_form").addClass("changing");
-                    console.log("changing");
+                    jQuery.observeDOM($("#category_edit_form"), function(){
+                        jQuery("#category_edit_form").addClass("changing");
+                        console.log("changing");
+                        apply_sort();
+                    });
+                },500);
+            }
+            if($("#catalog_category_products_table").length){
+                setTimeout(function(){
                     apply_sort();
-                }); 
-             },500);
+                    jQuery.observeDOM($("#catalog_category_products_table"), function(){
+                        jQuery("#category_edit_form").addClass("changing");
+                        console.log("changing");
+                        apply_sort();
+                    });
+                },500);
+            }
 
-        
+
+
 		$('.form-list').find('table tr').addClass('skip_flag');
 		$.observeDOM( $('body') , function(){
 			$('.form-list').find('table tr').addClass('skip_flag');
 		});
-		
+
 		$('input[name*="price"]:not([name*="color"])').spinner({
 			min: 0,
 			max: 2500,
@@ -195,16 +200,16 @@
                 }
             });
         }
-		
 
-		
-		
+
+
+
 	});
 })(jQuery);
 /*
 setTimeout(function(){
-    
-             
+
+
 console.log("window.updateContent");
 console.log(window.updateContent);
 window.updateContent = function (url, params, refreshTree) {
@@ -259,7 +264,7 @@ window.updateContent = function (url, params, refreshTree) {
                 } else {
                     $(categoryContainer).update(transport.responseText);
                 }
-                
+
 jQuery(".x-tree-node-el,[title='Save Category']").on("click:wsu_theme", function(){
                         jQuery("#category_edit_form").addClass("changing");
                         console.log("changing");
@@ -268,8 +273,8 @@ jQuery(".x-tree-node-el,[title='Save Category']").on("click:wsu_theme", function
                     });
                     jQuery("#category_edit_form").removeClass("changing");
                       apply_sort();
-                
-                
+
+
             } catch (e) {
                 $(categoryContainer).update(transport.responseText);
             }
