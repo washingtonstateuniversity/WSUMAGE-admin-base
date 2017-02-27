@@ -1,10 +1,10 @@
 (function($){
 	"use strict";
 	$.fn.stripClass = function (partialMatch, endOrBegin) {
-		console.log("stripClass----------->>>>>>>>>>>");
+		//console.log("stripClass----------->>>>>>>>>>>");
 		var regx;
 		regx = new RegExp((!endOrBegin ? "\\b" : "\\S+") + partialMatch + "\\S*", "g");
-		console.log(regx);
+		//console.log(regx);
 		this.attr("class", function (i, classlist) {
 			console.log("classlist-----------");
 			console.log(classlist);
@@ -12,7 +12,7 @@
 				return;
 			}
 			var output = classlist.replace(regx, "");
-			console.log(output);console.log("^^^^^^^^^-----output------");
+			//console.log(output);console.log("^^^^^^^^^-----output------");
 			return output;
 		});
 		return this;
